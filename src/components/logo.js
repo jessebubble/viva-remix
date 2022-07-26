@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { ImInstagram, ImFacebook2, ImTwitter, ImYoutube, ImLinkedin } from "react-icons/im";
 import { IconContext } from 'react-icons';
 
-export default function Contact() {
+export default function Logo() {
     return (
         <>
-         <div className='max-w-full flex flex-col justify-between items-center lg:px-6 lg:py-20 lg:flex lg:items-center lg:justify-between'>
+        <div className='max-w-full flex flex-col justify-between items-center lg:px-6 lg:py-20 lg:flex lg:items-center lg:justify-between'>
                 <h1 className='text-4xl text-center font-black tracking-tight text-gray-900 sm:text-9xl'>
                     <span className='block text-rose-400 uppercase'>Viva</span>
                     <span className='block'>Web Design</span>
@@ -17,8 +17,8 @@ export default function Contact() {
                     <Link to='/' className='text-rose-400 font-medium text-3xl hover:text-yellow-300'>Viva Web Design</Link>
                     <Link to='/design' className='text-gray-900 font-medium text-3xl hover:text-rose-400'>Design</Link>
                     <Link to='/animation' className='text-gray-900 font-medium text-3xl hover:text-rose-400'>Animation</Link>
-                    <Link to='/logo' className='text-gray-900 font-medium text-3xl hover:text-rose-400'>Brand Logo</Link>
-                    <Link to='/pricing' className='font-medium text-3xl text-gray-900 hover:text-rose-400'>Pricing</Link>
+                    <Link to='/pricing' className='text-gray-900 font-medium text-3xl hover:text-rose-400'>Pricing</Link>
+                    <Link to='/contact' className='font-medium text-3xl text-gray-900 hover:text-rose-400'>Contact</Link>
                 </div>
             </nav>
         </div>
