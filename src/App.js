@@ -35,51 +35,6 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='flex flex-col xl:flex-row h-screen overflow-hidden '>
-            <div className='w-full xl:w-1/2 h-screen flex items-start justify-center bg-teal-400 xl:border-r border-black overflow-hidden '>
-                <div className='w-4/6 overflow-hidden overscroll-contain'>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl pt-4">
-                        <span className='font-light text-rose-400'>VIVA</span> Design</h1>
-                    <p className="text-lg text-center tracking-tight text-gray-900 dark:text-white">
-                        Your ideas brought to life
-                    </p>
-                    <Player
-                        src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
-                        className='pt-6 xl:pt-10 overflow-hidden '
-                        background='transparent'
-                        loop={true}
-                        autoplay={true}
-                        >
-                    </Player>
-                </div>
-            </div>
-            <div className='w-full xl:w-1/2 h-screen flex items-start justify-center bg-sky-400 xl:border-l border-black overflow-hidden '>
-                <div className='w-4/6 overflow-hidden '>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl pt-4">
-                        <span className='font-light text-lime-400'>VIVA</span> Control</h1>
-                    <p className="text-lg text-center tracking-tight text-gray-900 dark:text-white">
-                        Don't let the Algorithms win
-                    </p>
-                    <div className='overflow-hidden items-center'>
-                    <Player
-                        src='https://assets1.lottiefiles.com/packages/lf20_rllvgcn2.json'
-                        className='pt-6 xl:pt-10'
-                        background='transparent'
-                        loop={true}
-                        autoplay={true}
-                        >
-                    </Player>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <main className="grid grid-cols-1 border border-black">
-            <div className="bg-black px-4 py-10">
-                <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Search Engine Optimization 
-                </h1>
-            </div>
-        </main>
         <main className='bg-white xl:border border-black'>
             <div className='max-w-2xl mx-auto py-6 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8'>
                 <h2 className='text-3xl text-center tracking-tight font-bold text-gray-900 md:text-6xl'>
@@ -151,7 +106,7 @@ export default function App() {
                     </Link>
                     <Link to='/animation' className='group'>
                         <div className='w-full aspect-w-1 aspect-h-1 bg-white rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
-                            <h3 className='mt-1 ml-4 text-2xl text0center xl:text-start font-medium text-gray-900'>Hello Animation</h3>
+                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello Animation</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
                                     src='https://assets10.lottiefiles.com/private_files/lf30_celjmhga.json'
@@ -180,7 +135,7 @@ export default function App() {
                         </div>
                     </Link>
                     <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-orange-500 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
+                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>
                             <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello World</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
@@ -195,7 +150,7 @@ export default function App() {
                         </div>
                     </Link>
                     <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-orange-500 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
+                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-l from-lime-400 via-teal-400 to-rose-400'>
                             <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello Animation</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
@@ -210,7 +165,7 @@ export default function App() {
                         </div>
                     </Link>
                     <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-orange-500 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
+                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>
                             <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello Server</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
@@ -227,44 +182,67 @@ export default function App() {
                 </div>
             </div>
         </main>
+        <main className="grid grid-cols-1 border border-black">
+            <div className="bg-black px-4 py-10">
+                <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
+                    Search Engine Optimization 
+                </h1>
+            </div>
+        </main>
         <main className='flex flex-col xl:flex-row h-screen'>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-emerald-300 xl:border-r border-black'>
+            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-sky-400 xl:border-r xl:border-b border-black'>
                 <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl">
-                    <span className='font-light text-red-400'>VIVA</span> Community</h1>
-                    <p className='mt-3 md:mt-5 xl:mt-6 text-3xl md:text-6xl font-bold text-start tracking-tight text-gray-900'>
-                        We make it easy for you to create your own road. 
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        You have great
+                        <span className='text-lime-400'> ideas</span>
+                    </h2>
+                    <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        We want you to <span className='text-lime-300'> try them</span>, lots of them,
+                        and find out what works.
                     </p>
-                    <p className='mt-3 md:mt-5 xl:mt-6 text-3xl md:text-6xl font-bold text-start tracking-tight text-gray-900'>
-                        With our team, Independent doesn't mean alone 
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        Create your own road 
+                    </h2>
+                    <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        <span className='text-lime-300'>Independent</span> doesn't mean alone
+                    </p>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        Your site, Your way
+                    </h2>
+                    <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        The future is <span className='text-lime-300'>transparency</span>. We want to focus on you and your ideas.
                     </p>
                 </div>
             </div>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-purple-400 xl:border-l border-black'>
+            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-purple-400 xl:border-l xl:border-b border-black'>
                 <div className='w-4/6'>
-                    <h1 className="text-3xl md:mt-4 text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl">
-                    <span className='font-light text-sky-400'>VIVA</span> Ideas</h1>
-                    <p className='mt-3 md:mt-5 xl:mt-6 text-3xl text-start tracking-tight font-bold text-gray-900 md:text-6xl'>
-                        You know all those great ideas you have?
+                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl">
+                        <span className='font-light text-sky-400'>VIVA</span> Design</h1>
+                    <p className="text-lg text-center tracking-tight text-gray-900 dark:text-white">
+                        Your ideas brought to life
                     </p>
-                    <p className='mt-3 md:mt-5 xl:mt-6 text-3xl text-start tracking-tight font-bold text-gray-900 md:text-6xl'>
-                        We want you to <span className='text-sky-400'> try them</span>, lots of them,
-                        and find out what works.
-                    </p>
+                    <Player
+                        src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
+                        className='pt-6 xl:pt-20 overflow-hidden '
+                        background='transparent'
+                        loop={true}
+                        autoplay={true}
+                        >
+                    </Player>
                 </div>
             </div>
         </main>
         <main className='flex flex-col xl:flex-row h-screen'>
-            <div className='w-full xl:w-1/2 h-screen flex items-start justify-center bg-black xl:border-r border-black'>
+            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-lime-400 xl:border-r xl:border-b border-black'>
                 <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl pt-4">
-                        <span className='font-light text-lime-400'>VIVA</span> Pricing</h1>
-                    <p className="mt-3 text-lg text-center tracking-tight text-gray-900 dark:text-white">
+                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 md:text-6xl">
+                        <span className='font-light text-rose-500'>VIVA</span> Pricing</h1>
+                    <p className="text-lg text-center tracking-tight text-gray-900">
                         The future is transparency.
                     </p>
                     <Player
                         src='https://assets8.lottiefiles.com/packages/lf20_1oucccvj.json'
-                        className='pt-6 xl:pt-10 overflow-hidden'
+                        className='pt-1 xl:pt-3'
                         background='transparent'
                         loop={true}
                         autoplay={true}
@@ -272,21 +250,26 @@ export default function App() {
                     </Player>
                 </div>
             </div>
-            <div className='w-full xl:w-1/2 h-screen flex items-start justify-center bg-yellow-300 xl:border-l border-black'>
-                <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 dark:text-white md:text-6xl pt-4">
-                        <span className='font-light text-rose-400'>VIVA</span> Digital</h1>
-                    <p className="mt-3 text-lg text-center tracking-tight text-gray-900 dark:text-white">
-                        More for you. Less for us.
+            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-rose-500 xl:border-l xl:border-b border-black'>
+            <div className='w-4/6'>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        Hello<span className='text-sky-500'> World</span>
+                    </h2>
+                    <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        This is where Your idea comes to life.
                     </p>
-                    <Player
-                        src='https://assets4.lottiefiles.com/private_files/lf30_w3ku1h1i.json'
-                        className='pt-6 xl:pt-10 overflow-hidden'
-                        background='transparent'
-                        loop={true}
-                        autoplay={true}
-                        >
-                    </Player>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        Hello<span className='text-sky-500'> Animation</span>
+                    </h2>
+                    <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        Your idea is loving life with animated icons and images.
+                    </p>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
+                        Hello<span className='text-sky-500'> Server</span>
+                    </h2>
+                    <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        Your idea is connected to the users of the world. Database, Servers and more. 
+                    </p>
                 </div>
             </div>
         </main>
