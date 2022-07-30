@@ -6,7 +6,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function App() {
     return (
         <>
-        <main className='bg-stone-50 border-gray-200 dark:bg-gray-900'>
+        <main className='border-gray-200 bg-gray-900'>
             <div className='flex flex-col justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2'>
                 <h1 className='text-6xl md:text-8xl font-black tracking-tight text-center leading-none'>
                     <span className='whitespace-nowrap block uppercase bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>Viva</span>
@@ -14,10 +14,10 @@ export default function App() {
                 </h1>
             </div>
         </main>
-        <nav className='bg-stone-50 border border-black dark:border-rose-400 dark:bg-gray-900 sticky top-0 overflow-hidden '>
-            <div className='py-3 px-12 mx-auto max-w-screen-xl md:px-14'>
-                <div className='flex content-center md:justify-evenly overflow-hidden '>
-                    <ul className='flex flex-row space-x-6 items-center text-sm md:text-lg font-medium'>
+        <nav className='border border-black dark:border-rose-400 dark:bg-gray-900 sticky top-0'>
+            <div className='py-3 px-10 mx-auto max-w-screen-xl md:px-14'>
+                <div className='flex justify-center md:justify-evenly overflow-hidden '>
+                    <ul className='flex flex-row space-x-6 items-center content-center text-sm md:text-lg font-medium'>
                         <li>
                             <Link to='/design' className='text-gray-900 dark:text-white hover:text-rose-400'>Design</Link>
                         </li>
@@ -44,7 +44,7 @@ export default function App() {
                     The World of Viva Web Design
                 </p>
                 <div className='grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 items-center'>
-                <Link to='/animation' className='group'>
+                    <Link to='/animation' className='group'>
                         <div className='w-full rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-l from-lime-400 via-teal-400 to-rose-400'>
                             <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello World</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
@@ -126,51 +126,6 @@ export default function App() {
                                 <Player
                                     src='https://assets1.lottiefiles.com/packages/lf20_z9glddtj.json'
                                     className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello World</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets7.lottiefiles.com/private_files/lf30_PEcv4e.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-l from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello Animation</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets10.lottiefiles.com/packages/lf20_15jzhigy.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-white'>Hello Server</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets4.lottiefiles.com/packages/lf20_3fbrnaep.json'
-                                    className='pt-6 xl:pt-32'
                                     background='transparent'
                                     loop={true}
                                     autoplay={true}
