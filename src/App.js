@@ -210,7 +210,7 @@ export default function App() {
                         Your site, Your way
                     </h2>
                     <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        The future is <span className='text-lime-300'>transparency</span>. We want to focus on you and your ideas.
+                        Yes, we want your ideas to live but we also want to see them <span className='text-lime-300'>grow</span>.
                     </p>
                 </div>
             </div>
@@ -262,13 +262,15 @@ export default function App() {
                         Hello<span className='text-sky-500'> Animation</span>
                     </h2>
                     <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        Your idea is loving life with animated icons and images.
+                        Your idea is living life, now with animations.
                     </p>
                     <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
                         Hello<span className='text-sky-500'> Server</span>
                     </h2>
                     <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        Your idea is connected to the users of the world. Database, Servers and more. 
+                        Your idea needs data to live. We introduce your idea to RESTful 
+                        <span className='text-sky-500'> APIs</span> and 
+                        <span className='text-sky-500'>Databases</span>. 
                     </p>
                 </div>
             </div>
