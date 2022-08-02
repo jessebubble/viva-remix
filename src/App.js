@@ -44,9 +44,9 @@ export default function App() {
                     The World of Viva Web Design
                 </p>
                 <div className='grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 items-center'>
-                    <Link to='/animation' className='group'>
+                    <Link to='/design' className='group'>
                         <div className='w-full rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-l from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello World</h3>
+                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello World</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
                                     src='https://assets1.lottiefiles.com/packages/lf20_bpmirxde.json'
@@ -59,9 +59,9 @@ export default function App() {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/animation' className='group'>
+                    <Link to='/design' className='group'>
                         <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello Animation</h3>
+                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello Animation</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
                                     src='https://assets2.lottiefiles.com/packages/lf20_Ns4TLz.json'
@@ -74,57 +74,12 @@ export default function App() {
                             </div>
                         </div>
                     </Link>
-                    <Link to='/animation' className='group'>
+                    <Link to='/design' className='group'>
                         <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-l from-lime-400 via-teal-400 to-rose-400'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello Server</h3>
+                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello Data</h3>
                             <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
                                 <Player
                                     src='https://assets1.lottiefiles.com/packages/lf20_ncubuiuo.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-white rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello World</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets7.lottiefiles.com/packages/lf20_j80rsr51.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-white rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello Animation</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets10.lottiefiles.com/private_files/lf30_celjmhga.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/animation' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 bg-white rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-medium text-gray-900'>Hello Server</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets1.lottiefiles.com/packages/lf20_z9glddtj.json'
                                     className='pt-6 xl:pt-10'
                                     background='transparent'
                                     loop={true}
@@ -140,7 +95,7 @@ export default function App() {
         <main className="grid grid-cols-1 border border-black">
             <div className="bg-black px-4 py-10">
                 <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Search Engine Optimization 
+                    Your Idea Starts Here
                 </h1>
             </div>
         </main>
@@ -165,7 +120,7 @@ export default function App() {
                         Your site, Your way
                     </h2>
                     <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        We want to see your ideas <span className='text-lime-300'>grow</span>.
+                        We just provide the tools for your idea to <span className='text-lime-300'>grow</span>.
                     </p>
                 </div>
             </div>
@@ -190,7 +145,7 @@ export default function App() {
         <main className='flex flex-col xl:flex-row h-screen'>
             <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-lime-400 xl:border-r xl:border-b border-black'>
                 <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-bold text-gray-900 md:text-6xl">
+                    <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 md:text-6xl">
                         <span className='font-light text-rose-500'>VIVA</span> Pricing</h1>
                     <p className="text-lg text-center tracking-tight text-gray-900">
                         The future is transparency.
@@ -207,31 +162,42 @@ export default function App() {
             </div>
             <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-rose-500 xl:border-l xl:border-b border-black'>
             <div className='w-4/6'>
-                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        Hello<span className='text-sky-500'> World</span>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-light text-sky-400'>
+                        VIVA➕
                     </h2>
                     <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        This is where Your idea comes to life.
+                        - Built into every design
                     </p>
-                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        Hello<span className='text-sky-500'> Animation</span>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-light text-gray-900'>
+                        Hello<span className='text-sky-400'> World</span>
                     </h2>
                     <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        Your idea is living life, now with animations.
+                        - Your idea brought to life.
                     </p>
-                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        Hello<span className='text-sky-500'> Server</span>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-light text-gray-900'>
+                        Hello<span className='text-sky-400'> Animation</span>
+                    </h2>
+                    <p className='mt-1 md:mt-2 xl:mt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
+                        - Motion with a purpose.
+                    </p>
+                    <h2 className='mt-2 md:mt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-light text-gray-900'>
+                        Hello<span className='text-sky-400'> Data</span>
                     </h2>
                     <p className='mt-3 md:mt-5 xl:mt-6 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        Your idea needs data to live. We introduce your idea to RESTful 
-                        <span className='text-sky-500'> APIs</span> and 
-                        <span className='text-sky-500'> Databases</span>. 
+                        - Your idea runs on data. 
                     </p>
                 </div>
             </div>
         </main>
+        <main className="grid grid-cols-1 border border-black">
+            <div className="bg-black px-4 py-10">
+                <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
+                    Your Idea With Emotion
+                </h1>
+            </div>
+        </main>
         <main className='flex flex-col xl:flex-row h-96 xl:h-screen'>
-            <div className='w-full h-screen flex flex-col items-center justify-center bg-rose-400 xl:border border-black'>
+            <div className='w-full h-screen flex flex-col items-center sm:content-center justify-center bg-rose-400 xl:border border-black'>
                 <div className='w-4/6'>
                     <h1 className="text-3xl text-center tracking-tight font-medium text-gray-900 md:text-6xl">
                         Share your work. 

@@ -35,11 +35,11 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='bg-purple-400 xl:border border-black'>
+        <main className='xl:border border-black bg-gradient-to-t from-purple-300 via-purple-400 to-purple-500'>
             <div className='flex w-full items-center justify-center'>
                 <div className='w-4/6'>
-                    <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
-                        <span className='text-blue-500'>VIVA</span> Contact
+                    <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-white md:text-6xl'>
+                        <span className='text-sky-400'>VIVA</span> Contact
                     </h2>
                     <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
                         Independent doesn't mean alone
@@ -49,7 +49,7 @@ export default function App() {
                         <div className='overflow-hidden'>
                             <div className='' >  
                                 <Player
-                                    src='https://assets7.lottiefiles.com/packages/lf20_7mxwovzb.json'
+                                    src='https://assets1.lottiefiles.com/private_files/lf30_ies8kilu.json'
                                     className='xl:pb-2'
                                     background='transparent'
                                     loop={true}
@@ -61,25 +61,25 @@ export default function App() {
                     </Link>
                     <div className='w-full pb-6 xl:pb-8 '>
                         <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-6 xl:pb-8'>
-                            <span className="block text-teal-300 ">Ready to VIVA</span>
-                            <span className="block text-white lg:pt-2 font-light">Let's talk about your ideas </span>
+                            <span className="block text-sky-400 ">Ready to VIVA</span>
+                            <span className="block text-white lg:pt-2 font-light md:text-5xl">Let's talk about your ideas </span>
                         </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-teal-300 '>
-                            Email
+                            Give us a call
                         </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-teal-300 '>
-                            Mobile
+                            Send us an email
                         </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-teal-300 '>
-                            Remote Meetup
+                            Schedule a remote meetup
                         </div>
                     </div>
                     </div>

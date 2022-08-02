@@ -36,11 +36,11 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='bg-stone-300 xl:border border-black'>
+        <main className='xl:border border-black bg-gradient-to-b from-slate-300 via-slate-400 to-slate-500'>
             <div className='flex w-full items-center justify-center'>
                 <div className='w-4/6'>
                     <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
-                        <span className='text-rose-600'>VIVA</span> Design
+                        <span className='text-white'>VIVA</span> Design
                     </h2>
                     <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
                         Your Site, Your Way
@@ -61,8 +61,8 @@ export default function App() {
                         </div>
                     </Link>
                     <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
-                        <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-4 xl:pb-8'>
-                            <span className="block text-rose-600 ">VIVA ➕</span>
+                        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
+                            <span className="block text-white ">VIVA ➕</span>
                             <span className="block text-gray-900 lg:pt-2 font-light">Built into every Design</span>
                         </h2>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-gray-500 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
@@ -90,42 +90,12 @@ export default function App() {
                         </div>
                     </div>
                     </div>
-                    <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
-                        <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-4 xl:pb-8'>
-                            <span className="block text-pink-600 ">Hello World</span>
-                            <span className="block text-pink-500 lg:pt-2 font-light">Your idea starts here</span>
-                        </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-pink-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                        <div className='text-gray-900 hover:text-rose-500 '>
-                            Your Brand
-                        </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-pink-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                        <div className='text-gray-900 hover:text-rose-500 '>
-                            Your Story
-                        </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-pink-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                        <div className='text-gray-900 hover:text-rose-500 '>
-                            Your Vision
-                        </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-pink-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                        <div className='text-gray-900 hover:text-rose-500 '>
-                            Your Goals
-                        </div>
-                    </div>
-                    </div>
                     <Link to='/animation'>
                         <div className='overflow-hidden'>
                             <div className='' >  
                                 <Player
-                                    src='https://assets5.lottiefiles.com/packages/lf20_oW1W5H.json'
-                                    className='xl:pb-2'
+                                    src='https://assets6.lottiefiles.com/packages/lf20_4tcribvp.json'
+                                    className='xl:pb-2 xl:pt-8 pt-2'
                                     background='transparent'
                                     loop={true}
                                     autoplay={true}
@@ -134,12 +104,42 @@ export default function App() {
                             </div>
                         </div>
                     </Link>
+                    <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
+                        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
+                            <span className="text-teal-300 ">Hello</span> <span className='text-white'>World</span>
+                            <span className="block text-teal-300 lg:pt-2 font-light text-xl md:text-5xl">Your idea starts here</span>
+                        </h2>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-teal-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Share your vision
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-teal-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Have fun with your brand
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-teal-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            modern web experience
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-teal-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Your idea grows with VIVA+
+                        </div>
+                    </div>
+                    </div>
                     <Link to='/animation'>
                         <div className='overflow-hidden'>
                             <div className='' >  
                                 <Player
                                     src='https://assets1.lottiefiles.com/packages/lf20_ju61m9x9.json'
-                                    className='xl:pb-2'
+                                    className='xl:pb-2 pt-2 xl:pt-8'
                                     background='transparent'
                                     loop={true}
                                     autoplay={true}
@@ -149,62 +149,62 @@ export default function App() {
                         </div>
                     </Link>
                     <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
-                        <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-4 xl:pb-8'>
-                            <span className="block text-purple-600 ">Hello Animation</span>
-                            <span className="block text-purple-500 lg:pt-2 font-light">Your idea with animations</span>
+                        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
+                            <span className="text-purple-700 ">Hello</span> <span className='text-white'>Animation</span>
+                            <span className="block text-purple-700 lg:pt-2 font-light text-xl md:text-5xl">Your idea with emotion</span>
                         </h2>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-purple-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
-                            Animated Icons
+                            Motion with a purpose
                         </div>
                     </div>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-purple-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
-                            Animated Logos
+                            Motion brings your idea to life
                         </div>
                     </div>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-purple-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
-                            Animated Illustrations
+                            Motion helps drive your message
                         </div>
                     </div>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-purple-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
-                            Animated Videos
+                            Motion helps keep your users engaged
                         </div>
                     </div>
                     </div>
                     <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
-                        <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-4 xl:pb-8'>
-                            <span className="block text-blue-700 ">Hello Server</span>
-                            <span className="block text-blue-500 lg:pt-2 font-light">Your idea needs data to live</span>
+                        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
+                            <span className='text-sky-400'>Hello</span> <span className='text-white'>Data</span>
+                            <span className="block text-sky-400 lg:pt-2 font-light text-xl md:text-5xl">Your idea runs on data</span>
                         </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-blue-500 '>
-                            Auth0
+                            Your Data, Your Way
                         </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-blue-500 '>
-                            User Profiles
+                            Security with Auth0
                         </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-blue-500 '>
-                            User Connections
+                            Communicate with APIs
                         </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-sky-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-blue-500 '>
-                            Restful APIs + Databases
+                            Connect to a Database 
                         </div>
                     </div>
                     </div>

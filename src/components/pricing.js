@@ -35,21 +35,21 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='bg-emerald-300 xl:border border-black'>
+        <main className='xl:border border-black bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600'>
             <div className='flex w-full items-center justify-center'>
                 <div className='w-4/6'>
                     <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
                         <span className='text-purple-600'>VIVA</span> Pricing
                     </h2>
                     <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
-                        The future is transparency
+                        Let's bring your ideas to life
                     </p>
                 <div className='grid grid-cols-1 xl:grid-cols-2 items-center'>
-                    <Link to='/animation'>
+                    <Link to='/design'>
                         <div className='overflow-hidden'>
                             <div className='' >  
                                 <Player
-                                    src='https://assets6.lottiefiles.com/private_files/lf30_kga8p5sd.json'
+                                    src='https://assets5.lottiefiles.com/private_files/lf30_het70khx.json'
                                     className='xl:pb-2'
                                     background='transparent'
                                     loop={true}
@@ -62,8 +62,14 @@ export default function App() {
                     <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
                         <h2 className='items-center text-center text-4xl font-bold tracking-tight md:text-6xl pb-4 xl:pb-8'>
                             <span className="block text-purple-600 ">Ready to VIVA</span>
-                            <span className="block text-gray-900 lg:pt-2 font-light">Let's bring your ideas to life</span>
+                            <span className="block text-gray-900 lg:pt-2 font-light md:text-5xl">Your Site, Your Way</span>
                         </h2>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-purple-500 '>
+                            VIVA ➕
+                        </div>
+                    </div>
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
@@ -79,13 +85,7 @@ export default function App() {
                     <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                         <div className='text-gray-900 hover:text-purple-500 '>
-                            Hello Server
-                        </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-indigo-300 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                        <div className='text-gray-900 hover:text-purple-500 '>
-                            VIVA +
+                            Hello Data
                         </div>
                     </div>
                     </div>

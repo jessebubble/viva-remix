@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import { ImInstagram, ImFacebook2, ImTwitter, ImYoutube, ImLinkedin } from "react-icons/im";
 import { IconContext } from 'react-icons';
+import { Player } from '@lottiefiles/react-lottie-player';
+
 
 export default function App() {
     return (
         <>
-        <main className='bg-stone-50 border-gray-200 dark:bg-gray-900'>
+        <main className='border-gray-200 bg-gray-900'>
             <div className='flex flex-col justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2'>
                 <h1 className='text-6xl md:text-8xl font-black tracking-tight text-center leading-none'>
                     <span className='whitespace-nowrap block uppercase bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>Viva</span>
@@ -13,7 +15,7 @@ export default function App() {
                 </h1>
             </div>
         </main>
-        <nav className='bg-stone-50 border border-black dark:border-rose-400 dark:bg-gray-900 sticky top-0'>
+        <nav className='border border-rose-400 bg-gray-900 sticky top-0'>
             <div className='py-3 px-12 mx-auto max-w-screen-xl md:px-14'>
                 <div className='flex content-center md:justify-evenly'>
                     <ul className='flex flex-row space-x-6 items-center text-sm md:text-lg font-medium'>
@@ -34,14 +36,60 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='flex flex-col xl:flex-row h-screen'>
-            <div className='w-full h-screen flex items-start justify-center bg-white xl:border border-black'>
+        <main className='xl:border border-black bg-gradient-to-l from-white via-amber-300 to-rose-400'>
+            <div className='flex w-full items-center justify-center'>
                 <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 md:text-6xl pt-4 xl:pt-10">
-                        <span className='font-light text-red-600'>VIVA</span> Animation</h1>
-                    <p className='mt-3 text-lg text-center tracking-tight text-gray-900'>
+                    <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
+                        <span className='text-rose-500'>VIVA</span> Animation
+                    </h2>
+                    <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
                         Your ideas brought to life
                     </p>
+                <div className='grid grid-cols-1 xl:grid-cols-2 items-center'>
+                    <Link to='/animation'>
+                        <div className='overflow-hidden'>
+                            <div className='' >  
+                                <Player
+                                    src='https://assets6.lottiefiles.com/packages/lf20_KRkl9t.json'
+                                    className='xl:pb-2'
+                                    background='transparent'
+                                    loop={true}
+                                    autoplay={true}
+                                    >
+                                </Player>
+                            </div>
+                        </div>
+                    </Link>
+                    <div className='w-full pt-4 xl:pt-8 pb-6 xl:pb-8 '>
+                        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
+                            Your idea with E<span className='text-rose-500 '>MOTION</span>
+                        </h2>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-gray-500 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Motion brings your ideas to life
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-gray-500 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Motion with a purpose, not just for delight
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-gray-500 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Motion helps drive your message
+                        </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-md shadow-gray-500 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                        <div className='text-gray-900 hover:text-rose-500 '>
+                            Motion helps keep your users engaged
+                        </div>
+                    </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </main>
