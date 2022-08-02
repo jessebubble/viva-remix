@@ -1,27 +1,15 @@
-# Viva Web Design 
+## Inside The Bubble
+Viva Web Design is a brand new Marketing Web Development company located in San Antonio, Texas
+- This is the skeleton layout I built for Viva Web Design
+- Built with `React` || `TailWindCSS` || `LottieFiles`
+- Domain purchased through Google || Site hosted with Vercel
+- Design influenced by the Gumroad ecommerce site
 
-This is a Skeleton layout I created for a new Freelance Web Design Company in San Antonio, Texas called `Viva Web Design`
-- Built with `React` and `TailWindCSS`
-- Skeleton layout tested for `Mobile Responsiveness` and `Nested Linking`
+![screenshot](./public/vivadesign.png)
 
-## Currently Working ON
-- Creating Brand Logo
-- Creating SVG Icons and Images
-- Filling the Skeleton w/ Content
-- TailwindCSS Animations
-- Search Engine Optimization
+## Viva Web Design 
+- Your ideas brought to life
+- Your ideas with emotion
+* [vivawebdesign.dev](https://www.vivawebdesign.dev) 
 
-## Domain Purchased
-- vivawebdesign.dev 
-
-## Resources (will use this part as a blog)
-
-- ### Nested Linking
-
-- ### Responsive Web Design
-
-- ### React
-
-- ### TailWindCSS
-
-- ### SEO
+![screenshot](./public/vivaemotion.png)
