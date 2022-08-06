@@ -45,10 +45,10 @@ export default function App() {
                     <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
                         Your Site, Your Way
                     </p>
-                <div className='grid grid-cols-1 xl:grid-cols-2 items-center'>
+                <div className='grid grid-cols-1 xl:grid-cols-2 items-center justify-center'>
                     <Link to='/animation'>
                         <div className='overflow-hidden'>
-                            <div className='' >  
+                            <div className='xl:px-2 xl:pr-24' >  
                                 <Player
                                     src='https://assets6.lottiefiles.com/packages/lf20_yy4qdhah.json'
                                     className='xl:pb-2'
@@ -92,10 +92,10 @@ export default function App() {
                     </div>
                     <Link to='/animation'>
                         <div className='overflow-hidden'>
-                            <div className='' >  
+                            <div className=' xl:pr-20' >  
                                 <Player
                                     src='https://assets6.lottiefiles.com/packages/lf20_4tcribvp.json'
-                                    className='xl:pb-2 xl:pt-8 pt-2'
+                                    className='pt-2'
                                     background='transparent'
                                     loop={true}
                                     autoplay={true}

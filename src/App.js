@@ -95,7 +95,7 @@ export default function App() {
         <main className="grid grid-cols-1 border border-black">
             <div className="bg-black px-4 py-10">
                 <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Your Ideas Start Here
+                    Your Idea Starts Here
                 </h1>
             </div>
         </main>
@@ -129,7 +129,7 @@ export default function App() {
                     <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 dark:text-white md:text-6xl">
                         <span className='font-light text-sky-400'>VIVA</span> Design</h1>
                     <p className="text-lg text-center tracking-tight text-gray-900 dark:text-white">
-                        Your ideas brought to life
+                        Your idea brought to life
                     </p>
                     <Player
                         src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
@@ -144,7 +144,7 @@ export default function App() {
         </main>
         <main className='flex flex-col xl:flex-row h-screen'>
             <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-lime-400 xl:border-r xl:border-b border-black'>
-                <div className='w-4/6'>
+                <div className='w-4/6 xl:pt-36'>
                     <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 md:text-6xl">
                         <span className='font-light text-rose-500'>VIVA</span> Pricing</h1>
                     <p className="text-lg text-center tracking-tight text-gray-900">
@@ -152,7 +152,7 @@ export default function App() {
                     </p>
                     <Player
                         src='https://assets8.lottiefiles.com/packages/lf20_1oucccvj.json'
-                        className='pt-1 xl:pt-1'
+                        className='pt-1 xl:px-2'
                         background='transparent'
                         loop={true}
                         autoplay={true}
@@ -161,7 +161,7 @@ export default function App() {
                 </div>
             </div>
             <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-rose-500 xl:border-l xl:border-b border-black'>
-            <div className='w-4/6'>
+            <div className='w-4/6 xl:pr-40'>
                     <h2 className='pt-2 md:pt-3 xl:pt-4 text-2xl md:text-4xl xl:text-6xl text-center xl:text-end tracking-tight font-light text-sky-400'>
                         VIVA➕
                     </h2>
@@ -192,7 +192,7 @@ export default function App() {
         <main className="grid grid-cols-1 border border-black">
             <div className="bg-black px-4 py-10">
                 <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Your Ideas With Emotion
+                    Your Idea With Emotion
                 </h1>
             </div>
         </main>

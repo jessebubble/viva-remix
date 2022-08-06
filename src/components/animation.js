@@ -39,16 +39,16 @@ export default function App() {
         <main className='xl:border border-black bg-gradient-to-l from-white via-amber-300 to-rose-400'>
             <div className='flex w-full items-center justify-center'>
                 <div className='w-4/6'>
-                    <h2 className='text-3xl pt-4 xl:pt-8 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
+                    <h2 className='text-3xl pt-4 xl:pt-6 text-center tracking-tight font-light text-gray-900 md:text-6xl'>
                         <span className='text-rose-500'>VIVA</span> Animation
                     </h2>
                     <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-gray-900 pb-1 xl:pb-2'>
                         Your ideas brought to life
                     </p>
-                <div className='grid grid-cols-1 xl:grid-cols-2 items-center'>
+                <div className='grid grid-cols-1 xl:grid-cols-2 items-center justify-center'>
                     <Link to='/animation'>
                         <div className='overflow-hidden'>
-                            <div className='' >  
+                            <div className='xl:pb-20' >  
                                 <Player
                                     src='https://assets6.lottiefiles.com/packages/lf20_KRkl9t.json'
                                     className='xl:pb-2'
