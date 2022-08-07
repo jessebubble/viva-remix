@@ -47,7 +47,7 @@ export default function App() {
                 </div>
             </div>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-5/12 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-1 xl:pr-24'>
                     <Player
                     src='https://assets1.lottiefiles.com/private_files/lf30_ies8kilu.json'
@@ -60,22 +60,19 @@ export default function App() {
                 </div>
                 <div className='inline-grid grid-cols-1 '> 
                     <div className='pt-4 lg:pr-32'>
-                        <h2 className='text-center text-3xl xl:text-6xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            <span className='text-gray-900 '>Let's Talk About Your Ideas</span>
-                        </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-sky-400 text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Give us a call
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-sky-500 bg-transparent text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                        Send us an email
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-sky-600 bg-transparent text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Schedule a remote meetup

@@ -47,10 +47,10 @@ export default function App() {
                 </div>
             </div>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-5/12 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-1 xl:pr-24'>
                     <Player
-                    src='https://assets1.lottiefiles.com/private_files/lf30_ies8kilu.json'
+                    src='https://assets6.lottiefiles.com/private_files/lf30_het70khx.json'
                     className='xl:pb-2'
                     background='transparent'
                     loop={true}
@@ -60,28 +60,25 @@ export default function App() {
                 </div>
                 <div className='inline-grid grid-cols-1 '> 
                     <div className='pt-4 lg:pr-32'>
-                        <h2 className='text-center text-3xl xl:text-6xl pb-4 xl:pb-8 font-light tracking-tight text-gray-900'>
-                            Your Site, Your Way
-                        </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-purple-400 text-lg md:text-2xl xl:text-4xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-gray-900 hover:text-rose-500 '>
+                    <div className='text-purple-600 hover:text-rose-500 '>
                         VIVA+
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center  shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-start shadow-sm shadow-purple-400 bg-transparent text-lg md:text-2xl xl:text-4xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                        Hello World
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center  shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-start shadow-sm shadow-purple-400 bg-transparent text-lg md:text-2xl xl:text-4xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                        Hello Animation
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center  shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-start shadow-sm shadow-purple-400 bg-transparent text-lg md:text-2xl xl:text-4xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Hello Data

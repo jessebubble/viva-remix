@@ -35,164 +35,211 @@ export default function App() {
             </div>
         </nav>
 
-        <main className='bg-white xl:border border-black'>
-            <div className='max-w-2xl mx-auto py-6 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8'>
-                <h2 className='text-3xl text-center tracking-tight font-light text-gray-900 md:text-6xl'>
-                    <span className='font-light text-emerald-400'>VIVA</span> Discover
-                </h2>
-                <p className='text-lg text-center tracking-tight text-gray-900 mb-6 xl:mb-10'>
-                    The World of Viva Web Design
-                </p>
-                <div className='grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 items-center'>
-                    <Link to='/design' className='group'>
-                        <div className='w-full rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-t from-purple-400 via-emerald-300 to-emerald-500'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello World</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets1.lottiefiles.com/packages/lf20_bpmirxde.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/design' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-t from-cyan-400 via-rose-300 to-rose-500'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello Animation</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets2.lottiefiles.com/packages/lf20_Ns4TLz.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                    <Link to='/design' className='group'>
-                        <div className='w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 bg-gradient-to-t from-lime-400 via-yellow-300 to-yellow-500'>
-                            <h3 className='mt-1 ml-4 text-2xl text-center xl:text-start font-light text-gray-900'>Hello Data</h3>
-                            <div className='xl:h-96 mb-10 xl:mb-16 object-center object-cover group-hover:opacity-75'>  
-                                <Player
-                                    src='https://assets1.lottiefiles.com/packages/lf20_ncubuiuo.json'
-                                    className='pt-6 xl:pt-10'
-                                    background='transparent'
-                                    loop={true}
-                                    autoplay={true}
-                                    >
-                                </Player>
-                            </div>
-                        </div>
-                    </Link>
-                </div>
-            </div>
-        </main>
-        <main className="grid grid-cols-1 border border-black">
-            <div className="bg-black px-4 py-10">
-                <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Your Idea Starts Here
-                </h1>
-            </div>
-        </main>
-        <main className='flex flex-col xl:flex-row h-screen'>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-sky-400 xl:border-r xl:border-b border-black'>
-                <div className='w-4/6'>
-                    <h2 className='pt-2 md:pt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        You have great
-                        <span className='text-lime-400'> ideas</span>
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        We want you to <span className='text-lime-300'> try them</span>, lots of them,
-                        and find out what works.
-                    </p>
-                    <h2 className='pt-3 md:pt-4 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        Create your own road 
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        <span className='text-lime-300'>Independent</span> doesn't mean alone
-                    </p>
-                    <h2 className='pt-3 md:pt-4 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-start tracking-tight font-bold text-gray-900'>
-                        Your site, Your way
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-start tracking-tight font-light text-white'>
-                        We just provide the tools for your idea to <span className='text-lime-300'>grow</span>.
+        <main className='bg-gradient-to-r from-sky-400 via-black to-fuchsia-400'>
+            <div className='flex flex-col items-center justify-center w-full'>
+                <div className='inline-grid grid-col'>
+                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
+                        <span className='text-lime-400'>VIVA</span> Design
+                    </h1>
+                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
+                        Your idea starts here
                     </p>
                 </div>
             </div>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-purple-400 xl:border-l xl:border-b border-black'>
-                <div className='w-4/6'>
-                    <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 dark:text-white md:text-6xl">
-                        <span className='font-light text-sky-400'>VIVA</span> Design</h1>
-                    <p className="text-lg text-center tracking-tight text-gray-900 dark:text-white">
-                        Your idea brought to life
-                    </p>
+            <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-4 xl:pt-6 pb-4 xl:pb-6'>
+                <div className='w-9/12 xl:w-7/12 inline-grid grid-col items-center '> 
+                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
                     <Player
-                        src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
-                        className='pt-6 xl:pt-20 overflow-hidden '
-                        background='transparent'
-                        loop={true}
-                        autoplay={true}
-                        >
+                    src='https://assets9.lottiefiles.com/packages/lf20_objp2qn9.json'
+                    className='xl:pb-2'
+                    background='transparent'
+                    loop={true}
+                    autoplay={true} >
                     </Player>
                 </div>
+                </div>
             </div>
-        </main>
-        <main className='flex flex-col xl:flex-row h-screen'>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-lime-400 xl:border-r xl:border-b border-black'>
-                <div className='w-4/6 xl:pt-36'>
-                    <h1 className="text-3xl text-center tracking-tight font-light text-gray-900 md:text-6xl">
-                        <span className='font-light text-rose-500'>VIVA</span> Pricing</h1>
-                    <p className="text-lg text-center tracking-tight text-gray-900">
-                        The future is transparency.
-                    </p>
+            <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-4 xl:pt-6 pb-4 xl:pb-8'>
+                <div className='inline-grid grid-col'> 
+                    <div className='pt-4 xl:pl-20'>
+                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            You have great <span className='text-lime-400'>ideas</span>
+                        </h2>
+                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            We want you to <span className='text-lime-400'> try them</span>, lots of them
+                        </p>
+                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            Create your own road
+                        </h2>
+                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            <span className='text-lime-400'> Independent</span> doesn't mean alone
+                        </p>
+                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            Your site, Your way
+                        </h2>
+                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            We just provide the tools for you to <span className='text-lime-400'> grow</span>
+                        </p>
+                    </div>
+                </div>
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
+                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
                     <Player
-                        src='https://assets8.lottiefiles.com/packages/lf20_1oucccvj.json'
-                        className='pt-1 xl:px-2'
-                        background='transparent'
-                        loop={true}
-                        autoplay={true}
-                        >
+                    src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
+                    className='xl:pb-2'
+                    background='transparent'
+                    loop={true}
+                    autoplay={true} >
                     </Player>
                 </div>
-            </div>
-            <div className='w-full xl:w-1/2 h-screen flex items-center justify-center bg-rose-500 xl:border-l xl:border-b border-black'>
-            <div className='w-4/6 xl:pr-40'>
-                    <h2 className='pt-2 md:pt-3 xl:pt-4 text-2xl md:text-4xl xl:text-6xl text-center xl:text-end tracking-tight font-light text-sky-400'>
-                        VIVA➕
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-center xl:text-end tracking-tight font-light text-white'>
-                        Built into every design
-                    </p>
-                    <h2 className='pt-2 md:pt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-center xl:text-end tracking-tight font-light text-gray-900'>
-                        Hello<span className='text-sky-400'> World</span>
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-center xl:text-end tracking-tight font-light text-white'>
-                        Your idea brought to life.
-                    </p>
-                    <h2 className='pt-2 md:pt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-center xl:text-end tracking-tight font-light text-gray-900'>
-                        Hello<span className='text-sky-400'> Animation</span>
-                    </h2>
-                    <p className='pt-1 md:pt-2 xl:pt-3 text-lg md:text-2xl xl:text-4xl text-center xl:text-end tracking-tight font-light text-white'>
-                        Motion with a purpose.
-                    </p>
-                    <h2 className='pt-2 md:pt-3 xl:pt-10 text-2xl md:text-4xl xl:text-6xl text-center xl:text-end tracking-tight font-light text-gray-900'>
-                        Hello<span className='text-sky-400'> Data</span>
-                    </h2>
-                    <p className='pt-3 md:pt-5 xl:pt-6 text-lg md:text-2xl xl:text-4xl text-center xl:text-end tracking-tight font-light text-white'>
-                        Your idea runs on data. 
-                    </p>
                 </div>
             </div>
         </main>
-        <main className="grid grid-cols-1 border border-black">
-            <div className="bg-black px-4 py-10">
-                <h1 className="text-2xl text-center md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Your Idea With Emotion
+        <main className='bg-gradient-to-r from-lime-400 via-black to-rose-500'>
+            <div className='flex flex-col items-center justify-center w-full'>
+                <div className='inline-grid grid-col'>
+                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
+                        <span className='text-amber-500'>VIVA</span> Animation
+                    </h1>
+                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
+                        Motion with a purpose
+                    </p>
+                </div>
+            </div>
+            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
+                <div className='inline-grid grid-col'> 
+                    <div className='pt-4 xl:pl-36'>
+                    <div className='pb-4 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                       Motion brings your ideas to life
+                    </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                       Motion helps drive your message
+                    </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                        Motion helps keep your users engaged
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
+                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
+                    <Player
+                    src='https://assets2.lottiefiles.com/packages/lf20_2t5zvcho.json'
+                    className='xl:pb-2'
+                    background='transparent'
+                    loop={true}
+                    autoplay={true} >
+                    </Player>
+                </div>
+                </div>
+            </div>
+        </main>
+        <main className='bg-gradient-to-r from-fuchsia-400 via-black to-amber-500'>
+            <div className='flex flex-col items-center justify-center w-full'>
+                <div className='inline-grid grid-col'>
+                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
+                        <span className='text-rose-500'>VIVA</span> Pricing
+                    </h1>
+                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
+                        The future is transparency
+                    </p>
+                </div>
+            </div>
+            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
+                <div className='w-9/12 xl:w-4/12 inline-grid grid-col items-center '> 
+                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
+                    <Player
+                    src='https://assets6.lottiefiles.com/private_files/lf30_kga8p5sd.json'
+                    className='xl:pb-2'
+                    background='transparent'
+                    loop={true}
+                    autoplay={true} >
+                    </Player>
+                </div>
+                </div>
+                <div className='inline-grid grid-col'> 
+                    <div className='pt-4 xl:pr-36'>
+                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            <span className='text-rose-500'>VIVA</span>+
+                        </h2>
+                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            Built into every design
+                        </p>
+                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            Hello <span className='text-rose-500'>World</span>
+                        </h2>
+                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            Your idea starts here
+                        </p>
+                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                            Hello <span className='text-rose-500'>Animation</span>
+                        </h2>
+                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                            Motion with a purpose
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main className='bg-gradient-to-l from-cyan-400 via-black to-yellow-300'>
+            <div className='flex flex-col items-center justify-center w-full'>
+                <div className='inline-grid grid-col'>
+                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
+                        <span className='text-sky-500'>VIVA</span> Contact
+                    </h1>
+                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
+                        Independent doesn't mean alone
+                    </p>
+                </div>
+            </div>
+            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
+                <div className='inline-grid grid-col'> 
+                    <div className='pt-6 xl:pl-36'>
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                       Give us a phone call
+                    </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                        Send us an email
+                    </div>
+                    </div>
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
+                    <div className='text-white hover:text-rose-500 '>
+                        Schedule a remote meetup
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div className='w-11/12 xl:w-6/12 inline-grid grid-col items-center '> 
+                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
+                    <Player
+                    src='https://assets5.lottiefiles.com/private_files/lf30_qxakfuim.json'
+                    className='xl:pb-2'
+                    background='transparent'
+                    loop={true}
+                    autoplay={true} >
+                    </Player>
+                </div>
+                </div>
+            </div>
+        </main>
+        <main className="grid grid-col">
+            <div className="bg-black px-4 py-6">
+                <h1 className="text-2xl md:text-4xl text-center bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
+                    The Future is Transparency
                 </h1>
             </div>
         </main>

@@ -48,7 +48,7 @@ export default function App() {
                 </div>
             </div>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-5/12 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
                     <Player
                     src='https://assets2.lottiefiles.com/packages/lf20_2t5zvcho.json'

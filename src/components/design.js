@@ -40,7 +40,7 @@ export default function App() {
             <div className='flex flex-col items-center justify-center w-full'>
                 <div className='inline-grid grid-col'>
                     <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4'>
-                        <span className='text-sky-500'>VIVA</span> Design
+                        <span className='text-rose-500'>VIVA</span> Design
                     </h1>
                     <p className='text-lg xl:text-2xl text-gray-900 text-center tracking-tight font-light'>
                         Your Site, Your Way
@@ -48,7 +48,7 @@ export default function App() {
                 </div>
             </div>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-1/2 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-1 xl:pr-24'>
                     <Player
                     src='https://assets6.lottiefiles.com/packages/lf20_yy4qdhah.json'
@@ -63,7 +63,7 @@ export default function App() {
                 <div className='inline-grid grid-cols-1 '> 
                     <div className='pt-4 lg:pr-32'>
                         <h2 className='text-center text-3xl xl:text-6xl pb-4 xl:pb-8 font-light tracking-tight '>
-                            <span className='text-sky-500 '>VIVA </span>➕
+                            <span className='text-rose-500 '>VIVA </span>➕
                             <span className=' block xl:text-5xl text-gray-900'>Built into every Design</span>
                         </h2>
                     <div className='pb-3 xl:pb-6 p-2 text-center  shadow-none shadow-gray-100 text-lg md:text-2xl font-medium lg:p-5
@@ -149,25 +149,25 @@ export default function App() {
                         <h2 className='text-center text-3xl xl:text-8xl font-light tracking-tight pb-4 xl:pb-8'>
                             Hello <span className='text-sky-500 '>Animation</span>
                         </h2>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Motion with a purpose
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Motion brings your ideas to life
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Motion helps keep your users engaged
                     </div>
                     </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-50 bg-transparent text-lg md:text-2xl font-medium lg:p-5
+                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
                                 transform hover:translate-y-4 transition duration-300 ease-in-out'>
                     <div className='text-gray-900 hover:text-rose-500 '>
                         Motion helps drive your message
@@ -175,7 +175,7 @@ export default function App() {
                     </div>
                     </div>
                 </div>
-                <div className='w-1/2 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-1 xl:pl-24'>
                     <Player
                     src='https://assets1.lottiefiles.com/packages/lf20_ju61m9x9.json'
@@ -190,7 +190,7 @@ export default function App() {
         </main>
         <main className='bg-gradient-to-r from-white via-white to-amber-500'>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-1/2 inline-grid grid-col items-center '> 
+                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
                 <div className='overflow-hidden pt-1 xl:pr-24'>
                     <Player
                     src='https://assets5.lottiefiles.com/packages/lf20_pounvezv.json'
