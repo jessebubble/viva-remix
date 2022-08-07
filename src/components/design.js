@@ -97,7 +97,7 @@ export default function App() {
         <main className="grid grid-col">
             <div className="bg-black px-4 py-6">
                 <h1 className="text-2xl md:text-4xl text-center bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Independent doesn't mean alone 
+                    The Futute is Transparency 
                 </h1>
             </div>
         </main>
@@ -237,7 +237,7 @@ export default function App() {
         <main className="grid grid-col">
             <div className="bg-black px-4 py-6">
                 <h1 className="text-center text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    Your Site, Your Way 
+                    Independent doesn't mean alone
                 </h1>
             </div>
         </main>
