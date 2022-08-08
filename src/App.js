@@ -47,51 +47,38 @@ export default function App() {
                 </div>
             </div>
             <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-4 xl:pt-6 pb-4 xl:pb-6'>
-                <div className='w-9/12 xl:w-7/12 inline-grid grid-col items-center '> 
-                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
-                    <Player
-                    src='https://assets9.lottiefiles.com/packages/lf20_objp2qn9.json'
-                    className='xl:pb-2'
-                    background='transparent'
-                    loop={true}
-                    autoplay={true} >
-                    </Player>
-                </div>
-                </div>
-            </div>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-4 xl:pt-6 pb-4 xl:pb-8'>
+                    <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
+                    <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
+                        <Player
+                        src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
+                        className='xl:pb-2'
+                        background='transparent'
+                        loop={true}
+                        autoplay={true} >
+                        </Player>
+                    </div>
+                    </div>
                 <div className='inline-grid grid-col'> 
-                    <div className='pt-4 xl:pl-20'>
-                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                    <div className='pt-4 xl:pr-20'>
+                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
                             You have great <span className='text-lime-400'>ideas</span>
                         </h2>
-                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                        <p className='text-center xl:text-end text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
                             We want you to <span className='text-lime-400'> try them</span>, lots of them
                         </p>
-                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
                             Create your own road
                         </h2>
-                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                        <p className='text-center xl:text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
                             <span className='text-lime-400'> Independent</span> doesn't mean alone
                         </p>
-                        <h2 className='text-end  text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
+                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
                             Your site, Your way
                         </h2>
-                        <p className='text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
+                        <p className='text-center xl:text-end text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
                             We just provide the tools for you to <span className='text-lime-400'> grow</span>
                         </p>
                     </div>
-                </div>
-                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
-                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
-                    <Player
-                    src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
-                    className='xl:pb-2'
-                    background='transparent'
-                    loop={true}
-                    autoplay={true} >
-                    </Player>
-                </div>
                 </div>
             </div>
         </main>
@@ -166,7 +153,7 @@ export default function App() {
                 </div>
                 </div>
                 <div className='inline-grid grid-col'> 
-                    <div className='pt-4 xl:pr-36'>
+                    <div className='pt-4 xl:pt-16 xl:pr-36'>
                         <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
                             <span className='text-rose-500'>VIVA</span>+
                         </h2>
