@@ -1,305 +1,290 @@
-import { Link } from 'react-router-dom';
-import { ImInstagram, ImFacebook2, ImTwitter, ImYoutube, ImLinkedin } from "react-icons/im";
-import { IconContext } from 'react-icons';
+import Nav from './components/nav';
+import Footer from './components/footer';
+import Hero from './components/hero';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { Link } from 'react-router-dom';
 
 export default function App() {
     return (
         <>
-        <main className='border-gray-200 bg-gray-900'>
-            <div className='flex flex-col justify-between mx-auto max-w-screen-xl px-4 md:px-6 py-2 xl:p-3'>
-                <h1 className='text-6xl md:text-8xl font-black tracking-tight text-center'>
-                    <span className='bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400'>VIVA</span>
-                    <span className='block text-white'>Web Design</span>
-                </h1>
-            </div>
-        </main>
-        <nav className='border border-rose-400 bg-gray-900 sticky top-0'>
-            <div className='py-3 mx-auto max-w-screen-xl'>
-                <div className='flex justify-center'>
-                    <ul className='flex flex-row space-x-6 items-center text-md md:text-lg xl:text-xl font-medium'>
-                        <li>
-                            <Link to='/design' className='text-lime-300 hover:text-rose-400'>Design</Link>
-                        </li>
-                        <li>
-                            <Link to='/animation' className='text-gray-900 dark:text-white hover:text-rose-400'>Animation</Link>
-                        </li>
-                        <li>
-                            <Link to='/pricing' className='text-gray-900 dark:text-white hover:text-rose-400'>Pricing</Link>
-                        </li>
-                        <li>
-                            <Link to='/contact' className='text-rose-400 hover:text-yellow-300'>Contact</Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <Nav />
+        <Hero />
 
-        <main className='bg-gradient-to-r from-sky-400 via-black to-fuchsia-400'>
-            <div className='flex flex-col items-center justify-center w-full'>
-                <div className='inline-grid grid-col'>
-                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
-                        <span className='text-lime-400'>VIVA</span> Design
-                    </h1>
-                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
-                        Your idea starts here
+        <main className="bg-indigo-500 border-b-2">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+                <div>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        <span className='text-emerald-400'>VIVA</span> Community
+                    </h2>
+                    <p className="mt-4 text-gray-200">You have great ideas and we want you to try them, lots of them. 
+                        <span className='md:block'> We can help bring your ideas to life and we can help you do it quickly.</span>  
+                        <span className=''>Share your work, someone out there needs it!</span>
                     </p>
+                    <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                        <div className="border-t border-gray-200 pt-4">
+                            <dt className="font-medium text-gray-900">Create Your Own Road</dt>
+                            <dd className="mt-2 text-gray-200">Independent doesn't mean alone. We're here to help you create your own path.</dd>
+                        </div>
+                        <div className="border-t border-gray-200 pt-4">
+                            <dt className="font-medium text-gray-900">Your Site, Your Way</dt>
+                            <dd className="mt-2 text-gray-200">We have the tools to help you build the site you want, and we'll help you learn how to use them.</dd>
+                       </div>
+                        <div className="border-t border-gray-200 pt-4">
+                            <dt className="font-medium text-gray-900">Design | Develop</dt>
+                            <dd className="mt-2 text-sm text-gray-200">Need a platform for Ecommerce and User Authentication? We can create that!</dd>
+                        </div>
+                        <div className="border-t border-gray-200 pt-4">
+                            <dt className="font-medium text-gray-900">Transparency</dt>
+                            <dd className="mt-2 text-sm text-gray-200">The Future is transparency and our business is built on that.</dd>
+                        </div>
+                    </dl>
                 </div>
-            </div>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-4 xl:pt-6 pb-4 xl:pb-6'>
-                    <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
-                    <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
+                <div className="">
+                    <div className=''> 
                         <Player
-                        src='https://assets9.lottiefiles.com/packages/lf20_toofqbxc.json'
-                        className='xl:pb-2'
+                        src='https://assets3.lottiefiles.com/packages/lf20_d4vi3spp.json'
+                        className=''
                         background='transparent'
                         loop={true}
                         autoplay={true} >
                         </Player>
                     </div>
-                    </div>
-                <div className='inline-grid grid-col'> 
-                    <div className='pt-4 xl:pr-20'>
-                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            You have great <span className='text-lime-400'>ideas</span>
-                        </h2>
-                        <p className='text-center xl:text-end text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            We want you to <span className='text-lime-400'> try them</span>, lots of them
-                        </p>
-                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            Create your own road
-                        </h2>
-                        <p className='text-center xl:text-end  text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            <span className='text-lime-400'> Independent</span> doesn't mean alone
-                        </p>
-                        <h2 className='text-center xl:text-end text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            Your site, Your way
-                        </h2>
-                        <p className='text-center xl:text-end text-2xl xl:text-4xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            We just provide the tools for you to <span className='text-lime-400'> grow</span>
-                        </p>
-                    </div>
                 </div>
             </div>
         </main>
-        <main className='bg-gradient-to-r from-lime-400 via-black to-rose-500'>
-            <div className='flex flex-col items-center justify-center w-full'>
-                <div className='inline-grid grid-col'>
-                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
-                        <span className='text-amber-500'>VIVA</span> Animation
-                    </h1>
-                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
-                        Motion with a purpose
-                    </p>
+
+        <main className="bg-white py-12">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="lg:text-center">
+                    <h2 className="text-lg font-semibold text-gray-900">Built Into Every Design</h2>
+                    <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-fuchsia-500 sm:text-4xl ">VIVA+</p>
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"></p>
                 </div>
-            </div>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='inline-grid grid-col'> 
-                    <div className='pt-4 xl:pl-36'>
-                    <div className='pb-4 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                       Motion brings your ideas to life
-                    </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                       Motion helps drive your message
-                    </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                        Motion helps keep your users engaged
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div className='w-9/12 xl:w-5/12 inline-grid grid-col items-center '> 
-                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
-                    <Player
-                    src='https://assets2.lottiefiles.com/packages/lf20_2t5zvcho.json'
-                    className='xl:pb-2'
-                    background='transparent'
-                    loop={true}
-                    autoplay={true} >
-                    </Player>
-                </div>
-                </div>
-            </div>
-        </main>
-        <main className='bg-gradient-to-r from-fuchsia-400 via-black to-amber-500'>
-            <div className='flex flex-col items-center justify-center w-full'>
-                <div className='inline-grid grid-col'>
-                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
-                        <span className='text-rose-500'>VIVA</span> Pricing
-                    </h1>
-                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
-                        The future is transparency
-                    </p>
-                </div>
-            </div>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='w-9/12 xl:w-4/12 inline-grid grid-col items-center '> 
-                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
-                    <Player
-                    src='https://assets6.lottiefiles.com/private_files/lf30_kga8p5sd.json'
-                    className='xl:pb-2'
-                    background='transparent'
-                    loop={true}
-                    autoplay={true} >
-                    </Player>
-                </div>
-                </div>
-                <div className='inline-grid grid-col'> 
-                    <div className='pt-4 xl:pt-16 xl:pr-36'>
-                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            <span className='text-rose-500'>VIVA</span>+
-                        </h2>
-                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            Built into every design
-                        </p>
-                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            Hello <span className='text-rose-500'>World</span>
-                        </h2>
-                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            Your idea starts here
-                        </p>
-                        <h2 className='text-center xl:text-start text-3xl xl:text-5xl pb-1 xl:pb-2 font-bold tracking-tight text-white'>
-                            Hello <span className='text-rose-500'>Animation</span>
-                        </h2>
-                        <p className='text-center xl:text-start text-2xl xl:text-3xl pb-4 xl:pb-8 font-light tracking-tight text-white'>
-                            Motion with a purpose
-                        </p>
-                    </div>
+                <div className="mt-10">
+                    <dl className="space-y-10 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10 md:space-y-0">
+                        <div className="relative">
+                            <dt>
+                                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-fuchsia-500 hover:bg-fuchsia-300 text-white">
+                                    {/*  <!-- Heroicon name: outline/globe-alt --> */}
+                                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                    </svg>
+                                </div>
+                                <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Search Engine Optimization</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                        <div className="relative">
+                            <dt>
+                                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-slate-400 hover:bg-slate-300 text-white">
+                                    {/* <!-- Heroicon name: outline/scale --> */}
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                    </svg>
+
+                                </div>
+                                <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Responsive Web Design</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                        <div className="relative">
+                            <dt>
+                                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-slate-400 hover:bg-slate-300 text-white">
+                                {/*  <!-- Heroicon name: outline/bolt --> */}
+                                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                                    </svg>
+                                </div>
+                                <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Domain Name | Web Hosting</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
         </main>
-        <main className='bg-gradient-to-l from-cyan-400 via-black to-yellow-300'>
-            <div className='flex flex-col items-center justify-center w-full'>
-                <div className='inline-grid grid-col'>
-                    <h1 className='text-3xl md:text-5xl xl:text-7xl text-center tracking-tight font-light pt-2 xl:pt-4 text-white'>
-                        <span className='text-sky-500'>VIVA</span> Contact
-                    </h1>
-                    <p className='text-lg xl:text-2xl text-white text-center tracking-tight font-light'>
-                        Independent doesn't mean alone
-                    </p>
+
+        <main className="bg-gray-900 py-12">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="lg:text-center">
+                    <h2 className="text-lg font-semibold text-gray-50">Introducing</h2>
+                    <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-teal-500 sm:text-4xl ">Hello World</p>
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"></p>
                 </div>
-            </div>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='inline-grid grid-col'> 
-                    <div className='pt-6 xl:pl-36'>
-                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                       Give us a phone call
-                    </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                        Send us an email
-                    </div>
-                    </div>
-                    <div className='pb-3 xl:pb-6 p-2 text-center xl:text-end shadow-sm shadow-current bg-transparent text-lg md:text-2xl font-medium lg:p-5
-                                transform hover:translate-y-4 transition duration-300 ease-in-out'>
-                    <div className='text-white hover:text-rose-500 '>
-                        Schedule a remote meetup
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div className='w-11/12 xl:w-6/12 inline-grid grid-col items-center '> 
-                <div className='overflow-hidden pt-4 xl:p-12 xl:px-20'>
-                    <Player
-                    src='https://assets5.lottiefiles.com/private_files/lf30_qxakfuim.json'
-                    className='xl:pb-2'
-                    background='transparent'
-                    loop={true}
-                    autoplay={true} >
-                    </Player>
-                </div>
+                <div className="mt-10">
+                    <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0 md:justify-items-evenly">
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-white">Your idea brought to life</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-white">Motion with a purpose</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
         </main>
-        <main className="grid grid-col">
-            <div className="bg-black px-4 py-6">
-                <h1 className="text-2xl md:text-4xl text-center bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-                    The Future is Transparency
-                </h1>
+        <main className="bg-slate-50 py-12">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="lg:text-center">
+                    <h2 className="text-lg font-semibold text-gray-900">Introducing</h2>
+                    <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-orange-600 sm:text-4xl ">Hello CMS</p>
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"></p>
+                </div>
+                <div className="mt-10">
+                    <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0 md:justify-items-evenly">
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10 border-black">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-orange-600">Content Management System</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10 border-gray-900">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-orange-600">E-Commerce Platform</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                    </dl>
+                </div>
             </div>
         </main>
-        <main className='bg-rose-400'>
-            <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-4'>
-                <div className='inline-grid grid-col'> 
-                    <h1 className="pt-4 md:pt-8 xl:pt-20 text-3xl md:text-6xl xl:text-7xl text-center tracking-tight font-medium text-gray-900 ">
-                        Share your work. 
-                    </h1>
-                    <h1 className="pt-4 md:pt-8 xl:pt-20 text-3xl md:text-6xl xl:text-7xl text-center tracking-tight font-medium text-gray-900 ">
-                        Someone out there needs it.
-                    </h1>
-                    <div className='flex pt-6 xl:pb-20 xl:pt-20 justify-center'>
-                    <div className='text-2xl md:text-3xl xl:text-4xl font-medium pb-3 xl:pb-6 p-2 xl:p-7 px-3 md:px-6 xl:px-9 text-center shadow-md lg:shadow-lg shadow-indigo-300 border-2 border-white bg-black 
-                                    transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
-                        <Link to="/contact" className='text-rose-400 hover:text-gray-900 '>
-                            Let's Get Started
-                        </Link>
+        <main className="bg-gray-900 py-12 lg:border-b-2 lg:border-white">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="lg:text-center">
+                    <h2 className="text-lg font-semibold text-gray-50">Introducing</h2>
+                    <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-rose-500 sm:text-4xl ">VIVA PLUS</p>
+                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"></p>
+                </div>
+                <div className="mt-10">
+                    <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0 md:justify-items-evenly">
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-white">Monthly Subscription</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                        <div className="relative lg:max-w-lg rounded-xl border-2 pt-4 pb-4 md:pt-10 md:pb-10">
+                            <dt>
+                                <p className="ml-16 text-lg font-medium leading-6 text-white">Unlimited Revisions</p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </main>
+
+        <main className="bg-white lg:border-b-2 lg:border-gray-900">
+            <div className="mx-auto md:max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-evenly lg:py-16 lg:px-8">
+                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <span className="">Share Your Work </span>
+                    <span className="block text-rose-500">Someone Out there needs it</span>
+                </h2>
+                <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                    <div className="inline-flex rounded-md shadow">
+                        <a href="/" className="inline-flex items-center justify-center rounded-md border border-transparent bg-slate-900 px-5 py-3 text-base font-medium text-white hover:bg-slate-700">Get started</a>
                     </div>
+                    <div className="ml-3 inline-flex rounded-md shadow">
+                        <a href="/" className="inline-flex items-center justify-center rounded-md border border-slate-900 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-200">Learn more</a>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer className='bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5'>
-            <div className='container flex flex-wrap justify-center xl:justify-between items-center mx-auto'>
-                <h1 className='p-4 text-4xl md:text-5xl xl:text-6xl font-medium tracking-tight text-center lg:text-start'>
-                    <span className='text-rose-400'>VIVA</span>
-                    <span className='block text-white'>Web Design</span>
-                </h1>
-            </div>
-            <div className='flex flex-col pt-4 md:pt-6 xl:pt-12'>
-                <h2 className='text-4xl md:text-6xl xl:text-7xl items-center text-center font-medium tracking-tight pb-8 xl:pb-10'>
-                    <span className="block text-teal-300 ">Ready to VIVA</span>
-                    <span className="block text-white lg:pt-2">Let's get started today.</span>
-                </h2>
-            </div>
-            <div className='flex justify-center pb-20'>
-                <div className='text-2xl md:text-3xl xl:text-4xl font-medium pb-3 xl:pb-6 p-2 xl:p-7 px-3 md:px-6 xl:px-9 text-center shadow-md lg:shadow-lg shadow-indigo-300 border-2 border-white bg-black 
-                                transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
-                    <Link to="/contact" className='text-rose-400 hover:text-gray-900'>
-                        Contact Us
-                    </Link>
+        <main className="bg-yellow-400 border-b-2 border-gray-900">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:justify-items-center">
+                <div className="">
+                    <div className=''> 
+                        <Player
+                        src='https://assets9.lottiefiles.com/packages/lf20_u6jkwxkj.json'
+                        className=''
+                        background='transparent'
+                        loop={true}
+                        autoplay={true} >
+                        </Player>
+                    </div>
+                </div> 
+                <div>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-center">
+                        The Future is <span className='text-emerald-600'>Transparency</span>
+                    </h2>
+                    <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                        <div className="border-t border-emerald-500 pt-4">
+                            <dt className="font-black">Design:</dt>
+                            <dd className="mt-2 lg:mt-0 text-emerald-600 font-black">Hello World</dd>
+                        </div>
+                        <div className="md:border-t md:border-emerald-500 pt-4">
+                            <dt className="font-black text-gray-900">One-Time Payment: $1,199</dt>
+                            <dd className="mt-2 text-gray-900">We have the tools to help you build the site you want, and we'll help you learn how to use them.</dd>
+                       </div>
+                        <div className="border-t border-emerald-500 pt-4">
+                            <dt className="font-black">Design:</dt>
+                            <dd className="mt-2 lg:mt-0 text-emerald-600 font-black">Hello CMS</dd>
+                        </div>
+                        <div className="md:border-t md:border-emerald-500 pt-4">
+                            <dt className="font-black text-gray-900">One-Time Payment: $2,499</dt>
+                            <dd className="mt-2 text-gray-900">We have the tools to help you build the site you want, and we'll help you learn how to use them.</dd>
+                       </div>
+                        <div className="border-t border-emerald-500 pt-4">
+                            <dt className="font-black">Subscription:</dt>
+                            <dd className="mt-2 lg:mt-0 text-emerald-600 font-black">VIVA PLUS</dd>
+                        </div>
+                        <div className="md:border-t md:border-emerald-500 pt-4">
+                            <dt className="font-black text-gray-900">Annual Subscription: $199</dt>
+                            <dd className="mt-2 text-gray-900">We have the tools to help you build the site you want, and we'll help you learn how to use them.</dd>
+                       </div>
+                    </dl>
                 </div>
             </div>
-            <hr className='border-white'/>
-            <div className='grid grid-cols-2'>
-                    <ul className='items-center justify-center p-4 pt-4
-                          md:space-x-2 md:text-lg md:font-medium md:border-0 '>
-                        <h3 className='text-white '>&copy; 2022 Viva Web Design</h3>
-                    </ul>
-                    <ul className='inline-flex items-center justify-end space-x-2 xl:space-x-4'>
-                    <IconContext.Provider 
-                        value={{ className: 'text-rose-400 hover:text-yellow-300 h-6 w-8' }}>
-                        <a href='https://www.linkedin.com/company/vivawebdesign/'>
-                            <ImLinkedin />
-                        </a>
-                        <a href='https://www.instagram.com/vivawebdesign_/'>
-                            <ImInstagram />
-                        </a>
-                        <a href='https://www.instagram.com/vivawebdesign_/'>
-                            <ImFacebook2 />
-                        </a>
-                        <a href='https://www.instagram.com/vivawebdesign_/'>
-                            <ImTwitter />
-                        </a>
-                        <a href='https://www.instagram.com/vivawebdesign_/'>
-                            <ImYoutube />
-                        </a>
-                    </IconContext.Provider>
-                    </ul>
-                </div>     
-        </footer>
+        </main>
+
+        <main className="bg-white lg:bg-heroPattern lg:p-10 lg:border-b-2 lg:border-white">
+            <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:flex-col lg:items-center lg:justify-center lg:py-16 lg:px-8 lg:border-2 lg:border-gray-900 lg:rounded-xl lg:bg-white lg:max-w-md lg:shadow-md">
+                <h2 className="text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl lg:text-center">
+                    Questions?<span className="block text-2xl text-gray-900">Send us an email</span>
+                </h2>
+                <div className="flex mt-8 lg:mt-4 lg:flex-shrink-0">
+                    <div className="inline-flex rounded-md shadow">
+                        <a href="/" className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Email</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+       
+        <main className="bg-slate-900">
+            <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-evenly lg:py-16 lg:px-8">
+                    <div className="">
+                        <Link to='/'>
+                            <img
+                            className='md:w-52'
+                            src="./viva.png"
+                            alt="logo"
+                            />
+                        </Link>
+                    </div>
+                <h2 className="text-3xl font-bold tracking-tight text-yellow-400 sm:text-4xl">
+                    <span className="block">Ready to VIVA?</span>
+                    <span className="block text-white">Start sharing your work today.</span>
+                </h2>
+                
+                <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                    <div className="inline-flex rounded-md shadow">
+                        <a href="/" className="inline-flex items-center justify-center rounded-md border border-transparent bg-yellow-400 px-5 py-3 text-base font-medium text-gray-900 hover:bg-slate-200">Get started</a>
+                    </div>
+                    <div className="ml-3 inline-flex rounded-md shadow">
+                        <a href="/" className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-slate-200">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <Footer />
         </>
     );
 }
