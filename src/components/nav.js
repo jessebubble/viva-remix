@@ -41,20 +41,20 @@ export default function Nav() {
             </div>
         </main>
 
-        <nav className="bg-slate-900 border-b-2 border-yellow-200 pb-4 md:pb-0">
+        <nav className="bg-slate-900 pb-4 md:pb-0 md:border-b md:border-white">
             <div className="w-full">
                 <div className='flex items-center justify-center md:justify-evenly'>
-                    <div className="w-1/2 ">
+                    <div className="">
                         <Link to='/'>
                             <img
-                            className='md:w-44 -mt-10 -mb-10 md:-mb-8 md:-mt-8'
+                            className='w-60 md:w-40 -mt-10 -mb-10 md:-mb-8 md:-mt-8'
                             src="./viva.png"
                             alt="logo"
                             />
                         </Link>
                     </div>
                     <div className="hidden md:block">
-                        <div className="flex flex-col md:flex-row items-center justify-center md:justify-evenly tracking-tight antialiased gap-4">
+                        <div className="flex flex-col md:flex-row items-center justify-center tracking-tight antialiased gap-4 md:gap-6 lg:gap-8">
                             <Link to="/design" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                                 Design
                             </Link>
@@ -69,9 +69,14 @@ export default function Nav() {
                             </Link>
                         </div>
                     </div>
+                    <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
+                        <span class="inline-flex rounded-md shadow">
+                            <a href="/pricing" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">Get started</a>
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div className="flex md:hidden items-center justify-center">
+            <div className="flex md:hidden items-center justify-center mb-4 md:mb-0">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     type="button"
