@@ -1,7 +1,7 @@
 export default function Card() {
     return (
 
-        <main className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+        <main className="relative bg-slate-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-white sm:h-2/3"></div>
         </div>
@@ -29,7 +29,7 @@ export default function Card() {
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Viva Portraits</p>
                     <p className="mt-3 text-base text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+                      Team of local creatives who are passionate about capturing your moments and bringing them to life. Join Viva Portraits for their monthly themed events: Studio Days | City Days
                     </p>
                   </a>
                 </div>
@@ -47,11 +47,13 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Link</a>
+                    <a href="/future" className="hover:underline">Link</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <a href="/future" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Buruato Landscaping</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Mr. B is a local San Antonio landscaper who specializes in lawn care, tree trimming, and more. He's been in the business for over 10 years and has a passion for helping his community.
+                    </p>
                   </a>
                 </div>
               </div>
@@ -68,11 +70,13 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Link</a>
+                    <a href="/future" className="hover:underline">Link</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <a href="/future" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Ponce Remodeling</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Ponce Remodeling specializes in interior and exterior remodeling. Commercial and Residential services are available to the San Antonio community.
+                    </p>
                   </a>
                 </div>
               </div>
@@ -89,16 +93,17 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Link</a>
+                    <a href="/future" className="hover:underline">Link</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <a href="/future" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.
+                    </p>
                   </a>
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -110,16 +115,17 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Link</a>
+                    <a href="/future" className="hover:underline">Link</a>
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Crafty Wreaths</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Crafty Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Crafty Wreaths can create the perfect wreath for your home.
+                    </p>
                   </a>
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -131,11 +137,13 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Link</a>
+                    <a href="/future" className="hover:underline">Link</a>
                   </p>
                   <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">TBA Music Page</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="text-xl font-semibold text-gray-900">Local Music Artist</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Local music group currently working on their debut album set for release early 2023. Website will launch with an e-commerce store for clothing, accessories and record sales. 
+                    </p>
                   </a>
                 </div>
               </div>
