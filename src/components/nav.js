@@ -71,7 +71,7 @@ export default function Nav() {
                     </div>
                     <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
                         <span class="inline-flex rounded-md shadow">
-                            <a href="/pricing" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">Get started</a>
+                            <a href="/contact" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">Get started</a>
                         </span>
                     </div>
                 </div>

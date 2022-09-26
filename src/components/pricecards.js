@@ -49,7 +49,7 @@ export default function Price() {
                                                             </svg>
                                                         </div>
                                                         <p className="ml-3 text-base font-medium text-gray-500">
-                                                            Pariatur quod similique
+                                                            Your brand is born
                                                         </p>
                                                     </li>
 
@@ -60,7 +60,7 @@ export default function Price() {
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                             </svg>
                                                         </div>
-                                                        <p className="ml-3 text-base font-medium text-gray-500">Sapiente libero doloribus</p>
+                                                        <p className="ml-3 text-base font-medium text-gray-500">Responsive Web Design</p>
                                                     </li>
                                                     <li className="flex items-start">
                                                         <div className="flex-shrink-0">
@@ -69,7 +69,7 @@ export default function Price() {
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                             </svg>
                                                         </div>
-                                                        <p className="ml-3 text-base font-medium text-gray-500">Vel ipsa esse repudiandae</p>
+                                                        <p className="ml-3 text-base font-medium text-gray-500">Search Engine Optimization</p>
                                                     </li>
                                                 </div>
                                                 <div className="mt-8">
@@ -97,7 +97,7 @@ export default function Price() {
                                                 <div className="mt-4 flex items-center justify-center">
                                                     <span className="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
                                                         <span className="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
-                                                        <span className="font-bold">249</span>
+                                                        <span className="font-bold">499</span>
                                                     </span>
                                                     <span className="text-2xl font-medium text-gray-500">/year</span>
                                                 </div>
@@ -112,7 +112,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Quia rem est sed impedit magnam</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Unlimited Revisions</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                     <div className="flex-shrink-0">
@@ -121,7 +121,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Dolorem vero ratione voluptates</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Access to seasonal design content</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                     <div className="flex-shrink-0">
@@ -130,7 +130,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Qui sed ab doloribus voluptatem dolore</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Up to three Logo Designs</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                     <div className="flex-shrink-0">
@@ -139,7 +139,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Laborum commodi molestiae id et fugiat</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Domain Name with custom email address</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                     <div className="flex-shrink-0">
@@ -148,7 +148,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Nam ut ipsa nesciunt culpa modi dolor</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Web Hosting optimized for performance</p>
                                                 </li>
                                             </div>
                                             <div className="mt-10">
@@ -185,7 +185,7 @@ export default function Price() {
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Pariatur quod similique</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">Content management System</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                 <div className="flex-shrink-0">
@@ -194,7 +194,7 @@ export default function Price() {
                                                     <   path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                     </svg>
                                                 </div>
-                                                <p className="ml-3 text-base font-medium text-gray-500">Sapiente libero doloribus</p>
+                                                <p className="ml-3 text-base font-medium text-gray-500">User Authentication</p>
                                                 </li>
                                                 <li className="flex items-start">
                                                     <div className="flex-shrink-0">
@@ -203,7 +203,7 @@ export default function Price() {
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                                         </svg>
                                                     </div>
-                                                    <p className="ml-3 text-base font-medium text-gray-500">Vel ipsa esse repudiandae</p>
+                                                    <p className="ml-3 text-base font-medium text-gray-500">E-Commerce Store</p>
                                                 </li>
                                             </div>
                                             <div className="mt-8">
@@ -239,8 +239,8 @@ export default function Price() {
                         </div>
                         <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                             <img 
-                                className="w-24 bg-lime-400 rounded-xl" 
-                                src="./pr.png" 
+                                className="w-24 bg-slate-400 rounded-xl" 
+                                src="./ponce.png" 
                                 alt="logo"
                             />
                         </div>
