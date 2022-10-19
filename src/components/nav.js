@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { ReactComponent as Logo} from '../vivawebdesign.svg'
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
@@ -6,51 +7,12 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-        <main className="bg-indigo-600">
-            <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8 flex items-center justify-evenly">
-                <div className="flex flex-wrap items-center">
-                    <div className="flex flex-1 items-center justify-center">
-                        <span className="flex rounded-lg bg-indigo-800 p-2">
-                        {/* <!-- Heroicon name: outline/megaphone --> */}
-                            <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
-                            </svg>
-                        </span>
-                        <p className="ml-3 truncate font-medium text-white">
-                            <span className="md:hidden">Viva Web Design + San Antonio!</span>
-                            <span className="hidden md:inline">Big news! San Antonio welcomes local creative agency VIVA Web Design 10/2022</span>
-                        </p>
-                    </div>
-                    <div className="pl-4 order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
-                        <Link 
-                            to="/" 
-                            className=" flex items-center justify-center rounded-md border border-transparent bg-white p-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50">
-                                Learn More
-                        </Link>
-                    </div>
-                    <div className="order-2 flex-shrink-0 sm:order-3">
-                        <button type="button" className="flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white">
-                            <span className="sr-only">Dismiss</span>
-                            {/* <!-- Heroicon name: outline/x-mark --> */}
-                            <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <nav className="bg-slate-900 pb-4 md:pb-0 md:border-b md:border-white">
+        <nav className="bg-gradient-to-tr from-rose-900 via-slate-900 to-yellow-700 pb-4 md:pb-0 md:-mt-10">
             <div className="w-full">
-                <div className='flex items-center justify-center md:justify-evenly'>
+                <div className='flex md:flex-col items-center justify-center md:justify-evenly'>
                     <div className="">
-                        <Link to='/'>
-                            <img
-                            className='w-60 md:w-40 -mt-10 -mb-10 md:-mb-8 md:-mt-8'
-                            src="./viva.png"
-                            alt="logo"
-                            />
+                        <Link to="/">
+                            <Logo className='w-80 md:w-72 h-full'/>
                         </Link>
                     </div>
                     <div className="hidden md:block">
@@ -69,9 +31,11 @@ export default function Nav() {
                             </Link>
                         </div>
                     </div>
-                    <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end">
+                    <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end md:mt-6 md:mb-6">
                         <span class="inline-flex rounded-md shadow">
-                            <a href="/contact" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">Get started</a>
+                            <a href="/contact" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">
+                                Get started
+                            </a>
                         </span>
                     </div>
                 </div>

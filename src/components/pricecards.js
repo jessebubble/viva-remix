@@ -232,22 +232,22 @@ export default function Price() {
                     <div className="-mt-4 md:-mt-8 -ml-8 flex flex-wrap justify-evenly lg:-ml-4">
                         <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                             <img 
-                                className="w-24 bg-gray-900 rounded-xl" 
+                                className="w-24 bg-black rounded-xl" 
                                 src="./bl.png" 
                                 alt="logo"
                             />
                         </div>
                         <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                             <img 
-                                className="w-24 bg-slate-400 rounded-xl" 
-                                src="./ponce.png" 
+                                className="w-24 bg-black rounded-xl" 
+                                src="./vivaportraits.png" 
                                 alt="logo"
                             />
                         </div>
                         <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                             <img 
-                                className="w-24 bg-indigo-800 rounded-xl" 
-                                src="./vplogo.png" 
+                                className="w-24 bg-black rounded-xl" 
+                                src="./vivawreaths.png" 
                                 alt="logo"
                             />
                         </div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { ReactComponent as Logo} from '../vivawebdesign.svg'
 import { FiInstagram, FiTwitter, FiLinkedin, FiMail } from "react-icons/fi";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -62,13 +63,9 @@ export default function Form() {
                                     </dd>
                             </div>
                         </dl>
-                        <div className="">
+                        <div className="mb-6 md:-mb-24">
                             <Link to='/'>
-                                <img
-                                className='md:w-52'
-                                src="./viva.png"
-                                alt="logo"
-                                />
+                                <Logo className='w-40 md:w-44 lg:w-36 h-full'/>
                             </Link>
                         </div>
                     </div>

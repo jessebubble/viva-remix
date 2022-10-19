@@ -17,7 +17,7 @@ export default function Card() {
               <div className="flex-shrink-0">
                 <img 
                   className="h-48 w-full object-cover" 
-                  src="./vplogo.png" 
+                  src="./vivaportraits.png" 
                   alt=""
                 />
               </div>
@@ -35,7 +35,50 @@ export default function Card() {
                 </div>
               </div>
             </div>
-  
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img 
+                  className="h-48 w-full object-cover" 
+                  src="./vivawreaths.png" 
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <a href="https://www.vivawreaths.com/" className="hover:underline">Link</a>
+                  </p>
+                  <a href="/" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">Viva Wreaths</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Viva Wreaths are a fun, unique and beautiful way to decorate your home or business. Made locally in San Antonio, we offer a variety of wreaths to suit your mood, style and love for the community.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img 
+                  className="h-48 w-full object-cover" 
+                  src="alamo.png" 
+                  alt=""
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <a href="/future" className="hover:underline">Link</a>
+                  </p>
+                  <a href="/future" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -76,51 +119,6 @@ export default function Card() {
                     <p className="text-xl font-semibold text-gray-900">Ponce Remodeling</p>
                     <p className="mt-3 text-base text-gray-500">
                       Ponce Remodeling specializes in interior and exterior remodeling. Commercial and Residential services are available to the San Antonio community.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover" 
-                  src="alamo.png" 
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    <a href="/future" className="hover:underline">Link</a>
-                  </p>
-                  <a href="/future" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
-                    <p className="mt-3 text-base text-gray-500">
-                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover" 
-                  src="./crafty.png" 
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    <a href="/future" className="hover:underline">Link</a>
-                  </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Crafty Wreaths</p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Crafty Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Crafty Wreaths can create the perfect wreath for your home.
                     </p>
                   </a>
                 </div>

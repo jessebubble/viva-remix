@@ -4,15 +4,15 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Hero() {
   return (
     <>
-    <main className='bg-slate-900 lg:pt-2 lg:pb-2'>
+    <main className='bg-slate-900 md:border-t md:border-rose-200 '>
         <div className="flex flex-col lg:flex-row items-center justify-evenly p-8 md:p-10 lg:p-16">
             <div className="">
                 <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
-                    More Than Just A<span className="block text-cyan-400">Creative Agency </span>
+                    More Than Just A<span className="block text-rose-400">Creative Agency </span>
                 </h1>
                 <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
                     <span className='lg:block'>We're a team of independent creatives, designers and developers who are passionate about helping our community continue to grow.</span> 
-                    <span className="text-cyan-400"> Hablamos español.</span>                     
+                    <span className="text-rose-400"> Hablamos español.</span>                     
                 </p>
                 <div className="mt-5 flex items-center justify-start">
                     <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-lg md:text-xl rounded-xl font-light hover:border-cyan-400'>
