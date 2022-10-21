@@ -7,37 +7,37 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-        <nav className="bg-gradient-to-tr from-rose-900 via-slate-900 to-yellow-700 pb-4 md:pb-0 md:-mt-10">
+        <nav className="bg-slate-900 pb-4 md:pb-2 md:-mt-2">
             <div className="w-full">
-                <div className='flex md:flex-col items-center justify-center md:justify-evenly'>
+                <div className='flex flex-col md:flex-row items-center justify-center md:justify-around'>
                     <div className="">
                         <Link to="/">
-                            <Logo className='w-80 md:w-72 h-full'/>
+                            <Logo className='w-56 md:w-44 lg:w-36 h-full'/>
                         </Link>
                     </div>
                     <div className="hidden md:block">
                         <div className="flex flex-col md:flex-row items-center justify-center tracking-tight antialiased gap-4 md:gap-6 lg:gap-8">
-                            <Link to="/design" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                            <Link to="/design" className="hover:text-indigo-600 text-white text-md font-medium">
                                 Design
                             </Link>
-                            <Link to="/community" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                            <Link to="/community" className="hover:text-indigo-600 text-white text-md font-medium">
                                 Community
                             </Link>
-                            <Link to="/pricing" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                            <Link to="/pricing" className="hover:text-indigo-600 text-white text-md font-medium">
                                 Pricing
                             </Link>               
-                            <Link to="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                            <Link to="/contact" className="hover:text-indigo-600 text-white text-md font-medium">
                                 Contact
                             </Link>
                         </div>
                     </div>
-                    <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end md:mt-6 md:mb-6">
+                   {/*  <div class="hidden md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end md:mt-6 md:mb-6">
                         <span class="inline-flex rounded-md shadow">
-                            <a href="/contact" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-600 hover:bg-gray-200">
+                            <a href="/contact" class="inline-flex items-center rounded-md border border-transparent bg-white px-4 py-2 text-md font-medium text-fuchsia-600 hover:bg-gray-200">
                                 Get started
                             </a>
                         </span>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="flex md:hidden items-center justify-center mb-4 md:mb-0">

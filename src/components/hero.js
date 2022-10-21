@@ -4,7 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Hero() {
   return (
     <>
-    <main className='bg-slate-900 md:border-t md:border-rose-200 '>
+    <main className='bg-slate-900 lg:pb-10 lg:pt-10'>
         <div className="flex flex-col lg:flex-row items-center justify-evenly p-8 md:p-10 lg:p-16">
             <div className="">
                 <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
