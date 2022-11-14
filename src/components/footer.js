@@ -1,47 +1,43 @@
 import { FiInstagram, FiFacebook, FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
 import { IconContext } from 'react-icons';
-import { Player } from '@lottiefiles/react-lottie-player';
 
 
 export default function Footer() {
     return (
-      <>
-      <div className='bg-slate-900 border-t border-slate-100 p-4 md:p-0'>
-        <div className='flex items-center justify-center md:justify-around flex-col md:flex-row'>
-          <span className='text-sm tracking-tighter text-slate-500'>
-            © 2022 vivawebdesign.dev
-          </span>
-          <div className=''> 
-            <Player
-            src='https://assets7.lottiefiles.com/packages/lf20_kovKmF.json'
-            className='md:w-20 w-16'
-            background='transparent'
-            loop={true}
-            autoplay={true} >
-            </Player>
-        </div>
-          <div className='flex space-x-2'>
-            <IconContext.Provider 
-              value={{ className: 'text-slate-300 hover:text-indigo-600 h-6 w-8' }}>
-                <a href='https://github.com/jessebubble' className=''>
-                  <FiGithub />
-                </a>
-                <a href='https://twitter.com/jessebubble' className=''>
-                  <FiLinkedin />
-                </a>
-                <a href='https://www.instagram.com/jessebubble' className=''>
+      <footer class="bg-white">
+        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+          <div class="flex justify-center space-x-6 md:order-2">
+            <IconContext.Provider value={{ className: 'hover:text-indigo-500 h-6 w-6' }}>
+              <a href="https://www.instagram.com/jessebubble" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Instagram</span>
                   <FiInstagram />
-                </a>
-                <a href='https://www.facebook.com/jessebubble' className=''>
-                  <FiFacebook />
-                </a>
-                <a href='https://www.linkedin.com/in/jessebubble' className=''>
-                  <FiTwitter />
-                </a>
+              </a>
+
+            <a href="https://www.facebook.com/jessebubble" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">Facebook</span>
+                <FiFacebook />
+            </a>
+
+            <a href="https://twitter.com/jessebubble" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">Twitter</span>
+                <FiTwitter />
+            </a>
+
+            <a href="https://www.linkedin.com/in/jessebubble" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">Linkedin</span>
+                <FiLinkedin />
+            </a>
+
+            <a href="https://github.com/jessebubble" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">Github</span>
+                <FiGithub />
+            </a>
             </IconContext.Provider>
           </div>
+          <div class="mt-8 md:order-1 md:mt-0">
+            <p class="text-center text-base text-gray-400">&copy; 2022 Viva Web Design</p>
+          </div>
         </div>
-      </div>
-      </>
+      </footer>
     );
 }

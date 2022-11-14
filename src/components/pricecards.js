@@ -233,21 +233,21 @@ export default function Price() {
                         <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                             <img 
                                 className="w-24 bg-black rounded-xl" 
-                                src="./bl.png" 
-                                alt="logo"
-                            />
-                        </div>
-                        <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
-                            <img 
-                                className="w-24 bg-black rounded-xl" 
-                                src="./vivaportraits.png" 
-                                alt="logo"
-                            />
-                        </div>
-                        <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
-                            <img 
-                                className="w-24 bg-black rounded-xl" 
                                 src="./vivawreaths.png" 
+                                alt="logo"
+                            />
+                        </div>
+                        <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                            <img 
+                                className="w-24 bg-black rounded-xl" 
+                                src="./yung.png" 
+                                alt="logo"
+                            />
+                        </div>
+                        <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
+                            <img 
+                                className="w-24 bg-black rounded-xl" 
+                                src="./alamo.png" 
                                 alt="logo"
                             />
                         </div>

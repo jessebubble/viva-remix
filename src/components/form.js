@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-import { ReactComponent as Logo} from '../vivawebdesign.svg'
 import { FiInstagram, FiTwitter, FiLinkedin, FiMail } from "react-icons/fi";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -27,47 +25,43 @@ export default function Form() {
             <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
                 <div className="bg-slate-900 rounded-3xl py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div className="mx-auto max-w-lg">
-                        <h2 className="text-2xl font-bold tracking-tight text-slate-400 sm:text-3xl">
-                            Join the VIVA <span className='text-white'>Community</span>
+                        <h2 className="text-2xl font-bold tracking-tight text-indigo-500 sm:text-3xl">
+                            Let's Collaborate
                         </h2>
-                        <p className="mt-3 text-lg leading-6 text-slate-400">
-                            Have an idea, Let's collaborate and bring your idea to life! Send us a message and our team will get back to you as soon as possible.
+                        <p className="mt-3 text-lg leading-6 text-slate-200">
+                            Have an idea? You can send us an email, fill out this form or find us on social media.  
+                            Our team will get back to you as soon as possible.
                         </p>
-                        <dl className="mt-8 text-base text-slate-400">
+                        <dl className="mt-8 text-base text-slate-200">
                             <div className="mt-6">
                                 <dt className="sr-only">Email</dt>
                                 <dd className="flex">
-                                    <FiMail className='h-6 w-6' />
+                                    <FiMail className='h-6 w-6 text-indigo-500' />
                                     <span className="ml-3">jesse@vivawebdesign.dev</span>
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                 <dd className="flex">
-                                    <FiInstagram className='h-6 w-6' />
+                                    <FiInstagram className='h-6 w-6 text-indigo-500' />
                                     <span className="ml-3">@vivawebdesign</span>
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                     <dd className="flex">
-                                        <FiTwitter className='h-6 w-6' />
+                                        <FiTwitter className='h-6 w-6 text-indigo-500' />
                                         <span className="ml-3">@vivawebdesign</span>
                                     </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                     <dd className="flex">
-                                        <FiLinkedin className='h-6 w-6' />
+                                        <FiLinkedin className='h-6 w-6 text-indigo-500' />
                                         <span className="ml-3">@vivawebdesign</span>
                                     </dd>
                             </div>
                         </dl>
-                        <div className="mb-6 md:-mb-24">
-                            <Link to='/'>
-                                <Logo className='w-40 md:w-44 lg:w-36 h-full'/>
-                            </Link>
-                        </div>
                     </div>
                 </div>
                 <div className="bg-slate-900 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 -mt-36 md:-mt-0">
@@ -108,7 +102,7 @@ export default function Form() {
                                 <textarea id="message" name="message" rows="4" className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Message"></textarea>
                             </div>
                             <div>
-                                <button type="submit" className="inline-flex justify-center rounded-md border border-transparent bg-slate-500 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+                                <button type="submit" className="inline-flex justify-center rounded-md border border-transparent bg-indigo-500 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -151,7 +145,6 @@ export default function Form() {
                 </div>
             </div>
         </main>
-
         </>
     )
 }
