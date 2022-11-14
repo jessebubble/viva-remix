@@ -64,7 +64,7 @@ export default function Form() {
                         </dl>
                     </div>
                 </div>
-                <div className="bg-slate-900 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 -mt-36 md:-mt-0">
+                <div className="bg-slate-900 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 -mt-20 md:-mt-24 lg:-mt-0">
                     <div className="mx-auto max-w-lg lg:max-w-none">
                         <form ref={form} onSubmit={sendEmail} action="#" method="POST" className="grid grid-cols-1 gap-y-6">
                             <div>
