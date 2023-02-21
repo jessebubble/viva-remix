@@ -8,7 +8,7 @@ export default function ServiceBlock() {
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
                 <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Why we build</h2>
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The web in blocks.</p>
+                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Your project in blocks.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Restructuring your website pages into several reusable blocks 
                   allows us to build fast, SEO-optimized, user-friendly, and easily manageable websites.

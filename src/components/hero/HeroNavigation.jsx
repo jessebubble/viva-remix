@@ -17,7 +17,7 @@ export default function HeroNavigation() {
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Viva Web Design</span>
-                        <img className="max-h-36 md:max-h-60 lg:max-h-32 w-full object-contain object-left" src={logoDark} alt="Viva Web Design" />
+                        <img className="max-h-40 md:max-h-60 lg:max-h-36 w-full object-contain object-left" src={logoDark} alt="Viva Web Design" />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -47,7 +47,7 @@ export default function HeroNavigation() {
                     <div className="flex items-center justify-between">
                         <Link to="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Viva Web Design</span>
-                            <img className="max-h-36 md:max-h-60 lg:max-h-32 w-full object-contain object-left" src={logoLight} alt="Viva Web Design" />
+                            <img className="max-h-40 md:max-h-60 lg:max-h-36 w-full object-contain object-left" src={logoLight} alt="Viva Web Design" />
                         </Link>
                         <button
                             type="button"

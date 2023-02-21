@@ -15,9 +15,9 @@ export default function LandingPage() {
             <ServiceViva />
             <ServiceWorkflow />
             <ServiceBlock />
-            <FAQs />
             <CommunityCTA />
             <ContactForm />
+            <FAQs />
             <Footer />
         </>
     )
