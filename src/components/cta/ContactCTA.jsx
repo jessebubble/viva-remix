@@ -1,6 +1,6 @@
 import { Player } from '@lottiefiles/react-lottie-player';
 
-export default function StoreCTA() {
+export default function ContactCTA() {
 
     return (
         <div className="bg-white">
@@ -17,17 +17,17 @@ export default function StoreCTA() {
                     </svg>
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Welcome to our <span className="text-logo-pink">store</span>
+                            <span className="text-logo-pink">Contact us</span>
                             <br />
-                            Shop our local collection.
+                            Let's create an online experience together.
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Our stunning online experiences are brought to life with an exclusive line of apparel created by the viva web design team. 
+                            Our stunning online experiences are brought to life by the design and development team at viva web design.
                         </p>
                     </div>
-                    <div className="relative mt-6 h-80">
+                    <div className="relative mt-16 h-80">
                         <Player
-                            src="https://assets3.lottiefiles.com/packages/lf20_WaQ8yMJuKt.json"
+                            src="https://assets3.lottiefiles.com/packages/lf20_Uzc4GaHaBw.json"
                             className='md:w-60 lg:w-96'
                             background='transparent'
                             loop={true}

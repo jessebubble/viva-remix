@@ -21,7 +21,7 @@ export default function HeroBody() {
                 <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight text-white sm:text-6xl">
                     More Than Just A<span className="block text-logo-pink">Creative Agency </span>
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-500">
+                <p className="mt-6 text-lg leading-8 text-gray-500 lg:max-w-xl">
                     <span className='lg:block'>We're a team of independent creatives, designers and developers who are passionate about helping our community continue to grow.</span> 
                     <span className="block text-logo-pink"> Hablamos español.</span>  
                 </p>
