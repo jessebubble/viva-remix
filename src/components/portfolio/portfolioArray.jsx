@@ -21,10 +21,10 @@ export const portfolioArray = [
         webUrl: '#',
     },
     {
-        name: 'Loteria JS Application',
+        name: 'Loteria web application',
         role: 'Web application',
-        imageUrl: 'https://cdn.sanity.io/images/etrj839y/production/1dc77f5976823c4738a23503003794f3da51c0fb-1024x768.svg',
-        bio: 'Company was looking for a fun creative way to bring life to the companies 404 error page. Used vanilla JS, CSS and DOM manipulation to create this custom interactive card game.',
+        imageUrl: 'https://cdn.sanity.io/images/etrj839y/production/a17e7f9406d30ee679df66dc747f34af009f4680-1024x768.svg',
+        bio: 'Company was looking for a fun creative way to bring life to the companies 404 error page. Used vanilla JS, CSS and DOM manipulation to create this custom interactive card game based on the classic art of Don Clemente.',
         webUrl: '#',
     },
     // More people...

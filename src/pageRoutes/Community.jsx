@@ -8,8 +8,8 @@ export default function Community() {
     return (
         <div className="relative isolate bg-slate-900">            
             <HeroNavigation />
-            <Testimonials />
             <Portfolio />
+            <Testimonials />
             <Footer />
         </div>
     );

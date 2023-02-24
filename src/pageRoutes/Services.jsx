@@ -1,5 +1,6 @@
 import HeroNavigation from "../components/hero/HeroNavigation"
-import Service from "../components/service/Service"
+import ServiceCTA from "../components/cta/ServiceCTA"
+import WhatWeBuild from "../components/service/what-we-build/WhatWeBuild"
 import Footer from "../components/footer/Footer"
 
 export default function Services() {
@@ -7,7 +8,8 @@ export default function Services() {
     return (
         <div className="relative isolate bg-slate-900">            
             <HeroNavigation />
-            <Service />
+            <ServiceCTA />
+            <WhatWeBuild />
             <Footer />
         </div>
     )

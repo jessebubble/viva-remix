@@ -6,7 +6,7 @@ export default function PricingCard() {
         <div className="mx-auto max-w-4xl">
           <h2 className="text-lg font-semibold leading-8 text-logo-pink">Pricing</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            The scope of your website and the number of content blocks needed for scalability will determine the cost of your project.
+            The scope of your website and the number of content blocks needed for scalability will be the biggest factors behind the cost of your project.
           </p>
         </div>
         <div className="relative mt-6">
@@ -22,7 +22,7 @@ export default function PricingCard() {
         </div>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a href="/contact" className="rounded-md bg-logo-pink px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" >
-            Contact us
+            Get a quote
           </a>
           <a href="/services" className="text-base font-semibold leading-7 text-white">
             Learn more <span aria-hidden="true">→</span>

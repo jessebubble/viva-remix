@@ -5,6 +5,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@headlessui/react": "^1.7.2",
+    "@headlessui/tailwindcss": "^0.1.2",
     "@heroicons/react": "^2.0.15",
     "@lottiefiles/react-lottie-player": "^3.4.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",

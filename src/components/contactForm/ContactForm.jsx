@@ -36,7 +36,7 @@ export default function ContactForm() {
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                                     <div className="mt-1">
                                         <dt className="sr-only">text</dt>
-                                        <dd>We believe written and shared communication is key to our success.</dd>
+                                        <dd>All questions are welcome. We believe written and shared communication is key to our success. Need more information about a service? Ready to move forward with a quote? Start the conversation and send us a message. We're here to help!</dd>
                                     </div>
                                     <div>
                                         <dt className="sr-only">Email</dt>
@@ -53,7 +53,7 @@ export default function ContactForm() {
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                                     <div className="mt-1">
                                         <dt className="sr-only">text</dt>
-                                        <dd>Use our calendar to schedule a virtual meetup. Powered by calendy.</dd>
+                                        <dd>We're currently located in San Antonio but our work is remote. Start the conversation by sending us a message and we'll share our calendar to schedule a virtual meetup. For our clients in San Antonio, in-person meetups are an option.</dd>
                                     </div>
                                     <div>
                                         <dt className="sr-only">Email</dt>
@@ -66,38 +66,37 @@ export default function ContactForm() {
                                 </dl>
                             </div>
                             <div className="rounded-2xl bg-gray-50 p-10">
-                                <h3 className="text-base font-semibold leading-7 text-gray-900">Join our team</h3>
-                                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-                                    <div className="mt-1">
-                                        <dt className="sr-only">text</dt>
-                                        <dd>Ready to grow your skills as a designer and web developer, come join our team.</dd>
-                                    </div>
-                                    <div>
-                                        <dt className="sr-only">Email</dt>
-                                        <dd>
-                                            <a className="font-semibold text-indigo-600" href="https://www.vivawebdesign.dev/jobs">
-                                                vivawebdesign.dev/jobs
-                                            </a>
-                                        </dd>
-                                    </div>
-                                </dl>
-                            </div>
-                            <div className="rounded-2xl bg-gray-50 p-10">
                                 <h3 className="text-base font-semibold leading-7 text-gray-900">Shop our local collection</h3>
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                                     <div className="mt-1">
                                         <dt className="sr-only">text</dt>
-                                        <dd>Exclusive line of apparel created by the viva web design team</dd>
+                                        <dd>Our local clients have given us permission to have some fun with their brands and create an exclusive line of apparel. All proceeds from the local collection go right back to the creative community in San Antonio.</dd>
                                     </div>
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
                                             <a className="font-semibold text-indigo-600" href="https://www.vivawebdesign.dev/store">
-                                                vivawebdesign.dev/store
+                                                vivawebdesign/store
+                                            </a>
+                                        </dd>
+                                    </div>  
+                                </dl>
+                            </div>
+                            <div className="rounded-2xl bg-gray-50 p-10">
+                                <h3 className="text-base font-semibold leading-7 text-gray-900">Join our team</h3>
+                                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                                    <div className="mt-1">
+                                        <dt className="sr-only">text</dt>
+                                        <dd>Ready to gain work experience collaborating with a team of UI designers and web developers? We'd love to have you join the team. Follow the link to see if any open roles are available.</dd>
+                                    </div>
+                                    <div>
+                                        <dt className="sr-only">Email</dt>
+                                        <dd>
+                                            <a className="font-semibold text-indigo-600" href="https://www.vivawebdesign.dev/jobs">
+                                                vivawebdesign/jobs
                                             </a>
                                         </dd>
                                     </div>
-                                    
                                 </dl>
                             </div>
                         </div>

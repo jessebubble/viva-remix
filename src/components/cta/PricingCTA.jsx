@@ -24,7 +24,7 @@ export default function PricingCTA() {
                                 <p>
                                     A common pricing myth is that creating custom websites are more expensive than using a CMS such as WordPress.
                                     Think of it this way: using a no-code tool is like renting a house, and building a custom website is like building and owning your own house.
-                                    Restructuring your website into several reusable blocks is our way of making it easier for you to run your house.
+                                    Restructuring your website into several reusable blocks is our way of making it easier for you to control your house.
                                 </p>
                             </blockquote>
                             <figcaption className="mt-8 text-base">
