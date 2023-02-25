@@ -22,8 +22,13 @@ export default function ContactCTA() {
                             Let's create an online experience together.
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Our stunning online experiences are brought to life by the design and development team at viva web design.
+                            Stunning online experiences brought to life by the design and development team at viva web design.
                         </p>
+                        <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                            <a href="/contact" className="text-base font-semibold leading-7 text-white">
+                                Learn more <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
                     </div>
                     <div className="relative mt-16 h-80">
                         <Player

@@ -20,11 +20,15 @@ export default function ServiceCTA() {
                             <span className="text-logo-pink">Services</span> 
                             <br />
                             The why behind our love for creating custom blocks
-                            
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             One of the perks we have with creating custom code is it enables us to work smarter not harder. 
                         </p>
+                        <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                            <a href="/services" className="text-base font-semibold leading-7 text-white">
+                                Learn more <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
                     </div>
                     <div className="relative mt-6 h-80">
                         <Player

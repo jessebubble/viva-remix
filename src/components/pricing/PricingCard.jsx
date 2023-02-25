@@ -6,7 +6,9 @@ export default function PricingCard() {
         <div className="mx-auto max-w-4xl">
           <h2 className="text-lg font-semibold leading-8 text-logo-pink">Pricing</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            The scope of your website and the number of content blocks needed for scalability will be the biggest factors behind the cost of your project.
+            Our made from scratch blocks of code 
+            are designed to put you in control of your website
+            and allow us to offer <span className="text-indigo-600">simple, transparent pricing</span>
           </p>
         </div>
         <div className="relative mt-6">

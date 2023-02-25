@@ -17,17 +17,22 @@ export default function StoreCTA() {
                     </svg>
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Welcome to our <span className="text-logo-pink">store</span>
+                            Built for the community.
                             <br />
-                            Shop our local collection.
+                            <span className="text-logo-pink">Shop</span> our local collection.
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Our stunning online experiences are brought to life with an exclusive line of apparel created by the viva web design team. 
+                            Stunning online experiences brought to life with this exclusive line of apparel created by the viva web design team. 
                         </p>
+                        <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                            <a href="/store" className="text-base font-semibold leading-7 text-white">
+                                Shop collection <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
                     </div>
-                    <div className="relative mt-6 h-80">
+                    <div className="relative mt-6 md:mt-16 h-80">
                         <Player
-                            src="https://assets3.lottiefiles.com/packages/lf20_WaQ8yMJuKt.json"
+                            src="https://assets6.lottiefiles.com/packages/lf20_gNCP2JOT1l.json"
                             className='md:w-60 lg:w-96'
                             background='transparent'
                             loop={true}

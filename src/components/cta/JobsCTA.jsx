@@ -45,9 +45,9 @@ export default function JobsCTA() {
                                 Grow with our team
                             </h2>
                             <p className="text-lg text-white lg:w-3/4">
-                                Join our passionate team of desingers and developers who are excited to help our local community grow their business online.
+                                Join our passionate team of designers and developers who are excited to help our local community grow their business online.
                             </p>
-                            <a href="/contact" className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-indigo-600 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto">
+                            <a href="/connect" className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-indigo-600 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto">
                                 Let's Connect 
                             </a>
                         </div>
