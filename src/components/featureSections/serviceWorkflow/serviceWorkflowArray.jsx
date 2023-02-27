@@ -1,14 +1,9 @@
-import { ChatBubbleLeftIcon, ClipboardIcon, DocumentPlusIcon } from '@heroicons/react/20/solid'
+import { ChatBubbleLeftIcon, DocumentPlusIcon } from '@heroicons/react/20/solid'
 
 export const serviceWorkflowArray = [
     {
-        name: 'Notion.',
-        description: "On day one we set up a Notion page for your project with a roadmap and board of our day-to-day task.",
-        icon: ClipboardIcon,
-    },
-    {
-        name: 'Slack.',
-        description:"We share our progress regularly, discuss ideas with you in real-time on Slack",
+        name: 'Design & collaboration.',
+        description: "Figma, Slack and Notion are tools that allow us to transparently collaborate with you. We use Figma to design and prototype your website, Slack to communicate and Notion to keep track of tasks and share documents with you.",
         icon: ChatBubbleLeftIcon,
     },
     {

@@ -8,8 +8,8 @@ export default function ContactForm() {
                 <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
                         <div className=''>
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center lg:text-left">Let's Connect</h2>
-                            <p className="mt-4 leading-7 text-gray-600 text-center lg:text-left">
+                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-left">Let's Connect</h2>
+                            <p className="mt-4 leading-7 text-gray-600 text-left">
                                 Are you a marketing agency looking to collaborate and build a custom solution for your client?
                                 <br />
                                 <br />
@@ -21,7 +21,7 @@ export default function ContactForm() {
                             <dl className="">
                                 <div className="mt-4">
                                     <dt className="sr-only">Social</dt>
-                                    <dd className="flex items-center justify-center lg:justify-start space-x-3">
+                                    <dd className="flex items-center justify-start space-x-3">
                                         <FiLinkedin className='h-6 w-6 text-indigo-600' />
                                         <FiFacebook className='h-6 w-6 text-indigo-600' />
                                         <FiInstagram className='h-6 w-6 text-indigo-600' />
