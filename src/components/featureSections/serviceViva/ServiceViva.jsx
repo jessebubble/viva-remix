@@ -9,7 +9,7 @@ export default function ServiceViva() {
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-logo-pink">What we build</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Stunning online experiences.</p>
           <p className="mt-6 text-lg leading-8 text-gray-800">
-            viva web design is an agency that designs and develops Shopify e-commerce storefronts, 
+            @vivawebdesign is an agency that designs and develops Shopify e-commerce storefronts, 
             fast marketing websites, web applications and more.
           </p>
         </div>
@@ -17,12 +17,12 @@ export default function ServiceViva() {
       <div className="relative overflow-hidden pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <img
-            src="https://cdn.sanity.io/images/etrj839y/production/6d33d48e1a69a659aa8e57df5189cf85bbf7e0a8-2407x1387.png"
-            alt="loteria game screenshot"
+            src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
+            alt="passion led us here"
             className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
           />
           <div className="relative" aria-hidden="true">
-            <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[3%]" />
+            <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"/>
           </div>
         </div>
       </div>
