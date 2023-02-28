@@ -1,10 +1,5 @@
 ## Inside The Bubble
-Viva Web Design is a brand new Marketing Web Development company located in San Antonio, Texas
-- This is the skeleton layout I built for Viva Web Design
-- Built with `React` || `TailWindCSS` || `LottieFiles`
-- Domain purchased through Google || Site hosted with Vercel
-
-## Viva Web Design 
+- @vivawebdesign is an agency in San Antonio that designs and develops Shopify e-commerce storefronts, fast marketing websites, web applications and more.
 * [vivawebdesign.dev](https://www.vivawebdesign.dev)
 
-![logo](./public/screenshot.png)
+![logo](./src/assets/viva-dark.svg)
