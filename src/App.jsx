@@ -7,6 +7,8 @@ import Contact from './pageRoutes/Contact';
 import Store from './pageRoutes/Store';
 import Jobs from './pageRoutes/Jobs';
 import PageNotFound from './pageRoutes/PageNotFound';
+import PreviewApp from './pageRoutes/PreviewApp';
+import PreviewMarketing from './pageRoutes/PreviewMarketing';
 
 export default function App() {
     return (
@@ -21,6 +23,8 @@ export default function App() {
                 <Route path="/services" element={<Services/>} />
                 <Route path="/store" element={<Store/>} />
                 <Route path="*" element={<PageNotFound/>} />
+                <Route path="/preview-application" element={<PreviewApp/>} />
+                <Route path="/preview-marketing" element={<PreviewMarketing/>} />
             </Route>
         </Routes>
         </>

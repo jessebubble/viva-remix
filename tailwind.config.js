@@ -11,6 +11,8 @@ module.exports = {
       },
       colors: {
         'logo-pink': '#E11887',
+        'cta-blue': '#22304F',
+        'cta-blue-dark': '#18233E',
       },
     },
   },

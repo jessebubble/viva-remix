@@ -63,7 +63,7 @@ export default function Tools() {
                                         Features we develop include billing, authentication, user management, content managment, data visualization and a built-in search engine for your website.
                                     </p>
                                 </div>
-                                <a href="/" className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 hover:text-logo-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >
+                                <a href="/preview-application" className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 hover:text-logo-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >
                                     Live preview <span aria-hidden="true">&rarr;</span>
                                 </a>
                             </div>
@@ -75,7 +75,7 @@ export default function Tools() {
                                         to integrate with any API, include complex interactive elements and take advantage of easy to use content management systems like Sanity.
                                     </p>
                                 </div>
-                                <a href="/" className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 hover:text-logo-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >
+                                <a href="/preview-marketing" className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 hover:text-logo-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >
                                     Live preview <span aria-hidden="true">&rarr;</span>
                                 </a>
                             </div>
