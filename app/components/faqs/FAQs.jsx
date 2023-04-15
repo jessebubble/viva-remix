@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
-import { faqsArray } from './FAQsArray'
+import { faqsArray } from './faqsArray'
 
 export default function FAQs() {
     return (
