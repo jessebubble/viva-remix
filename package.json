@@ -1,0 +1,56 @@
+{
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+        "icons": "npx @svgr/cli --out-dir app/components/icons -- app/icons",
+        "icons:watch": "npm-watch icons",
+        "dev:svg": "run-s icons icons:watch",
+        "dev:remix": "remix dev",
+        "dev": "run-p dev:*",
+        "build": "remix build",
+        "typecheck": "tsc"
+    },
+    "watch": {
+        "icons": {
+            "patterns": [
+                "icons"
+            ],
+            "extensions": "svg",
+            "quiet": false
+        }
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.7.13",
+        "@headlessui/tailwindcss": "^0.1.2",
+        "@heroicons/react": "^2.0.17",
+        "@lottiefiles/react-lottie-player": "^3.5.3",
+        "@remix-run/node": "^1.15.0",
+        "@remix-run/react": "^1.15.0",
+        "@remix-run/vercel": "^1.15.0",
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/line-clamp": "^0.4.4",
+        "@vercel/node": "^2.6.2",
+        "isbot": "^3.6.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@remix-run/dev": "^1.15.0",
+        "@remix-run/eslint-config": "^1.15.0",
+        "@remix-run/serve": "^1.15.0",
+        "@svgr/cli": "^7.0.0",
+        "@svgr/plugin-jsx": "^7.0.0",
+        "@svgr/plugin-prettier": "^7.0.0",
+        "@svgr/plugin-svgo": "^7.0.0",
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.8",
+        "eslint": "^8.27.0",
+        "npm-run-all": "^4.1.5",
+        "npm-watch": "^0.11.0",
+        "tailwindcss": "^3.3.1",
+        "typescript": "^4.8.4"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
