@@ -44,7 +44,7 @@ export default function Pricing() {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-3xl font-bold tracking-tight text-logopink sm:text-4xl">Simple, transparent pricing</h2>
                     <p className="mt-2 text-lg leading-8 text-gray-300">
-                        There are a number of factors that must be taken into account when building an project.
+                        There are a number of factors that must be taken into account when building a project.
                         Our end goal is the same, build from scratch, build to scale and build to give you control of your online experience. 
                     </p>
                 </div>

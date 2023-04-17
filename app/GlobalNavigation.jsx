@@ -15,7 +15,6 @@ export default function GlobalNavigation() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <>
         <div className="">
             <div className="px-6 pt-6 lg:px-8 lg:pt-0">
                 <nav className="flex items-center justify-between" aria-label="Global">
@@ -24,7 +23,7 @@ export default function GlobalNavigation() {
                             <span className="sr-only">Viva Web Design</span>
                             <img 
                             className="max-h-80 md:max-h-60 lg:max-h-32 w-full object-contain object-left" 
-                            src="https://cdn.sanity.io/images/etrj839y/production/16efcbc1e83a68663aee459f24a07aee348514c4-500x500.svg"
+                            src="https://cdn.sanity.io/images/etrj839y/production/3ab07c190b338e66ac2348e9e4faf78b6b586cb7-500x500.svg"
                             alt="Viva Web Design" 
                             />
                         </Link>
@@ -50,9 +49,9 @@ export default function GlobalNavigation() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <Link to="/store" className="leading-6 ">
+                        <a href="/store" className="leading-6 ">
                             <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-100' />
-                        </Link>
+                        </a>
                     </div>
                 </nav>
                 <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -62,7 +61,7 @@ export default function GlobalNavigation() {
                                 <span className="sr-only">Viva Web Design</span>
                                 <img 
                                 className="max-h-80 md:max-h-60 lg:max-h-40 w-full object-contain object-left" 
-                                src="https://cdn.sanity.io/images/etrj839y/production/4f7361092ce718f9ba962942c1e13d3e1ac5f64c-500x500.svg" 
+                                src="https://cdn.sanity.io/images/etrj839y/production/00e9093f731b9aca9eb096222822a4640ec462c4-500x500.svg" 
                                 alt="Viva Web Design" 
                                 />
                             </Link>
@@ -88,9 +87,9 @@ export default function GlobalNavigation() {
                                     ))}
                                 </div>
                                 <div className="py-6">
-                                    <Link to="/store" className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
+                                    <a href="/store" className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
                                         <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-900' />
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -98,6 +97,5 @@ export default function GlobalNavigation() {
                 </Dialog>
             </div>
         </div>
-        </>
     );
 }
