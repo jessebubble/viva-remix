@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 export const navbarArray = [
     { title: "Services", link: "/services" },
     { title: "Community", link: "/community" },
+    { title: "Store", link: "/store"},
     { title: "Contact", link: "/contact" },
     { title: "Pricing", link: "/pricing" },
 ];
@@ -49,9 +50,9 @@ export default function GlobalNavigation() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="/store" className="leading-6 ">
+                        <Link to="/cart" className="leading-6 ">
                             <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-100' />
-                        </a>
+                        </Link>
                     </div>
                 </nav>
                 <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -87,9 +88,9 @@ export default function GlobalNavigation() {
                                     ))}
                                 </div>
                                 <div className="py-6">
-                                    <a href="/store" className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
+                                    <Link to="/cart" className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
                                         <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-900' />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
-export const merch = {
-    name: 'merch',
-    title: 'Merch',
+export const collectionDeveloper = {
+    name: 'developer',
+    title: 'Developer',
     type: 'document',
     fields: [
         {
@@ -35,8 +35,8 @@ export const merch = {
             name: 'price',
             title: 'Price',
             type: 'number',
-            description: 'Price in cents',
-            validation: Rule => Rule.min(100),
+            description: 'Price in USD',
+            validation: Rule => Rule.min(1),
         },
         {
             name: 'size',
