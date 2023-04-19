@@ -1,11 +1,10 @@
-
 export default function Store() {
 
     return (
         <div className="bg-slate-900/10 py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="sm:flex sm:items-baseline sm:justify-between">
-                    <h2 className="text-3xl font-bold tracking-tight text-white">We're more than just a creative agency</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-white">The online experience brought to life</h2>
                     <a href="/collections" className="hidden text-lg font-semibold text-logopink hover:text-indigo-500 sm:block">
                         Shop our collections
                         <span aria-hidden="true"> &rarr;</span>
