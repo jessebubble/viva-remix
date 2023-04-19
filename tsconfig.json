@@ -1,5 +1,5 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/entry.server.jsx", "app/routes/collections/$collections.jsx", "app/components/slug/CollectionSlug.jsx", "app/routes/collections/index.jsx"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/entry.server.jsx", "app/routes/collections.$slug.jsx", "app/components/slug/CommunitySlug.jsx", "app/routes/collections._index.jsx"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,

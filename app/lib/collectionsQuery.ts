@@ -11,6 +11,17 @@ export const getCommunity = async () => {
     return collectionCommunity;
 }
 
+export const getCommunityBySlug = async (slug: string) => {
+    const collectionCommunitySlug = await client.fetch(`*[_type == "community" && slug.current == $slug]{
+        title,
+        description,
+        price,
+        mainImage,
+        "slug": slug.current
+    }`, { slug });
+    return collectionCommunitySlug;
+}
+
 export const getTwitchin = async () => {
     const collectionTwitchin = await client.fetch(`*[_type == "twitchin"]{
         title, 
@@ -20,6 +31,17 @@ export const getTwitchin = async () => {
         "slug": slug.current
     }`);
     return collectionTwitchin;
+}
+
+export const getTwitchinBySlug = async (slug: string) => {
+    const collectionTwitchinSlug = await client.fetch(`*[_type == "twitchin" && slug.current == $slug]{
+        title,
+        description,
+        price,
+        mainImage,
+        "slug": slug.current
+    }`, { slug });
+    return collectionTwitchinSlug;
 }
 
 export const getDeveloper = async () => {
@@ -33,36 +55,13 @@ export const getDeveloper = async () => {
     return collectionDeveloper;
 }
 
-export const getCommunitySlug = async () => { 
-    const communitySlug = await client.fetch(`*[_type == "community" && slug.current == $slug][0] {
+export const getDeveloperBySlug = async (slug: string) => {
+    const collectionDeveloperSlug = await client.fetch(`*[_type == "developer" && slug.current == $slug]{
         title,
         description,
         price,
         mainImage,
         "slug": slug.current
-    }[0]`, {slug : "community"}); 
-    return communitySlug;
-}
-
-
-export const getTwitchinSlug = async () => {
-    const collectionTwitchin = await client.fetch(`*[_type == "twitchin" && slug.current == $slug]{
-        title,
-        description,
-        price,
-        mainImage,
-        "slug": slug.current
-    }`, {slug: "twitchin"});
-    return collectionTwitchin;
-}
-
-export const getDeveloperSlug = async () => {
-    const collectionDeveloper = await client.fetch(`*[_type == "developer" && slug.current == $slug]{
-        title,
-        description,
-        price,
-        mainImage,
-        "slug": slug.current
-    }`, {slug: "developer"});
-    return collectionDeveloper;
+    }`, { slug });
+    return collectionDeveloperSlug;
 }
