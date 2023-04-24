@@ -7,12 +7,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 export const navbarArray = [
     { title: "Services", link: "/services" },
     { title: "Community", link: "/community" },
-    { title: "Store", link: "/store"},
+    { title: "Store", link: "/store" },
     { title: "Contact", link: "/contact" },
     { title: "Pricing", link: "/pricing" },
 ];
 
-export default function GlobalNavigation() {
+export default function GlobalNavigation(props) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
@@ -24,7 +24,7 @@ export default function GlobalNavigation() {
                             <span className="sr-only">Viva Web Design</span>
                             <img 
                             className="max-h-80 md:max-h-60 lg:max-h-32 w-full object-contain object-left" 
-                            src="https://cdn.sanity.io/images/etrj839y/production/3ab07c190b338e66ac2348e9e4faf78b6b586cb7-500x500.svg"
+                            src="https://cdn.sanity.io/images/etrj839y/production/f348be3278254433173339a7f0ff0ecfe390d516-500x500.svg"
                             alt="Viva Web Design" 
                             />
                         </Link>
@@ -50,7 +50,7 @@ export default function GlobalNavigation() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <Link to="/cart" className="leading-6 ">
+                        <Link to="/cart" className="text-sm font-semibold leading-6">
                             <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-100' />
                         </Link>
                     </div>

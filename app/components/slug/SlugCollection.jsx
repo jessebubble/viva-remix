@@ -21,38 +21,37 @@ export default function SlugCollection() {
     }
 
     return (
-        <>
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center lg:mb-6">
-                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-logopink">collections</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The online experience brought to life</p>
-                </div>
-                <div className="mt-11 grid grid-cols-1 items-start gap-x-6 gap-y-16 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
+        <div className="bg-slate-900/10 mx-auto max-w-7xl px-6 py-0 sm:py-32 md:py-6 lg:py-28 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+            <div className="mx-auto lg:mx-0 lg:flex-auto">
+                <div className="">
                     {slugCollectionArray.map((item) => (
-                        <div key={item.title} className="flex flex-col-reverse">
-                            <div className="mt-6">
-                                <Link to={`/collections/${item.slug}`} className="relative flex items-center justify-center rounded-md border border-transparent bg-white px-8 py-2 text-sm font-medium text-gray-900 hover:bg-logopink"
-                                    > Add to bag<span className="sr-only">, {item.title}</span>
-                                </Link>
+                        <div key={item.title} className="mx-auto max-w-2xl">
+                            <div className="sm:text-center lg:mb-6">
+                                <h2 className="text-3xl font-semibold leading-8 tracking-tight text-logopink">{item.title}</h2>
+                                <p className="mt-2 text-lg font-bold tracking-tight text-white">{item.description}</p>
                             </div>
-                            <div className="mt-6">
-                                <h3 className="text-sm font-medium text-white">{item.title}</h3>
-                                <p className="text-sm font-medium text-gray-400">{item.price}</p>
-                                <p className="mt-2 text-sm text-gray-400">{item.description}</p>
-                            </div>
-                            <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-slate-900/10">
+                            <div className="overflow-hidden rounded-lg">
                                 <img 
                                     src={urlFor(item.mainImage).url()} 
                                     alt={item.title} 
-                                    className="object-cover object-center" 
+                                    className="object-cover object-center aspect-[3/2] w-full" 
                                 />
                             </div>
+                            <div className="mt-6 text-right">
+                                <p className="text-lg font-medium text-white">
+                                    ${item.price}
+                                    <span className="text-sm text-gray-400 ">+tax</span>
+                                </p>  
+                            </div>
+                            <div className="mt-6 flex items-center justify-center">                        
+                                <Link to={`/store/collections/${item.slug}`} className="relative flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-logopink"
+                                    > Add to Cart<span className="sr-only">, {item.title}</span>
+                                </Link>
+                            </div>     
                         </div>
                     ))}
                 </div>
             </div>
-        </div>
-        </>
+        </div>        
     )
 }

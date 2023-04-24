@@ -18,19 +18,9 @@ export default function CollectionsIndexRoute() {
 
     return (
         <>
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center lg:mb-6">
-                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-logopink">Welcome to our Store</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Powered by Remix, Sanity, Stripe and the team at Viva Web Design</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <Community communityArray={communityArray}/>
-            <Twitchin  twitchinArray={twitchinArray}/>
-            <Developer developerArray={developerArray}/>
-        </div>
+            <Twitchin  twitchinArray={twitchinArray} />
+            <Developer developerArray={developerArray} />
+            <Community communityArray={communityArray} />
         </>
     )
 }

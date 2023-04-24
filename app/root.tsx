@@ -1,9 +1,9 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css";
-import GlobalPattern from "./GlobalPattern";
-import GlobalNavigation from "./GlobalNavigation";
-import GlobalFooter from "./GlobalFooter";
+import GlobalPattern from "~/GlobalPattern";
+import GlobalNavigation from "~/GlobalNavigation";
+import GlobalFooter from "~/GlobalFooter";
 
 export default function App() {
     return (

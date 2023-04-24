@@ -8,7 +8,7 @@ export const loader = async () => {
     return { communityArray };
 }
 
-export default function Community() {
+export default function Community(props) {
     const { communityArray } = useLoaderData();
 
     const builder = imageUrlBuilder(client)
@@ -32,16 +32,18 @@ export default function Community() {
                     {communityArray.map((item) => (
                         <div key={item.title} className="flex flex-col-reverse">
                             <div className="mt-6">
-                                <Link to={item.slug} className="relative flex items-center justify-center rounded-md border border-transparent bg-white px-8 py-2 text-sm font-medium text-gray-900 hover:bg-logopink"
+                                <div className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-logopink"
                                     > Add to bag<span className="sr-only">, {item.title}</span>
-                                </Link>
+                                </div>
                             </div>
                             <div className="mt-6">
-                                <h3 className="text-sm font-medium text-white">{item.title}</h3>
+                                <Link to={ `/store/collections/${item.slug}` } className="text-xl font-bold text-white hover:text-logopink">
+                                    {item.title}
+                                </Link>
                                 <p className="text-sm font-medium text-gray-400">{item.price}</p>
                                 <p className="mt-2 text-sm text-gray-400">{item.description}</p>
                             </div>
-                            <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-slate-900/10">
+                            <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-slate-900">
                                 <img 
                                     src={urlFor(item.mainImage).url()} 
                                     alt={item.title} 
