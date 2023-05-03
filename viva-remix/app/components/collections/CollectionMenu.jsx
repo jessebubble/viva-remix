@@ -14,7 +14,7 @@ export default function CollectionMenu() {
                     <li key={page.name}>
                         <div className="flex items-center">
                         <svg
-                            className="h-5 w-5 flex-shrink-0 text-indigo-400"
+                            className="h-5 w-5 flex-shrink-0 text-white"
                             fill="currentColor"
                             viewBox="0 0 20 20"
                             aria-hidden="true"

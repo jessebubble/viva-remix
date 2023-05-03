@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import { faqsArray } from './faqsArray'
+import { Link } from "@remix-run/react"
 
 export default function FAQs() {
     return (
@@ -12,7 +13,7 @@ export default function FAQs() {
                         <p className="mt-4 text-lg leading-7 text-gray-300 md:w-96">
                             Our web development process is transparent, since we're fully remote, 
                             we believe written and shared communication is key to our success. 
-                            Contact us if you have any additional questions.
+                            <Link to="/contact"><span className="text-logopink"> Contact us</span></Link> if you have any additional questions.
                         </p>
                     </div>
                     <div className="mt-10 lg:col-span-7 lg:mt-0">

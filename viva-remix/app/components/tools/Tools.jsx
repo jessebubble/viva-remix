@@ -6,7 +6,7 @@ export default function Tools() {
     return (
         <div className="bg-slate-900/10 py-24">
             <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="relative isolate overflow-hidden bg-slate-900/10 py-20 px-6 sm:py-24 sm:px-10 lg:py-24 xl:px-24">
+                <div className="relative isolate overflow-hidden bg-slate-900/10 py-20 px-6 sm:px-10 xl:px-24 rounded-lg">
                     <div className="mx-auto max-w-2xl gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-10 md:mb-10">
                         <div className="lg:row-start-2 md:max-w-md">
                             <h2 className="text-3xl text-left font-bold tracking-tight text-white sm:text-4xl">

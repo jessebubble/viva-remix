@@ -9,13 +9,13 @@ export default function StoreCTA() {
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             <span className="block text-logopink">VIVA La Tienda!</span>
-                            The online experience is brought to life with our exclusive collections
+                            Online experiences brought to life with our exclusive collections.  
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                            Our community gets the AI treatment, remixed by Midjourney. 
+                            The VIVA design and development team are excited to bring you this exclusive line of collections. 
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                            <a href="/store" className="text-base font-semibold leading-7 text-indigo-600 hover:text-indigo-500">
+                            <a href="/store" className="text-base font-semibold leading-7 text-indigo-600 hover:text-indigo-700">
                                 Shop our collections <span aria-hidden="true">→</span>
                             </a>
                         </div>
