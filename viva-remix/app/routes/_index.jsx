@@ -1,6 +1,8 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import { Link } from '@remix-run/react'
 import { Player } from '@lottiefiles/react-lottie-player';
+import StoreFront from "~/components/store/StoreFront"
+import ContactCTA from "~/components/cta/ContactCTA"
 
 export const meta = () => {
     return [{ 
@@ -12,6 +14,7 @@ export const meta = () => {
 export default function Index() {
   
     return (
+        <>
         <div className="mx-auto max-w-7xl px-6 py-0 sm:py-32 md:py-6 lg:py-28 lg:flex lg:items-center lg:gap-x-10 lg:px-8 bg-slate-900/10">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
                 <div className="flex">
@@ -51,5 +54,8 @@ export default function Index() {
                 </Player>
             </div>
         </div>
+        <StoreFront />
+        <ContactCTA />
+        </>
     )
 }

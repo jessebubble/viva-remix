@@ -1,7 +1,8 @@
 import { client } from "./sanity";
 
 export const getCommunity = async () => {
-    const collectionCommunity = await client.fetch(`*[_type == "community"]{
+    const collectionCommunity = await client.fetch(`*[_type == "community" ]{
+        _id,
         title, 
         description, 
         price, 
@@ -13,6 +14,7 @@ export const getCommunity = async () => {
 
 export const getCommunityBySlug = async (slug: string) => {
     const collectionCommunitySlug = await client.fetch(`*[_type == "community" && slug.current == $slug]{
+        _id,
         title,
         description,
         price,
@@ -24,6 +26,7 @@ export const getCommunityBySlug = async (slug: string) => {
 
 export const getTwitchin = async () => {
     const collectionTwitchin = await client.fetch(`*[_type == "twitchin"]{
+        _id,
         title, 
         description, 
         price, 
@@ -35,6 +38,7 @@ export const getTwitchin = async () => {
 
 export const getTwitchinBySlug = async (slug: string) => {
     const collectionTwitchinSlug = await client.fetch(`*[_type == "twitchin" && slug.current == $slug]{
+        _id,
         title,
         description,
         price,
@@ -46,6 +50,7 @@ export const getTwitchinBySlug = async (slug: string) => {
 
 export const getDeveloper = async () => {
     const collectionDeveloper = await client.fetch(`*[_type == "developer"]{
+        _id,
         title, 
         description, 
         price, 
@@ -57,6 +62,7 @@ export const getDeveloper = async () => {
 
 export const getDeveloperBySlug = async (slug: string) => {
     const collectionDeveloperSlug = await client.fetch(`*[_type == "developer" && slug.current == $slug]{
+        _id,
         title,
         description,
         price,
