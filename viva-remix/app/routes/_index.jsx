@@ -15,7 +15,7 @@ export default function Index() {
   
     return (
         <>
-        <div className="mx-auto max-w-7xl px-6 py-0 sm:py-32 md:py-6 lg:py-28 lg:flex lg:items-center lg:gap-x-10 lg:px-8 bg-slate-900/10">
+        <div className="mx-auto max-w-7xl px-6 py-0 sm:py-24 md:py-6 lg:flex lg:items-center lg:gap-x-10 lg:px-8 bg-slate-900/10">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
                 <div className="flex">
                     <div className="relative flex items-center gap-x-4 rounded-full py-1 px-4 text-sm leading-6 text-gray-500 ring-1 ring-gray-100/10 hover:ring-gray-100/20">
@@ -47,7 +47,7 @@ export default function Index() {
             <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
                 <Player
                     src='https://assets6.lottiefiles.com/packages/lf20_8qDRX7nBln.json'
-                    className='md:w-60 lg:w-96'
+                    className='md:w-96 lg:w-full'
                     background='transparent'
                     loop={true}
                     autoplay={true} >

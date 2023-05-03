@@ -21,10 +21,10 @@ export default function ServiceCTA() {
                             </a>
                         </div>
                     </div>
-                    <div className="relative mt-6 h-80">
+                    <div className="relative mt-5 h-80">
                         <Player
                             src="https://assets3.lottiefiles.com/packages/lf20_7h7PLlcqez.json"
-                            className='md:w-60 lg:w-96'
+                            className='md:w-72 lg:w-full'
                             background='transparent'
                             loop={true}
                             autoplay={true} >
