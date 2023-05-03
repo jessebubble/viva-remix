@@ -3,7 +3,7 @@ import { serviceArray } from "./serviceArray"
 export default function Service() {
 
     return (
-        <div className="bg-slate-900/10 py-24 sm:py-32">
+        <div className="bg-slate-900/10 py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
                     <h2 className="text-lg font-semibold leading-8 tracking-tight text-logopink">What we build</h2>

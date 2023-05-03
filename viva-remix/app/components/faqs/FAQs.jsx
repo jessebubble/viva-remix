@@ -6,7 +6,7 @@ import { Link } from "@remix-run/react"
 export default function FAQs() {
     return (
         <div className="bg-slate-900/10">
-            <div className="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:py-40 lg:px-8">
+            <div className="mx-auto max-w-7xl px-6 py-24 lg:py-40 lg:px-8">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="lg:col-span-5">
                         <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Frequently asked questions</h2>
