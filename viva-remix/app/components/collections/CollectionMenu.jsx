@@ -24,7 +24,7 @@ export default function CollectionMenu() {
                         <Link to={page.href} className="ml-4 text-sm font-medium">
                             <NavLink 
                                 to={page.href}
-                                className={({ isActive }) => (isActive ? 'text-logopink' : 'text-indigo-500 hover:text-indigo-400')}
+                                className={({ isActive }) => (isActive ? 'text-logopink' : 'text-indigo-500 hover:text-logopink')}
                                 >{page.name}
                             </NavLink>
                         </Link>

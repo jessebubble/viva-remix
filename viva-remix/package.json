@@ -24,6 +24,7 @@
         "@headlessui/tailwindcss": "^0.1.2",
         "@heroicons/react": "^2.0.17",
         "@lottiefiles/react-lottie-player": "^3.5.3",
+        "@portabletext/react": "^3.0.0",
         "@remix-run/node": "^1.15.0",
         "@remix-run/react": "^1.15.0",
         "@remix-run/vercel": "^1.15.0",

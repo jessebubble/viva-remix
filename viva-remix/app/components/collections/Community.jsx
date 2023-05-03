@@ -35,7 +35,7 @@ export default function Community(props) {
                     {communityArray.map((item) => (
                         <div key={item.title} className="flex flex-col-reverse">
                             <div className="mt-6">
-                                <Link to={item.slug} className="relative flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-2 text-sm font-medium text-white hover:bg-logopink"
+                                <Link to={`/store/community/${item.slug}`} className="relative flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-2 text-sm font-medium text-white hover:bg-logopink"
                                     > Add to bag<span className="sr-only">, {item.title}</span>
                                 </Link>
                             </div>
