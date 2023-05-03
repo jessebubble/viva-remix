@@ -5,7 +5,13 @@ import GlobalPattern from "~/GlobalPattern";
 import GlobalNavigation from "~/GlobalNavigation";
 import GlobalFooter from "~/GlobalFooter";
 
+export const links: LinksFunction = () => [
+    { rel: "stylesheet", href: stylesheet },
+    { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
+];
+
 export default function App() {
+
     return (
         <html lang="en">
             <head>
@@ -19,19 +25,14 @@ export default function App() {
                     <GlobalPattern />
                     <GlobalNavigation />
                     <Outlet />
+                    <ScrollRestoration />
+                    <Scripts />
+                    <LiveReload />
                 </div>
                 <div>
                     <GlobalFooter />
                 </div>
-                <ScrollRestoration />
-                <Scripts />
-                <LiveReload />
             </body>
         </html>
     );
 }
-
-export const links: LinksFunction = () => [
-    { rel: "stylesheet", href: stylesheet },
-    { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
-];

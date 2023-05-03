@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin, Mail } from '~/components/icons';
 import FAQs from '~/components/faqs/FAQs';
-import StoreCTA from '~/components/cta/StoreCTA';
+import Pricing from '~/components/pricing/Pricing';
 
 const footerArray = [
     { name: "mail", icon: Mail, link: "mailto:jesse@vivawebdesign.dev" },
@@ -18,7 +18,7 @@ export default function Contact() {
                 <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
                         <div className=''>
-                            <h2 className="text-3xl font-bold tracking-tight text-logopink text-left">Let's Connect</h2>
+                            <h2 className="text-3xl font-bold tracking-tight text-white text-left">Let's Connect</h2>
                             <p className="mt-4 leading-7 text-gray-300 text-left">
                                 Are you a marketing agency in need of assistance to build a custom feature, app or solution for your clients? We'd love to collaborate!
                                 <br />
@@ -113,7 +113,7 @@ export default function Contact() {
                 </div>
             </div>
         </div>
-        <StoreCTA />
+        <Pricing />
         <FAQs />
         </>
     );

@@ -5,11 +5,10 @@ import { ShoppingBagIcon } from '@heroicons/react/20/solid';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export const navbarArray = [
+    { title: "La Tienda!", link: "/store" },
     { title: "Services", link: "/services" },
     { title: "Community", link: "/community" },
-    { title: "Store", link: "/store" },
     { title: "Contact", link: "/contact" },
-    { title: "Pricing", link: "/pricing" },
 ];
 
 export default function GlobalNavigation(props) {
@@ -50,9 +49,9 @@ export default function GlobalNavigation(props) {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <Link to="/cart" className="text-sm font-semibold leading-6">
-                            <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-100' />
-                        </Link>
+                        <div className="text-sm font-semibold leading-6">
+                            <ShoppingBagIcon className='w-6 h-6 text-logopink hover:text-gray-100' />      
+                        </div>                    
                     </div>
                 </nav>
                 <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

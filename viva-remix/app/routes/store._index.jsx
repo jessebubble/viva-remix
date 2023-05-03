@@ -1,89 +1,58 @@
+import { CheckCircleIcon } from '@heroicons/react/20/solid'
+import CollectionMenu from "~/components/collections/CollectionMenu"
+import ServiceCTA from "~/components/cta/ServiceCTA"
+ 
+const benefits = [
+  "Posters",
+  'Stickers',
+  'Adult Apparel',
+  'Children Apparel',
+  'Headwear',
+  'Accessories',
+]
+
 export default function Store() {
 
     return (
         <>
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center lg:mb-6">
-                    <h2 className="text-lg font-semibold leading-8 tracking-tight text-logopink">Welcome to La Tienda!</h2>
-                    <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                        The Online experience brought to life
-                    </p>
-                </div>
-                <div className="mt-6 lg:mt-8 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
-                    <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
+        <CollectionMenu />
+        <div className="bg-gray-900/10 py-10">
+            <div className="relative isolate">
+                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                    <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
                         <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/0c8a06e8db41368a4954db29b57cd6c74a56611b-896x1344.png"
-                            alt="logo"
-                            className="object-cover object-center group-hover:opacity-75"
-                            />
-                        <div aria-hidden="true" className="bg-gradient-to-b from-transparent to-black opacity-50" />
-                        <div className="flex items-end p-6">
-                            <div>
-                                <h3 className="font-semibold text-white">
-                                    <a href="/store/collections">
-                                        <span className="absolute inset-0" />
-                                        Community Collection
-                                    </a>
-                                </h3>
-                                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                                    Shop now
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
-                        <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/8409c767f9f423dc0a5936ab5c6db6ab6fc6ea6f-2048x2048.png"
-                            alt="logo"
-                            className="object-cover object-bottom group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
+                            className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
+                            src="https://cdn.sanity.io/images/vk33ybcu/production/666bcd4c351fd0d2af7795f94c996d6a31d9c424-1024x1024.png"
+                            alt=""
                         />
-                        <div aria-hidden="true" className="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"/>
-                        <div className="flex items-end p-6 sm:absolute sm:inset-0">
-                            <div>
-                                <h3 className="font-semibold text-white">
-                                    <a href="/store/collections">
-                                        <span className="absolute inset-0" />
-                                        Web Developer Collection
-                                    </a>
-                                </h3>
-                                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                                    Shop now
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
-                        <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/39ff9db831bf510e9e3be0b9315202735d7530db-1792x2688.png"
-                            alt="logo"
-                            className="object-cover object-bottom group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
-                        />
-                        <div aria-hidden="true" className="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"/>
-                        <div className="flex items-end p-6 sm:absolute sm:inset-0">
-                            <div>
-                                <h3 className="font-semibold text-white">
-                                    <a href="/store/collections">
-                                        <span className="absolute inset-0" />
-                                        Twitchin' in the Kitchen Collection
-                                    </a>
-                                </h3>
-                                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                                    Shop now
-                                </p>
-                            </div>
+                        <div className="w-full flex-auto">
+                            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Welcome to our store</h2>
+                            <p className="mt-6 text-lg leading-8 text-gray-300">
+                                The online experience is brought to life with this exclusive line of collections. Powered by Remix, TailwindCSS, Sanity.io, MidJourney and Stripe
+                            </p>
+                            <ul className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">
+                                {benefits.map((benefit) => (
+                                    <li key={benefit} className="flex gap-x-3">
+                                            <CheckCircleIcon className="h-7 w-5 flex-none" aria-hidden="true" />
+                                        {benefit}
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <div className="mt-6 sm:hidden">
-                    <a href="/store/collections" className="block text-sm font-semibold text-logopink hover:text-indigo-500">
-                        Shop our collections
-                        <span aria-hidden="true"> &rarr;</span>
-                    </a>
-                </div>   
+                <div className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
+                    <div
+                        className="aspect-[1318/752] w-[82.375rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+                        style={{
+                        clipPath:
+                            'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
+                        }}
+                    />
+                </div>
             </div>
         </div>
+        <ServiceCTA />
         </>
     )
 }
