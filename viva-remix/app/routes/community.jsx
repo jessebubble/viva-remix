@@ -17,12 +17,12 @@ export default function Community() {
                 <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                     <img
                         className="col-span-2 max-h-40 w-full object-contain lg:col-span-1"
-                        src="https://cdn.sanity.io/images/etrj839y/production/d474cdcc5bab4c9d612e92c1b78014d70e89860e-500x500.svg"
+                        src="https://cdn.sanity.io/images/vk33ybcu/production/d474cdcc5bab4c9d612e92c1b78014d70e89860e-500x500.svg"
                         alt="viva wreaths logo"
                     />
                     <img
                         className="col-span-2 max-h-40 w-full object-contain lg:col-span-1"
-                        src="https://cdn.sanity.io/images/etrj839y/production/c6034551074ba5264e076bb38ec82e997d457801-1024x768.svg"
+                        src="https://cdn.sanity.io/images/vk33ybcu/production/4041f209f759adf3481541460cffea16640e8689-500x500.svg"
                         alt="nology texas triangle logo"
                     />
                     
@@ -33,12 +33,12 @@ export default function Community() {
                     />
                     <img
                         className="col-span-2 max-h-40 w-full object-contain sm:col-start-2 lg:col-span-1"
-                        src="https://cdn.sanity.io/images/etrj839y/production/0e6a1f066cb36d9816169e9f069e9efd2b56175b-1024x768.svg"
+                        src="https://cdn.sanity.io/images/vk33ybcu/production/b12a64137db8a717e089bd72688848fc0c640eea-500x500.svg"
                         alt="nology brewery logo"
                     />
                     <img
                         className="col-span-2 col-start-2 max-h-40 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src="https://cdn.sanity.io/images/etrj839y/production/df1f0ea5979d432f18c5f5c9348ed7bd985b3fd6-500x500.svg"
+                        src="https://cdn.sanity.io/images/vk33ybcu/production/3144979c4b43b69f25841750e0f29173b2254ee5-500x500.svg"
                         alt="jessebubble logo"
                     />
                 </div>

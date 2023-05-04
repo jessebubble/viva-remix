@@ -28,7 +28,7 @@ export default function Store() {
                         <div className="w-full flex-auto">
                             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Welcome to our store</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-300">
-                                The online experience is brought to life with this exclusive line of collections. Powered by Remix, TailwindCSS, Sanity.io, MidJourney and Stripe
+                                Our design team continues to create exclusive collections for our growing community and thanks to services like Printful, we're able to offer a wide variety of products for you to choose from.
                             </p>
                             <ul className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">
                                 {benefits.map((benefit) => (
