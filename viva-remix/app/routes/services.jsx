@@ -45,7 +45,7 @@ export default function Services() {
                     </div>
                     <div>
                         <img
-                            src="https://cdn.sanity.io/images/etrj839y/production/0a765cc49e0c07e4c95b4d3957fc8de1cd194eff-960x540.gif"
+                            src="https://a-us.storyblok.com/f/1011218/960x540/6daeeb78bb/use-case-screenshot-task.gif"
                             alt="notion screenshot"
                             className="w-[24rem] md:w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:mt-4 lg:w-[52rem]"
                         />

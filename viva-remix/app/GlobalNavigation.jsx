@@ -17,7 +17,7 @@ const products = [
         name: "Twitchin Sunflower Robot Poster",
         href: '#',
         color: 'Midjourney',
-        imageSrc: 'https://cdn.sanity.io/images/vk33ybcu/production/73991ac6619f11d11bcdb7a7a1b342fb23fdaa02-1536x1536.png',
+        imageSrc: 'https://a-us.storyblok.com/f/1011218/1536x1536/2d7f2340fa/hero-community-4.png',
         imageAlt: 'Twitchin Sunflower Robot',
     },
     {
@@ -25,7 +25,7 @@ const products = [
       name: "Twitchin' Calavera Coasters",
       href: '#',
       color: 'Midjourney',
-      imageSrc: 'https://cdn.sanity.io/images/vk33ybcu/production/0c8a06e8db41368a4954db29b57cd6c74a56611b-896x1344.png',
+      imageSrc: 'https://a-us.storyblok.com/f/1011218/896x1344/9f48327dbe/hero-community-2.png',
       imageAlt: 'Twitchin Calavera',
     },
 ]
@@ -42,7 +42,7 @@ export default function GlobalNavigation(props) {
                             <span className="sr-only">Viva Web Design</span>
                             <img 
                             className="max-h-80 md:max-h-60 lg:max-h-32 w-full object-contain object-left" 
-                            src="https://cdn.sanity.io/images/etrj839y/production/f348be3278254433173339a7f0ff0ecfe390d516-500x500.svg"
+                            src="https://a-us.storyblok.com/f/1011218/500x500/06b50c093f/vivawebdesign-logo.svg"
                             alt="Viva Web Design" 
                             />
                         </Link>
@@ -122,13 +122,13 @@ export default function GlobalNavigation(props) {
                     </div>
                 </nav>
                 <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                    <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+                    <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-slate-950 px-6 py-6 lg:hidden">
                         <div className="flex items-center justify-between">
                             <Link to="/" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Viva Web Design</span>
                                 <img 
                                 className="max-h-80 md:max-h-60 lg:max-h-40 w-full object-contain object-left" 
-                                src="https://cdn.sanity.io/images/etrj839y/production/00e9093f731b9aca9eb096222822a4640ec462c4-500x500.svg" 
+                                src="https://a-us.storyblok.com/f/1011218/500x500/06b50c093f/vivawebdesign-logo.svg" 
                                 alt="Viva Web Design" 
                                 />
                             </Link>
@@ -147,7 +147,7 @@ export default function GlobalNavigation(props) {
                                         <Link key={item.title} to={item.link} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7">
                                             <NavLink 
                                                 to={item.link}
-                                                className={({ isActive }) => (isActive ? 'text-logopink' : 'text-gray-900 hover:bg-gray-400/10')}
+                                                className={({ isActive }) => (isActive ? 'text-logopink' : 'text-gray-300 hover:bg-gray-400/10')}
                                                 > {item.title}
                                             </NavLink>
                                         </Link>

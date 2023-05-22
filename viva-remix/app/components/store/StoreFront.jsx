@@ -15,7 +15,7 @@ export default function StoreFront() {
                 <div className="mt-6 lg:mt-8 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
                     <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
                         <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/0c8a06e8db41368a4954db29b57cd6c74a56611b-896x1344.png"
+                            src="https://a-us.storyblok.com/f/1011218/896x1344/9f48327dbe/hero-community-2.png"
                             alt="logo"
                             className="object-cover object-center group-hover:brightness-125"
                             />
@@ -36,7 +36,7 @@ export default function StoreFront() {
                     </div>
                     <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
                         <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/666bcd4c351fd0d2af7795f94c996d6a31d9c424-1024x1024.png"
+                            src="https://a-us.storyblok.com/f/1011218/1024x1024/8ca0447739/store-hero.png"
                             alt="logo"
                             className="object-cover object-top group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
                         />
@@ -57,7 +57,7 @@ export default function StoreFront() {
                     </div>
                     <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
                         <img
-                            src="https://cdn.sanity.io/images/vk33ybcu/production/73991ac6619f11d11bcdb7a7a1b342fb23fdaa02-1536x1536.png"
+                            src="https://a-us.storyblok.com/f/1011218/1536x1536/2d7f2340fa/hero-community-4.png"
                             alt="logo"
                             className="object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
                         />

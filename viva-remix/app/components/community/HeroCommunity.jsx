@@ -22,7 +22,7 @@ export default function HeroCommunity() {
                     <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                         <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                             <img
-                                src="https://cdn.sanity.io/images/vk33ybcu/production/5bad81635eb71a438ed44a23276c1a65daea8135-1024x1024.png"
+                                src="https://a-us.storyblok.com/f/1011218/1024x1024/2466205218/hero-community-1.png"
                                 alt="midjourney dia de los muertos"
                                 className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                             />
@@ -30,21 +30,21 @@ export default function HeroCommunity() {
                         <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                             <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                                 <img
-                                    src="https://cdn.sanity.io/images/vk33ybcu/production/0c8a06e8db41368a4954db29b57cd6c74a56611b-896x1344.png"
+                                    src="https://a-us.storyblok.com/f/1011218/896x1344/9f48327dbe/hero-community-2.png"
                                     alt="midjourney calavera"
                                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-slate-600/10 object-cover"
                                 />
                             </div>
                             <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                                 <img
-                                    src="https://cdn.sanity.io/images/vk33ybcu/production/71e67d09ad9702ff0e493522b2b5fd8ab3366afb-1024x1024.png"
+                                    src="https://a-us.storyblok.com/f/1011218/1024x1024/6770a4a3db/hero-community-3.png"
                                     alt="midjourney reading book"
                                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                                 />
                             </div>
                             <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                                 <img
-                                    src="https://cdn.sanity.io/images/vk33ybcu/production/73991ac6619f11d11bcdb7a7a1b342fb23fdaa02-1536x1536.png"
+                                    src="https://a-us.storyblok.com/f/1011218/1536x1536/2d7f2340fa/hero-community-4.png"
                                     alt="midjourney robot with flowers"
                                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-slate-700/10 object-cover"
                                 />
