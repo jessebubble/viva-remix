@@ -59,3 +59,5 @@ export default function Index() {
         </>
     )
 }
+
+// test to check if vercel updates ssl certificate for the domain
