@@ -1,9 +1,7 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css";
-import GlobalPattern from "~/GlobalPattern";
-import GlobalNavigation from "~/GlobalNavigation";
-import GlobalFooter from "~/GlobalFooter";
+import { RootLayout } from "./RootLayout";
 
 export const links: LinksFunction = () => [
     { rel: "stylesheet", href: stylesheet },
@@ -23,15 +21,12 @@ export default function App() {
             </head>
             <body>
                 <div className="relative isolate bg-slate-900">
-                    <GlobalPattern />
-                    <GlobalNavigation />
-                    <Outlet />
-                    <ScrollRestoration />
-                    <Scripts />
-                    <LiveReload />
-                </div>
-                <div>
-                    <GlobalFooter />
+                    <RootLayout>
+                        <Outlet />
+                        <ScrollRestoration />
+                        <Scripts />
+                        <LiveReload />
+                    </RootLayout>
                 </div>
             </body>
         </html>
