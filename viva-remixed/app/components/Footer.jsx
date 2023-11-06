@@ -1,7 +1,7 @@
 import { Link, useFetcher } from '@remix-run/react';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
-import { DevSaLogo } from '~/components/Logo';
+import { VivaLogo } from '~/components/Logo';
 import { socialMediaProfiles } from '~/components/SocialMedia';
 
 function NewsletterForm() {
@@ -143,9 +143,9 @@ export function Footer() {
                         <NewsletterForm />
                     </div>
                 </div>
-                <div className="mb-20 mt-24 flex items-center justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12 lg:pt-16">
+                <div className="mb-20 mt-24 flex items-center justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
                     <Link to="/" aria-label="Home">
-                        <DevSaLogo className="-ml-8 w-28 md:-ml-10 md:w-32" />
+                        <VivaLogo className="h-8 md:h-10 lg:h-12 w-auto" />
                     </Link>
                     <p className="text-sm text-neutral-700">
                         © Viva Web Design {new Date().getFullYear()}

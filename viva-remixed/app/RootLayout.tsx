@@ -13,9 +13,8 @@ import { Container } from '~/components/Container';
 import { Meetups } from '~/components/Meetups';
 import { Footer } from '~/components/Footer';
 import { Button } from '~/components/Button';
-import { Cog8ToothIcon } from '@heroicons/react/20/solid';
 import { SocialMedia } from '~/components/SocialMedia';
-import { DevSaLogo } from '~/components/Logo'
+import { VivaLogo, VivaText } from '~/components/Logo'
 
 const RootLayoutContext = createContext({});
 
@@ -55,20 +54,25 @@ function NavBar({
                     onMouseEnter={() => setLogoHovered(true)}
                     onMouseLeave={() => setLogoHovered(false)}
                 >
-                    <DevSaLogo
-                        className="-ml-5 md:-ml-6 w-28 md:w-32 lg:w-36"
+                    <VivaLogo
+                        className={clsx(
+                            "h-8 md:h-10 lg:h-12 w-auto",
+                            invert
+                                ? 'fill-white group-hover:fill-neutral-200'
+                                : 'group-hover:fll-neutral-700 fill-neutral-950',
+                            logoHovered ? 'animate-pulse' : ''
+                        )}
                     />
                 </Link>
                 <div className="flex items-center gap-x-8">
-                    <Button href="/services" invert={invert}>
-                        <Cog8ToothIcon
-                            className={clsx(
-                                'h-6 w-6',
-                                invert
-                                    ? 'fill-neutral-950 group-hover:fill-neutral-700'
-                                    : 'group-hover:fll-neutral-200 fill-white'
-                            )}  
-                        />
+                    <Button 
+                        href="/experiences" 
+                        invert={invert}
+                        className={clsx(
+                            'group -m-2.5 rounded-full p-2.5 transition',
+                        )}                        
+                    >
+                        Experiences created by <span className='text-spursPink'>VIVA Web Design</span>
                     </Button>
                     <button
                         ref={toggleRef}
