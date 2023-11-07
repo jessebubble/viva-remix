@@ -1,3 +1,4 @@
+import RootPattern from '~/RootPattern'
 import { Blockquote } from '~/components/Blockquote'
 import { Container } from '~/components/Container'
 import { FadeIn } from '~/components/FadeIn'
@@ -70,12 +71,12 @@ function Discover() {
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem className="">In-depth questionnaires</TagListItem>
+        <TagListItem className="">Feasibility studies</TagListItem>
+        <TagListItem className="">Blood samples</TagListItem>
+        <TagListItem className="">Employee surveys</TagListItem>
+        <TagListItem className="">Proofs-of-concept</TagListItem>
+        <TagListItem className="">Forensic audit</TagListItem>
       </TagList>
     </Section>
   )
@@ -182,39 +183,41 @@ function Values() {
       </div>
 
       <SectionIntro
-        eyebrow="We sell online experiences"
-        title="No idea starts perfect"
+        eyebrow="Our values"
+        title="Balancing reliability and innovation"
       >
         <p>
-          We will assist in breaking down your ideas and refining them through prototypes, research, and thorough planning. 
-          Our approach is to start from the simplest and most solid foundations
+          We strive to stay at the forefront of emerging trends and
+          technologies, while completely ignoring them and forking that old
+          Rails project we feel comfortable using. We stand by our core values
+          to justify that decision.
         </p>
       </SectionIntro>
 
       <Container className="mt-24">
-        <GridList>
-          <GridListItem title="Remove ambiguity">
+        <GridList className="">
+          <GridListItem title="Meticulous" className="">
             The first part of any partnership is getting our designer to put
             your logo in our template. The second step is getting them to do the
             colors.
           </GridListItem>
-          <GridListItem title="360° view">
+          <GridListItem title="Efficient" className="">
             We pride ourselves on never missing a deadline which is easy because
             most of the work was done years ago.
           </GridListItem>
-          <GridListItem title="Grounded in data">
+          <GridListItem title="Adaptable" className="">
             Every business has unique needs and our greatest challenge is
             shoe-horning those needs into something we already built.
           </GridListItem>
-          <GridListItem title="Consistent digital experience">
+          <GridListItem title="Honest" className="">
             We are transparent about all of our processes, banking on the simple
             fact our clients never actually read anything.
           </GridListItem>
-          <GridListItem title="Strategy development">
+          <GridListItem title="Loyal" className="">
             We foster long-term relationships with our clients that go beyond
             just delivering a product, allowing us to invoice them for decades.
           </GridListItem>
-          <GridListItem title="Solving common problems">
+          <GridListItem title="Innovative" className="">
             The technological landscape is always evolving and so are we. We are
             constantly on the lookout for new open source projects to clone.
           </GridListItem>
@@ -224,13 +227,20 @@ function Values() {
   )
 }
 
+export const metadata = {
+  title: 'Viva Web Design services',
+  description:
+  "We specialize in building ecommerce shops and interactive branding websites for non-profit organizations, cities, art and music education events, political events, lawyers, realtors, and entrepreneurs. Additionally, we offer design services for menus, flyers, trifold brochures, and a variety of marketing materials."
+}
+
 export default function ServicesSection() {
   return (
     <>
-      <PageIntro eyebrow="What's our secret?" title="We only build what we need to">
+        <RootPattern />
+      <PageIntro eyebrow="We sell online experiences" title="Creative web design and marketing campains">
         <p>
-          At Viva Web Design, we take the time to understand the business goals and user needs before finding creative solutions to address them.
-          Our creative process: <strong className="font-semibold text-neutral-950">Discover</strong>, <strong className="font-semibold text-neutral-950">Build</strong>, <strong className="font-semibold text-neutral-950">Deliver</strong> 
+            At Viva Web Design, our approach is what ensures the quality of the work we produce.
+            Our goal is to design websites that are both visually appealing and user-friendly
         </p>
       </PageIntro>
 

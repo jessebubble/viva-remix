@@ -3,7 +3,8 @@ import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import RootPattern from '~/RootPattern';
 import { AboutSection } from '~/components/AboutSection';
-
+import { ContactSection } from '~/components/ContactSection';
+import ServicesSection from '~/components/ServicesSection';
 
 export const meta: V2_MetaFunction = () => {
     return [
@@ -34,6 +35,8 @@ export default function Index() {
             </Container>
 
             <AboutSection />
+            <ServicesSection />
+            <ContactSection />
 
         </>
     );

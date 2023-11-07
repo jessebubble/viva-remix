@@ -42,12 +42,12 @@ function NewsletterForm() {
 
 const navigation = [
     {
-        title: 'Viva Examples',
+        title: 'Powered by Viva',
         links: [
-            { title: 'Promotional Flyers', href: '/flyers' },
+            { title: 'Marketing campains', href: '/experiences' },
             {
-                title: 'Restaurant Menus',
-                href: '/menus',
+                title: 'Creative web design',
+                href: '/experiences',
             },
             {
                 title: 'Online Experiences',
@@ -67,9 +67,9 @@ const navigation = [
         title: 'Site Navigation',
         links: [
             { title: 'Home Page', href: '/' },
-            { title: 'About us', href: '/about' },
             { title: 'Contact us', href: '/contact' },
-            { title: 'Pricing', href: '/pricing' },
+            { title: 'Service we offer', href: '/services' },
+            { title: 'Powered by viva', href: '/experiences' },
             { title: 'Hablamos español', href: '/language' },
         ],
     },

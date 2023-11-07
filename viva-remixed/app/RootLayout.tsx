@@ -131,12 +131,12 @@ function Navigation() {
     return (
         <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
             <NavigationRow>
-                <NavigationItem href="/about">About us</NavigationItem>
-                <NavigationItem href="/pricing">Pricing</NavigationItem>
+                <NavigationItem href="/services">Creative web design</NavigationItem>
+                <NavigationItem href="/experiences">Marketing campains</NavigationItem>
             </NavigationRow>
             <NavigationRow>
                 <NavigationItem href="/contact">Contact us</NavigationItem>
-                <NavigationItem href="/services">Services</NavigationItem>
+                <NavigationItem href="/language">Hablamos español</NavigationItem>
             </NavigationRow>
         </nav>
     );
