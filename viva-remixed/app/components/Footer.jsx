@@ -3,6 +3,7 @@ import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { VivaLogo } from '~/components/Logo';
 import { socialMediaProfiles } from '~/components/SocialMedia';
+import clsx from 'clsx';
 
 function NewsletterForm() {
     const fetcher = useFetcher();
@@ -32,7 +33,7 @@ function NewsletterForm() {
                         aria-label="Submit"
                         className="flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800 p-2"
                     >
-                        Submit {isSubmitting && <CheckIcon className="ml-2 w-4" />}
+                        {isSubmitting ? 'Thank You' : 'Submit'}
                     </button>          
                 </div>
             </div>
@@ -145,7 +146,12 @@ export function Footer() {
                 </div>
                 <div className="mb-20 mt-24 flex items-center justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
                     <Link to="/" aria-label="Home">
-                        <VivaLogo className="h-8 md:h-10 lg:h-12 w-auto" />
+                        <VivaLogo
+                            className={clsx(
+                                "h-8 md:h-10 lg:h-12 w-auto",
+                                "hover:animate-pulse transition"
+                            )}
+                        />
                     </Link>
                     <p className="text-sm text-neutral-700">
                         © Viva Web Design {new Date().getFullYear()}

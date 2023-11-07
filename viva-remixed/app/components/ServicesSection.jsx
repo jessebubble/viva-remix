@@ -1,5 +1,5 @@
-import { Blockquote } from '~/components/Blockquote'
 import { Container } from '~/components/Container'
+import { Blockquote } from '~/components/Blockquote'
 import { FadeIn } from '~/components/FadeIn'
 import { GridList, GridListItem } from '~/components/GridList'
 import { GridPattern } from '~/components/GridPattern'
@@ -9,6 +9,8 @@ import { SectionIntro } from '~/components/SectionIntro'
 import { StylizedImage } from '~/components/StylizedImage'
 import { TagList, TagListItem } from '~/components/TagList'
 import imageScarf from '~/components/images/scarf.png'
+import imageRobot from '~/components/images/robot.png'
+import imageDoor from '~/components/images/door.png'
 
 function Section({ title, image, children }) {
   return (
@@ -83,7 +85,7 @@ function Discover() {
 
 function Build() {
   return (
-    <Section title="Build" image={{ src: imageScarf, shape: 1 }}>
+    <Section title="Build" image={{ src: imageRobot, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Based off of the discovery phase, we develop a comprehensive roadmap
@@ -107,10 +109,10 @@ function Build() {
       </div>
 
       <Blockquote
-        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
+        author={{ name: 'Elton John', role: 'CEO of Rocketman' }}
         className="mt-12"
       >
-        Studio were so regular with their progress updates we almost began to
+        Viva Web Design were so regular with their progress updates we almost began to
         think they were automated!
       </Blockquote>
     </Section>
@@ -119,7 +121,7 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Deliver" image={{ src: imageScarf, shape: 2 }}>
+    <Section title="Deliver" image={{ src: imageDoor, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           About halfway through the Build phase, we push each project out by 6
