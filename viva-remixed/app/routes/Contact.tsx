@@ -4,7 +4,6 @@ import { Border } from '~/components/Border';
 import { Button } from '~/components/Button';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
-import { Support } from '~/components/Meetups';
 import { PageIntro } from '~/components/PageIntro';
 import { SocialMedia } from '~/components/SocialMedia';
 import RootPattern from '~/RootPattern';
@@ -44,7 +43,7 @@ function RadioInput({ label, ...props }) {
     );
 }
 
-function SponsorForm() {
+function ContactForm() {
     const fetcher = useFetcher();
     const isSubmitting = fetcher.state === 'submitting';    
 
@@ -55,7 +54,7 @@ function SponsorForm() {
                 action="/send"
             >
                 <h2 className="font-display text-base font-semibold text-neutral-950">
-                    Sponsor inquiries
+                    Project inquiries
                 </h2>
                 <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
                     <TextInput label="Name" name="name" autoComplete="name" />
@@ -86,42 +85,24 @@ function SponsorForm() {
     );
 }
 
-function SponsorDetails() {
+function ContactDetails() {
     return (
         <FadeIn>
             <h2 className="font-display text-base font-semibold text-neutral-950">
-                Sponsor an event
+                Viva Web Design
             </h2>
             <p className="mt-6 text-base text-neutral-600">
-                If you are interested in sponsoring an event, please reach out to us and we will get back to you as soon as possible with more information about our sponsorship packages and opportunities
+                We will assist in breaking down your ideas and refining them through prototypes, research, and thorough planning.
+                Our approach is to start from the simplest and most solid foundations
             </p>
-
-            <Support className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
 
             <Border className="mt-16 pt-16">
                 <h2 className="font-display text-base font-semibold text-neutral-950">
-                    Build for the community
+                    Strategy &amp; Development
                 </h2>
-                <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
-                    {[
-                        ['devSA YouTube', 'youtube.com/devSATX'],
-                        ['devSA Twitch', 'twitch.tv/devSATX'],
-                    ].map(([label, build]) => (
-                        <div key={label}>
-                            <dt className="font-semibold text-neutral-950">
-                                {label}
-                            </dt>
-                            <dd>
-                                <Link
-                                    to="/build"
-                                    className="text-neutral-600 hover:text-neutral-950"
-                                >
-                                    {build}
-                                </Link>
-                            </dd>
-                        </div>
-                    ))}
-                </dl>
+                <p className="mt-6 text-base text-neutral-600">
+                    We cultivate enduring relationships with our clients, extending beyond product delivery, which enables us to serve them for many years and invoice them accordingly
+                </p>
             </Border>
 
             <Border className="mt-16 pt-16">
@@ -135,9 +116,9 @@ function SponsorDetails() {
 }
 
 export const metadata = {
-    title: 'Sponsor Us',
+    title: 'Contact Us',
     description:
-        'Help us build a community for design and web developers in San Antonio, Texas. Join our community of creatives and technologists who share a common goal: leverage the power of the web to deliver exceptional user experiences',
+    "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
 };
 
 export default function Contact() {
@@ -146,7 +127,7 @@ export default function Contact() {
             <RootPattern />
             <PageIntro
                 eyebrow="Let's build together"
-                title="We appreciate your support and generosity"
+                title="It starts with an idea..."
             >
                 <p>
                     We have helped clients of all sizes produce stunning websites, and we are confident that we can help you produce stunning websites as well.
@@ -155,8 +136,8 @@ export default function Contact() {
 
             <Container className="mt-24 sm:mt-32 lg:mt-40">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-                    <SponsorForm />
-                    <SponsorDetails />
+                    <ContactForm />
+                    <ContactDetails />
                 </div>
             </Container>
         </>
