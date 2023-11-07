@@ -71,7 +71,7 @@ const navigation = [
             { title: 'Contact us', href: '/contact' },
             { title: 'Service we offer', href: '/services' },
             { title: 'Powered by viva', href: '/experiences' },
-            { title: 'Hablamos español', href: '/language' },
+            { title: 'Hablamos español', href: '#' },
         ],
     },
     {

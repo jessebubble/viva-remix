@@ -22,10 +22,10 @@ export function AboutSection() {
                         We build websites that are accessible to everyone, regardless of ability or device
                     </GridListItem>
                     <GridListItem title="Built to scale" invert className="">
-                        We build websites that are accessible to everyone, regardless of ability or device
+                        We create websites that are easy to add new features to, while also performing well for all users
                     </GridListItem>
                     <GridListItem title="Built for the web" invert className="">
-                        We build websites that are accessible to everyone, regardless of ability or device
+                        We create websites that are responsive and can adapt to all screen sizes, regardless of the user's device or age
                     </GridListItem>
                 </GridList>
             </Container>

@@ -70,6 +70,7 @@ function NavBar({
                         invert={invert}
                         className={clsx(
                             'group -m-2.5 rounded-full p-2.5 transition',
+                            'hidden sm:block',
                         )}                        
                     >
                         Experiences created by <span className='text-spursPink'>VIVA Web Design</span>
@@ -136,7 +137,7 @@ function Navigation() {
             </NavigationRow>
             <NavigationRow>
                 <NavigationItem href="/contact">Contact us</NavigationItem>
-                <NavigationItem href="/language">Hablamos español</NavigationItem>
+                <NavigationItem href="#">Hablamos español</NavigationItem>
             </NavigationRow>
         </nav>
     );

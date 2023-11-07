@@ -47,24 +47,22 @@ function Discover() {
     <Section title="Discover" image={{ src: imageScarf }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          We work closely with our clients to comprehend their{' '}
+          <strong className="font-semibold text-neutral-950">needs</strong> and goals.
+          We immerse ourselves in their day-to-day operations to grasp the essence of their business
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
+          Our team of private investigators shadow the company directors for
+          several weeks, while our account managers focus on examinining their discarded materials.
+          Subsequently, our senior security experts employ social engineering
           hacks to gain access to their{' '}
           <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
+          accounts, providing that information to our forensic accounting team.
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
+          After completing a thorough audit, we report back with a comprehensive{' '}
           <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          most importantly, a budget
         </p>
       </div>
 
@@ -88,23 +86,16 @@ function Build() {
     <Section title="Build" image={{ src: imageDentist, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Based on the discovery phase, we create a comprehensive roadmap for each product and begin working towards its delivery.
+          The roadmap may appear complex and technical, but its purpose is to ensure a thorough project execution
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          To facilitate effective communication, each client is assigned a key account manager who acts as a liaison between the client and the development team.
+          This helps manage client expectations and allows the development team to focus on their work, which includes exploring open source projects for reusable code
         </p>
         <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
+          Our account managers are trained to respond to client emails several days after the initial email, typically after 9pm.
+          This deliberate delay creates the perception of a busy schedule and discourages clients from making frequent change requests
         </p>
       </div>
 
@@ -124,31 +115,31 @@ function Deliver() {
     <Section title="Deliver" image={{ src: imageDoor, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
+          About halfway through the Build phase, we extend the timeline for each project by 6
           weeks due to a change in{' '}
           <strong className="font-semibold text-neutral-950">
             requirements
           </strong>
-          . This allows us to increase the budget a final time before launch.
+          . This allows us to make a final budget increase before launch
         </p>
         <p>
-          Despite largely using pre-built components, most of the{' '}
+          Despite heavily relying on pre-built components, the majority of{' '}
           <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+          on each project occurs in the final 24 hours. The development
+          time allocated to each client is actually spent creating augmented
+          reality demos that become viral on Twitter
         </p>
         <p>
           We ensure that the main pages of the site are{' '}
           <strong className="font-semibold text-neutral-950">
             fully functional
           </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
+          upon launch. However, the auxiliary pages will initially consist of placeholder text (lorem ipusm),
+          which will be updated as part of our thorough{' '}
           <strong className="font-semibold text-neutral-950">
             maintenance
           </strong>{' '}
-          retainer.
+          retainer
         </p>
       </div>
 
@@ -157,16 +148,13 @@ function Deliver() {
       </h3>
       <List className="mt-8">
         <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+          Our projects always have 100% test coverage, which would be impressive if our tests weren't so full of holes
         </ListItem>
         <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+          To ensure reliability, we only use the best Digital Ocean droplets that $4 a month can buy
         </ListItem>
         <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+          Since we possess the API keys for all the essential services your business utilizes, you can rely on us for ongoing support and invoicing throughout your entire business journey
         </ListItem>
       </List>
     </Section>
@@ -196,29 +184,22 @@ function Values() {
       <Container className="mt-24">
         <GridList>
           <GridListItem title="Remove ambiguity">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+            The first step in establishing a partnership is to have our designer incorporate your logo into our template. 
           </GridListItem>
           <GridListItem title="360° view">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+            We take pride in our ability to always meet deadlines, which is made easy by the fact that most of the work was completed years ago
           </GridListItem>
           <GridListItem title="Grounded in data">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+            We prioritize transparency in all of our processes, acknowledging the reality that our clients rarely read any content.
           </GridListItem>
           <GridListItem title="Consistent digital experience">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+            Every business has unique needs, and our greatest challenge is accommodating those needs within our existing framework
           </GridListItem>
           <GridListItem title="Strategy development">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+            We cultivate enduring relationships with our clients, extending beyond product delivery, which enables us to serve them for many years and invoice them accordingly
           </GridListItem>
           <GridListItem title="Solving common problems">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+            The technological landscape is constantly evolving, and we are too. We are always searching for new open-source projects to replicate
           </GridListItem>
         </GridList>
       </Container>
