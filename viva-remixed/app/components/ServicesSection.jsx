@@ -1,5 +1,5 @@
 import { Container } from '~/components/Container'
-import { Blockquote } from '~/components/Blockquote'
+import { BlockQuote } from '~/components/BlockQuote'
 import { FadeIn } from '~/components/FadeIn'
 import { GridList, GridListItem } from '~/components/GridList'
 import { GridPattern } from '~/components/GridPattern'
@@ -108,13 +108,13 @@ function Build() {
         </p>
       </div>
 
-      <Blockquote
+      <BlockQuote
         author={{ name: 'Elton John', role: 'CEO of Rocketman' }}
         className="mt-12"
       >
         Viva Web Design were so regular with their progress updates we almost began to
         think they were automated!
-      </Blockquote>
+      </BlockQuote>
     </Section>
   )
 }

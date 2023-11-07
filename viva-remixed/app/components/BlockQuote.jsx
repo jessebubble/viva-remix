@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { Border } from './Border';
 
-function BlockquoteWithImage({ author, image, children, className }) {
+function BlockQuoteWithImage({ author, image, children, className }) {
     return (
         <figure
             className={clsx(
@@ -30,7 +30,7 @@ function BlockquoteWithImage({ author, image, children, className }) {
     );
 }
 
-function BlockquoteWithoutImage({ author, children, className }) {
+function BlockQuoteWithoutImage({ author, children, className }) {
     return (
         <Border position="left" className={clsx('pl-8', className)}>
             <figure className="text-sm">
@@ -49,10 +49,10 @@ function BlockquoteWithoutImage({ author, children, className }) {
     );
 }
 
-export function Blockquote(props) {
+export function BlockQuote(props) {
     if (props.image) {
-        return <BlockquoteWithImage {...props} />;
+        return <BlockQuoteWithImage {...props} />;
     }
 
-    return <BlockquoteWithoutImage {...props} />;
+    return <BlockQuoteWithoutImage {...props} />;
 }

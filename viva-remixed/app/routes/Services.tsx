@@ -1,5 +1,5 @@
 import RootPattern from '~/RootPattern'
-import { Blockquote } from '~/components/Blockquote'
+import { BlockQuote } from '~/components/BlockQuote'
 import { Container } from '~/components/Container'
 import { FadeIn } from '~/components/FadeIn'
 import { GridList, GridListItem } from '~/components/GridList'
@@ -107,13 +107,13 @@ function Build() {
         </p>
       </div>
 
-      <Blockquote
+      <BlockQuote
         author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
         className="mt-12"
       >
         Studio were so regular with their progress updates we almost began to
         think they were automated!
-      </Blockquote>
+      </BlockQuote>
     </Section>
   )
 }
