@@ -2,20 +2,19 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react';
 import { AnimatePresence, motion, MotionConfig } from 'framer-motion';
 import useKeypress from 'react-use-keypress';
-import Dentist from '~/components/images/dentist.jpeg';
-import Door from '~/components/images/door.png';
-import Glitch from '~/components/images/glitch.png';
-import Robot from '~/components/images/robot.png';
-import Scarf from '~/components/images/scarf.png';
 import { SectionIntro } from '~/components/SectionIntro';
 import { Container } from '~/components/Container';
+import Flyer from '~/components/images/music-flyer.png';
+import MenuMex from '~/components/images/food-menu-2.png';
+import Store from '~/components/images/store.png';
+import Menu from '~/components/images/food-menu.png';
+import Brochure from '~/components/images/brochure-lawyer-2.png';
+import Docs from '~/components/images/docs.png';
+import Card from '~/components/images/business-card.png';
+import Graphic from '~/components/images/infographic.png';
+import Portraits from '~/components/images/portraits.png';
 
-let images = [Dentist, Door, Glitch, Robot, Scarf];
-
-let collapsedAspectRatio = 1 / 3;
-let fullAspectRatio = 3 / 2;
-let gap = 2;
-let margin = 12;
+let images = [Flyer, MenuMex, Menu, Graphic, Brochure, Card, Docs, Store, Portraits];
 
 export function ExperienceSection() {
     let [index, setIndex] = useState(0);
@@ -53,7 +52,7 @@ export function ExperienceSection() {
                 <MotionConfig
                     transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
                 >
-                    <div className=" bg-neutral-950">
+                    <div className="bg-neutral-950">
                         <div className="mx-auto flex max-w-7xl flex-col justify-center">
                             <div className="relative overflow-hidden">
                                 <motion.div
@@ -67,7 +66,7 @@ export function ExperienceSection() {
                                             animate={{
                                                 opacity: i === index ? 1 : 0.3,
                                             }}
-                                            className="aspect-[3/2] object-cover"
+                                            className="aspect-[3/2] object-cover w-full sm:h-[500px] md:h-[600px]"
                                         />
                                     ))}
                                 </motion.div>
