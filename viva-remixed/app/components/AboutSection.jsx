@@ -1,7 +1,6 @@
 import { SectionIntro } from '~/components/SectionIntro';
 import { Container } from '~/components/Container';
 import { GridList, GridListItem } from '~/components/GridList';
-import { Link } from '@remix-run/react';
 
 export function AboutSection() {
     return (

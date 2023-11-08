@@ -250,7 +250,7 @@ function Values() {
     );
 }
 
-export default function CreativeSection() {
+export function CreativeSection() {
     return (
         <>
             <PageIntro

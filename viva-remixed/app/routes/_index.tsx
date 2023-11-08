@@ -2,10 +2,10 @@ import type { V2_MetaFunction } from '@remix-run/node';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import RootPattern from '~/RootPattern';
-import { AboutSection } from '~/components/AboutSection';
 import { ContactSection } from '~/components/ContactSection';
-import CreativeSection from '~/components/CreativeSection';
+import { CreativeSection } from '~/components/CreativeSection';
 import { ServiceSection } from '~/components/ServiceSection';
+import { ExperienceSection } from '~/components/ExperienceSection';
 
 export const meta: V2_MetaFunction = () => {
     return [
@@ -39,10 +39,10 @@ export default function Index() {
                 </FadeIn>
             </Container>
 
-            <AboutSection />
+            <ExperienceSection />
             <CreativeSection />
-            <ContactSection />
             <ServiceSection />
+            <ContactSection />
         </>
     );
 }

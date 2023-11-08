@@ -1,7 +1,8 @@
 import RootPattern from "~/RootPattern";
 import { PageIntro } from "~/components/PageIntro";
 import { ServiceSection } from "~/components/ServiceSection";
-
+import { ExperienceSection } from "~/components/ExperienceSection";
+import { ContactSection } from "~/components/ContactSection";
 
 export const metadata = {
     title: 'Services we offer',
@@ -24,6 +25,8 @@ export default function Services() {
             </PageIntro>
             
             <ServiceSection /> 
+            <ExperienceSection />
+            <ContactSection />
         </>
     );
 }
