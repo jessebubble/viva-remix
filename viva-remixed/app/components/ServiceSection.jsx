@@ -21,11 +21,10 @@ import {
     CityLogo,
 } from '~/components/StockLogos';
 import RootPattern from '~/RootPattern';
-import SeaMonsterImage from "~/components/images/seamonster.png";
-import RobotImage from "~/components/images/robot.png";
-import GlitchImage from "~/components/images/glitch.png";
-import IdeaVideo from "~/components/images/idea.mp4";
-
+import SeaMonsterImage from '~/components/images/seamonster.png';
+import RobotImage from '~/components/images/robot.png';
+import GlitchImage from '~/components/images/glitch.png';
+import IdeaVideo from '~/components/images/idea.mp4';
 
 const MotionAppScreenHeader = motion(AppScreen.Header);
 const MotionAppScreenBody = motion(AppScreen.Body);
@@ -34,21 +33,21 @@ const features = [
     {
         name: 'Create Online experiences',
         description:
-            "We take pride in our ability to always meet deadlines, which is made easy by the fact that most of the work was completed years ago",
+            'We take pride in our ability to always meet deadlines, which is made easy by the fact that most of the work was completed years ago',
         icon: DeviceTouchIcon,
         screen: ExperienceScreen,
     },
     {
         name: 'Creative web design',
         description:
-            "We prioritize transparency in all of our processes, acknowledging the reality that our clients rarely read any content",
+            'We prioritize transparency in all of our processes, acknowledging the reality that our clients rarely read any content',
         icon: DeviceUserIcon,
         screen: CreativeScreen,
     },
     {
         name: 'Marketing campains',
         description:
-            "The first step in establishing a partnership is to have our designer incorporate your logo into our template and then invoice you for the work",
+            'The first step in establishing a partnership is to have our designer incorporate your logo into our template and then invoice you for the work',
         icon: DeviceNotificationIcon,
         screen: MarketingScreen,
     },
@@ -185,7 +184,8 @@ function CreativeScreen({ custom, animated = false }) {
             <MotionAppScreenHeader {...(animated ? headerAnimation : {})}>
                 <AppScreen.Title>Viva Web Design</AppScreen.Title>
                 <AppScreen.Subtitle>
-                    Our focus is creating online experiences that work for everyone
+                    Our focus is creating online experiences that work for
+                    everyone
                 </AppScreen.Subtitle>
             </MotionAppScreenHeader>
             <MotionAppScreenBody
@@ -200,7 +200,7 @@ function CreativeScreen({ custom, animated = false }) {
                         />
                     </div>
                     <div className="mt-6 space-y-6">
-                        <img 
+                        <img
                             src={RobotImage}
                             alt="robot"
                             className="mx-auto w-48 rounded-2xl"
@@ -217,7 +217,10 @@ function MarketingScreen({ custom, animated = false }) {
         <AppScreen className="w-full">
             <MotionAppScreenHeader {...(animated ? headerAnimation : {})}>
                 <AppScreen.Title>Marketing Campains</AppScreen.Title>
-                <AppScreen.Subtitle>We can create a range of promotional experiences for your events</AppScreen.Subtitle>
+                <AppScreen.Subtitle>
+                    We can create a range of promotional experiences for your
+                    events
+                </AppScreen.Subtitle>
             </MotionAppScreenHeader>
             <MotionAppScreenBody
                 {...(animated ? { ...bodyAnimation, custom } : {})}
@@ -339,12 +342,8 @@ function ExperienceScreen({ custom, animated = false }) {
                             playsInline
                             poster={GlitchImage}
                         >
-                            <source
-                                src={IdeaVideo}
-                                type="video/mp4"
-                            />
-
-                        </video>   
+                            <source src={IdeaVideo} type="video/mp4" />
+                        </video>
                     </div>
                 </div>
             </MotionAppScreenBody>
@@ -546,10 +545,9 @@ function FeaturesMobile() {
     );
 }
 
-
 export function ServiceSection() {
     return (
-        <>         
+        <>
             <div className="relative mt-24 sm:mt-32 lg:mt-40">
                 <SectionIntro
                     id="features"
@@ -558,7 +556,9 @@ export function ServiceSection() {
                     title="Creative web design and marketing campains"
                 >
                     <p>
-                        We cultivate enduring relationships with our clients, extending beyond product delivery, which enables us to serve them for many years and invoice them accordingly
+                        We cultivate enduring relationships with our clients,
+                        extending beyond product delivery, which enables us to
+                        serve them for many years and invoice them accordingly
                     </p>
                 </SectionIntro>
 

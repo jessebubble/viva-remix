@@ -1,8 +1,8 @@
-import RootPattern from "~/RootPattern";
-import { PageIntro } from "~/components/PageIntro";
-import { ExperienceSection } from "~/components/ExperienceSection";
-import { ServiceSection } from "~/components/ServiceSection";
-import { ContactSection } from "~/components/ContactSection";
+import RootPattern from '~/RootPattern';
+import { PageIntro } from '~/components/PageIntro';
+import { ExperienceSection } from '~/components/ExperienceSection';
+import { ServiceSection } from '~/components/ServiceSection';
+import { ContactSection } from '~/components/ContactSection';
 
 export const metadata = {
     title: 'Experiences powered by Viva Web Design',
@@ -19,12 +19,14 @@ export default function Experiences() {
                 title="Experienes so good you might start to think we're automated!"
             >
                 <p>
-                    We are Viva Web Design, and our focus is creating online experiences that work for everyone. 
-                    It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence
+                    We are Viva Web Design, and our focus is creating online
+                    experiences that work for everyone. It's as simple as that!
+                    We assist organizations in setting clear goals and
+                    delivering them with confidence
                 </p>
             </PageIntro>
-            
-            <ExperienceSection /> 
+
+            <ExperienceSection />
             <ServiceSection />
             <ContactSection />
         </>

@@ -4,9 +4,7 @@ import clsx from 'clsx';
 function Logo(props) {
     return (
         <svg viewBox="0 0 792 612" fill="none" aria-hidden="true" {...props}>
-            <path
-                d="M112.51 57.35H679.5L396 554.65 112.51 57.35z"
-            />
+            <path d="M112.51 57.35H679.5L396 554.65 112.51 57.35z" />
         </svg>
     );
 }
@@ -44,10 +42,10 @@ export function AppScreen({ children, className, ...props }) {
         <div className={clsx('flex flex-col', className)} {...props}>
             <div className="flex justify-between px-4 pt-4">
                 <MenuIcon className="h-6 w-6 flex-none" />
-                <Logo 
+                <Logo
                     className={clsx(
                         'h-8 w-auto flex-none',
-                        'text-white fill-current'
+                        'fill-current text-white'
                     )}
                 />
                 <UserIcon className="h-6 w-6 flex-none" />
@@ -67,7 +65,7 @@ AppScreen.Header = forwardRef(function AppScreenHeader({ children }, ref) {
 
 AppScreen.Title = forwardRef(function AppScreenTitle({ children }, ref) {
     return (
-        <div ref={ref} className="text-2xl text-white text-center">
+        <div ref={ref} className="text-center text-2xl text-white">
             {children}
         </div>
     );
@@ -75,7 +73,7 @@ AppScreen.Title = forwardRef(function AppScreenTitle({ children }, ref) {
 
 AppScreen.Subtitle = forwardRef(function AppScreenSubtitle({ children }, ref) {
     return (
-        <div ref={ref} className="text-sm text-neutral-500 text-center">
+        <div ref={ref} className="text-center text-sm text-neutral-500">
             {children}
         </div>
     );
