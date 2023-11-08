@@ -14,7 +14,7 @@ import { Meetups } from '~/components/Meetups';
 import { Footer } from '~/components/Footer';
 import { Button } from '~/components/Button';
 import { SocialMedia } from '~/components/SocialMedia';
-import { VivaLogo, VivaText } from '~/components/Logo'
+import { VivaLogo } from '~/components/Logo';
 
 const RootLayoutContext = createContext({});
 
@@ -56,7 +56,7 @@ function NavBar({
                 >
                     <VivaLogo
                         className={clsx(
-                            "h-8 md:h-10 lg:h-12 w-auto",
+                            'h-8 w-auto md:h-10 lg:h-12',
                             invert
                                 ? 'fill-white group-hover:fill-neutral-200'
                                 : 'group-hover:fll-neutral-700 fill-neutral-950',
@@ -65,15 +65,16 @@ function NavBar({
                     />
                 </Link>
                 <div className="flex items-center gap-x-8">
-                    <Button 
-                        href="/experiences" 
+                    <Button
+                        href="/experiences"
                         invert={invert}
                         className={clsx(
                             'group -m-2.5 rounded-full p-2.5 transition',
-                            'hidden sm:block',
-                        )}                        
+                            'hidden sm:block'
+                        )}
                     >
-                        Experiences created by <span className='text-spursPink'>VIVA Web Design</span>
+                        Experiences created by{' '}
+                        <span className="text-spursPink">VIVA Web Design</span>
                     </Button>
                     <button
                         ref={toggleRef}
@@ -132,8 +133,12 @@ function Navigation() {
     return (
         <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
             <NavigationRow>
-                <NavigationItem href="/services">Creative web design</NavigationItem>
-                <NavigationItem href="/experiences">Marketing campains</NavigationItem>
+                <NavigationItem href="/services">
+                    Creative web design
+                </NavigationItem>
+                <NavigationItem href="/experiences">
+                    Marketing campains
+                </NavigationItem>
             </NavigationRow>
             <NavigationRow>
                 <NavigationItem href="/contact">Contact us</NavigationItem>

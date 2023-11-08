@@ -12,20 +12,32 @@ export function AboutSection() {
                 invert
             >
                 <p>
-                    <span className="text-centroCyan">Need help getting started with your online experience?</span>{' '}
-                    Viva Web Design help organisations set clear goals and <span className='font-bold'>delivers them with confidence</span>
+                    <span className="text-centroCyan">
+                        Need help getting started with your online experience?
+                    </span>{' '}
+                    Viva Web Design help organisations set clear goals and{' '}
+                    <span className="font-bold">
+                        delivers them with confidence
+                    </span>
                 </p>
             </SectionIntro>
             <Container className="mt-16">
                 <GridList className="">
-                    <GridListItem title="Built for everyone" invert className="">
-                        We build websites that are accessible to everyone, regardless of ability or device
+                    <GridListItem
+                        title="Built for everyone"
+                        invert
+                        className=""
+                    >
+                        We build websites that are accessible to everyone,
+                        regardless of ability or device
                     </GridListItem>
                     <GridListItem title="Built to scale" invert className="">
-                        We create websites that are easy to add new features to, while also performing well for all users
+                        We create websites that are easy to add new features to,
+                        while also performing well for all users
                     </GridListItem>
                     <GridListItem title="Built for the web" invert className="">
-                        We create websites that are responsive and can adapt to all screen sizes, regardless of the user's device or age
+                        We create websites that are responsive and can adapt to
+                        all screen sizes, regardless of the user's device or age
                     </GridListItem>
                 </GridList>
             </Container>

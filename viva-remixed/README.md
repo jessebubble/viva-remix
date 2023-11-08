@@ -6,7 +6,7 @@ Building fast, user-friendly, easily manageable websites and applications .
 
 # Welcome to Remix!
 
-- [Remix Docs](https://remix.run/docs)
+-   [Remix Docs](https://remix.run/docs)
 
 ## Deployment
 

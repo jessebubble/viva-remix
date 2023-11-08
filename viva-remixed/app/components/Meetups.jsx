@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { Link } from "@remix-run/react"
+import { Link } from '@remix-run/react';
 
 function Office({ name, children, invert = false }) {
     return (
@@ -23,17 +23,13 @@ export function Meetups({ invert = false, ...props }) {
         <ul {...props}>
             <li>
                 <Office name="Online experiences" invert={invert}>
-                    <a href="/experiences">
-                        vivawebdesign.dev/experiences
-                    </a>
+                    <a href="/experiences">vivawebdesign.dev/experiences</a>
                     <br />
                 </Office>
             </li>
             <li>
                 <Office name="Design examples" invert={invert}>
-                    <a href="/design">
-                        vivawebdesign.dev/design
-                    </a>
+                    <a href="/design">vivawebdesign.dev/design</a>
                     <br />
                 </Office>
             </li>
@@ -51,9 +47,7 @@ export function Support({ invert = false, ...props }) {
             </li>
             <li>
                 <Office name="devSA Events" invert={invert}>
-                    <Link to="/events">
-                        devsanantonio.com/events
-                    </Link>
+                    <Link to="/events">devsanantonio.com/events</Link>
                     <br />
                 </Office>
             </li>

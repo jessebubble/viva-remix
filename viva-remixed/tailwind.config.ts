@@ -29,7 +29,7 @@ module.exports = {
         },
     },
     plugins: [
-      require('@headlessui/tailwindcss'),
-      require('@tailwindcss/aspect-ratio'),
+        require('@headlessui/tailwindcss'),
+        require('@tailwindcss/aspect-ratio'),
     ],
 } satisfies Config;

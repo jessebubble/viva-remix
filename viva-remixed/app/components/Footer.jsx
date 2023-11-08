@@ -31,10 +31,10 @@ function NewsletterForm() {
                     <button
                         type="submit"
                         aria-label="Submit"
-                        className="flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800 p-2"
+                        className="aspect-square flex h-full items-center justify-center rounded-xl bg-neutral-950 p-2 text-white transition hover:bg-neutral-800"
                     >
                         {isSubmitting ? 'Thank You' : 'Submit'}
-                    </button>          
+                    </button>
                 </div>
             </div>
         </fetcher.Form>
@@ -75,7 +75,7 @@ const navigation = [
         ],
     },
     {
-        title: "Social Media",
+        title: 'Social Media',
         links: socialMediaProfiles,
     },
 ];
@@ -148,8 +148,8 @@ export function Footer() {
                     <Link to="/" aria-label="Home">
                         <VivaLogo
                             className={clsx(
-                                "h-8 md:h-10 lg:h-12 w-auto",
-                                "hover:animate-pulse transition"
+                                'h-8 w-auto md:h-10 lg:h-12',
+                                'transition hover:animate-pulse'
                             )}
                         />
                     </Link>

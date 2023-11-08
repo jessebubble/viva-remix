@@ -45,14 +45,11 @@ function RadioInput({ label, ...props }) {
 
 function ContactForm() {
     const fetcher = useFetcher();
-    const isSubmitting = fetcher.state === 'submitting';    
+    const isSubmitting = fetcher.state === 'submitting';
 
     return (
         <FadeIn className="lg:order-last">
-            <fetcher.Form 
-                method="post"
-                action="/send"
-            >
+            <fetcher.Form method="post" action="/send">
                 <h2 className="font-display text-base font-semibold text-neutral-950">
                     Project inquiries
                 </h2>
@@ -77,9 +74,9 @@ function ContactForm() {
                     />
                     <TextInput label="Message" name="message" />
                 </div>
-                <Button type="submit" className="mt-10" invert={false} >
+                <Button type="submit" className="mt-10" invert={false}>
                     {isSubmitting ? 'Sending...' : "Let's build together"}
-                </Button>          
+                </Button>
             </fetcher.Form>
         </FadeIn>
     );
@@ -92,8 +89,10 @@ function ContactDetails() {
                 Viva Web Design
             </h2>
             <p className="mt-6 text-base text-neutral-600">
-                We will assist in breaking down your ideas and refining them through prototypes, research, and thorough planning.
-                Our approach is to start from the simplest and most solid foundations
+                We will assist in breaking down your ideas and refining them
+                through prototypes, research, and thorough planning. Our
+                approach is to start from the simplest and most solid
+                foundations
             </p>
 
             <Border className="mt-16 pt-16">
@@ -101,7 +100,9 @@ function ContactDetails() {
                     Strategy &amp; Development
                 </h2>
                 <p className="mt-6 text-base text-neutral-600">
-                    We cultivate enduring relationships with our clients, extending beyond product delivery, which enables us to serve them for many years and invoice them accordingly
+                    We cultivate enduring relationships with our clients,
+                    extending beyond product delivery, which enables us to serve
+                    them for many years and invoice them accordingly
                 </p>
             </Border>
 
@@ -118,7 +119,7 @@ function ContactDetails() {
 export const metadata = {
     title: 'Contact Us',
     description:
-    "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
+        "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
 };
 
 export default function Contact() {
@@ -130,7 +131,9 @@ export default function Contact() {
                 title="It starts with an idea..."
             >
                 <p>
-                    We have helped clients of all sizes produce stunning websites, and we are confident that we can help you produce stunning websites as well.
+                    We have helped clients of all sizes produce stunning
+                    websites, and we are confident that we can help you produce
+                    stunning websites as well.
                 </p>
             </PageIntro>
 
