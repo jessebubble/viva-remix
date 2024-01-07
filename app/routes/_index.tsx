@@ -23,8 +23,8 @@ export default function Index() {
     return (
         <>
             <PageIntro
-                eyebrow="Hablamos Español"
-                title="We are a design and web development studio"
+                eyebrow="Viva Web Design"
+                title="Design and Web development studio"
                 centered={true}
             >
                 <p className="text-balance">
@@ -32,8 +32,8 @@ export default function Index() {
                     <strong className="text-spursTurq">Viva Web Design</strong>,
                     and our focus is creating online experiences that work for
                     everyone. It's as simple as that! We assist organizations in
-                    setting clear goals and{' '}
-                    <strong>delivering them with confidence</strong>
+                    setting clear goals and delivering them with confidence.{' '}
+                    <strong className='text-spursOrange'>Hablamos Español</strong>
                 </p>
             </PageIntro>
 
