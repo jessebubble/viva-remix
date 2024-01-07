@@ -13,13 +13,13 @@ export function PageIntro({ eyebrow, title, children, centered = false }) {
         >
             <FadeIn>
                 <h1>
-                    <span className="font-display block text-base font-semibold text-neutral-950">
+                    <span className="font-display block text-base font-semibold text-spursPink">
                         {eyebrow}
                     </span>
                     <span className="sr-only"> - </span>
                     <span
                         className={clsx(
-                            'font-display mt-6 block max-w-5xl text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl',
+                            'font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-950 sm:text-6xl lg:text-7xl xl:text-8xl',
                             centered && 'mx-auto'
                         )}
                     >

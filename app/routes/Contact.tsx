@@ -1,12 +1,11 @@
 import { useId } from 'react';
-import { Link, useFetcher } from '@remix-run/react';
+import { useFetcher } from '@remix-run/react';
 import { Border } from '~/components/Border';
 import { Button } from '~/components/Button';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { PageIntro } from '~/components/PageIntro';
 import { SocialMedia } from '~/components/SocialMedia';
-import RootPattern from '~/RootPattern';
 
 function TextInput({ label, ...props }) {
     let id = useId();
@@ -30,26 +29,13 @@ function TextInput({ label, ...props }) {
     );
 }
 
-function RadioInput({ label, ...props }) {
-    return (
-        <label className="flex gap-x-3">
-            <input
-                type="radio"
-                {...props}
-                className="h-6 w-6 flex-none appearance-none rounded-full border border-neutral-950/20 outline-none checked:border-[0.5rem] checked:border-neutral-950 focus-visible:ring-1 focus-visible:ring-neutral-950 focus-visible:ring-offset-2"
-            />
-            <span className="text-base/6 text-neutral-950">{label}</span>
-        </label>
-    );
-}
-
 function ContactForm() {
     const fetcher = useFetcher();
     const isSubmitting = fetcher.state === 'submitting';
 
     return (
         <FadeIn className="lg:order-last">
-            <fetcher.Form method="post" action="/send">
+            <fetcher.Form>
                 <h2 className="font-display text-base font-semibold text-neutral-950">
                     Project inquiries
                 </h2>
@@ -116,19 +102,21 @@ function ContactDetails() {
     );
 }
 
-export const metadata = {
-    title: 'Contact Us',
-    description:
-        "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
-};
-
 export default function Contact() {
+    let rotations = [
+        'rotate-2',
+        '-rotate-2',
+        'rotate-2',
+        'rotate-2',
+        '-rotate-2',
+    ];
+
     return (
         <>
-            <RootPattern />
             <PageIntro
                 eyebrow="Let's build together"
                 title="It starts with an idea..."
+                centered={true}
             >
                 <p>
                     We have helped clients of all sizes produce stunning
@@ -138,11 +126,54 @@ export default function Contact() {
             </PageIntro>
 
             <Container className="mt-24 sm:mt-32 lg:mt-40">
-                <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-                    <ContactForm />
-                    <ContactDetails />
-                </div>
+                <FadeIn>
+                    <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+                        {imageArray.map((image, index) => (
+                            <div
+                                key={index}
+                                className="relative h-64 w-64 flex-none sm:h-80 sm:w-80"
+                            >
+                                <div className="absolute inset-0 rounded-xl" />
+                                <img
+                                    src={image.href}
+                                    alt="midjourney collection"
+                                    className={`relative h-full w-full rounded-xl bg-neutral-950/5 object-cover shadow-lg ${rotations[index]}`}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </FadeIn>
+
+                <FadeIn className="mt-24 sm:mt-32 lg:mt-40">
+                    <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
+                        <ContactForm />
+                        <ContactDetails />
+                    </div>
+                </FadeIn>
             </Container>
         </>
     );
 }
+
+const imageArray = [
+    {
+        name: 'image1',
+        href: 'https://a-us.storyblok.com/f/1014518/1024x1024/0809148c2c/blended-array-1.png',
+    },
+    {
+        name: 'image2',
+        href: 'https://a-us.storyblok.com/f/1014518/896x1344/7863ec52e4/blended-array-2.png',
+    },
+    {
+        name: 'image3',
+        href: 'https://a-us.storyblok.com/f/1014518/1024x1024/56606e6303/blended-array-3.png',
+    },
+    {
+        name: 'image4',
+        href: 'https://a-us.storyblok.com/f/1014518/896x1344/1b43a440fb/blended-array-4.png',
+    },
+    {
+        name: 'image5',
+        href: 'https://a-us.storyblok.com/f/1014518/1344x896/3f23f7a233/blended-array-5.png',
+    },
+];

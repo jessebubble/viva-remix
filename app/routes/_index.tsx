@@ -1,19 +1,20 @@
-import type { V2_MetaFunction } from '@remix-run/node';
-import { Container } from '~/components/Container';
-import { FadeIn } from '~/components/FadeIn';
-import RootPattern from '~/RootPattern';
-import { ContactSection } from '~/components/ContactSection';
-import { CreativeSection } from '~/components/CreativeSection';
-import { ServiceSection } from '~/components/ServiceSection';
-import { ExperienceSection } from '~/components/ExperienceSection';
+import type { MetaFunction } from '@remix-run/node';
+import { PageIntro } from '~/components/PageIntro';
+import { ExperienceSection } from '~/components/CTAExperience';
+import { AboutSection } from '~/components/CTAAbout';
+import { ServiceSection } from '~/components/CTAService';
+import { ContactSection } from '~/components/CTAContact';
+import { CreativeSection } from '~/components/CTACreative';
 
-export const meta: V2_MetaFunction = () => {
+export const meta: MetaFunction = () => {
     return [
-        { title: 'Viva Web Design' },
         {
-            name: 'Viva Web Design',
+            title: "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that!",
+        },
+        {
+            name: 'Viva Web Design - Design and Web Development studio in San Antonio, Texas',
             content:
-                'We specialize in building ecommerce shops and interactive branding websites for non-profit organizations, cities, art and music education events, political events, lawyers, realtors, and entrepreneurs. Additionally, we offer design services for menus, flyers, trifold brochures, and a variety of marketing materials.',
+                "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
         },
     ];
 };
@@ -21,28 +22,26 @@ export const meta: V2_MetaFunction = () => {
 export default function Index() {
     return (
         <>
-            <RootPattern />
-
-            <Container className="mt-24 sm:mt-32 md:mt-56">
-                <FadeIn className="max-w-3xl">
-                    <h1 className="font-display text-7xl font-black tracking-tight text-neutral-950 [text-wrap:balance] sm:text-9xl">
-                        Viva Web Design<span className="text-spursPink">!</span>
-                    </h1>
-                    <p className="mt-6 text-xl text-neutral-600">
-                        We are Viva Web Design, and our focus is creating online
-                        experiences that work for everyone. It's as simple as
-                        that! We assist organizations in setting clear goals and{' '}
-                        <span className="font-bold">
-                            delivering them with confidence
-                        </span>
-                    </p>
-                </FadeIn>
-            </Container>
+            <PageIntro
+                eyebrow="Hablamos Español"
+                title="We are a design and web development studio"
+                centered={true}
+            >
+                <p className="text-balance">
+                    We are{' '}
+                    <strong className="text-spursTurq">Viva Web Design</strong>,
+                    and our focus is creating online experiences that work for
+                    everyone. It's as simple as that! We assist organizations in
+                    setting clear goals and{' '}
+                    <strong>delivering them with confidence</strong>
+                </p>
+            </PageIntro>
 
             <ExperienceSection />
             <CreativeSection />
-            <ServiceSection />
+            <AboutSection />
             <ContactSection />
+            <ServiceSection />
         </>
     );
 }

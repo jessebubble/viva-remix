@@ -10,7 +10,7 @@ function NewsletterForm() {
     const isSubmitting = fetcher.state === 'submitting';
 
     return (
-        <fetcher.Form method="post" action="/send" className="max-w-sm">
+        <fetcher.Form className="max-w-sm">
             <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
                 Sign up for our newsletter
             </h2>
@@ -31,7 +31,7 @@ function NewsletterForm() {
                     <button
                         type="submit"
                         aria-label="Submit"
-                        className="aspect-square flex h-full items-center justify-center rounded-xl bg-neutral-950 p-2 text-white transition hover:bg-neutral-800"
+                        className="aspect-square flex h-full items-center justify-center rounded-xl bg-neutral-950 px-3 text-white transition hover:bg-neutral-800"
                     >
                         {isSubmitting ? 'Thank You' : 'Submit'}
                     </button>
@@ -43,16 +43,16 @@ function NewsletterForm() {
 
 const navigation = [
     {
-        title: 'Powered by Viva',
+        title: 'What we do',
         links: [
-            { title: 'Marketing campains', href: '/experiences' },
+            { title: 'Marketing campains', href: '/showcase' },
             {
                 title: 'Creative web design',
-                href: '/experiences',
+                href: '/showcase',
             },
             {
                 title: 'Online Experiences',
-                href: '/experiences',
+                href: '/showcase',
             },
             {
                 title: (
@@ -68,9 +68,9 @@ const navigation = [
         title: 'Site Navigation',
         links: [
             { title: 'Home Page', href: '/' },
-            { title: 'Contact us', href: '/contact' },
             { title: 'Service we offer', href: '/services' },
-            { title: 'Powered by viva', href: '/experiences' },
+            { title: 'Contact us', href: '/contact' },
+            { title: 'Showcase', href: '/showcase' },
             { title: 'Hablamos español', href: '#' },
         ],
     },
@@ -105,32 +105,6 @@ function Navigation() {
                 ))}
             </ul>
         </nav>
-    );
-}
-
-function ArrowIcon(props) {
-    return (
-        <svg viewBox="0 0 16 6" aria-hidden="true" {...props}>
-            <path
-                fill="currentColor"
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M16 3 10 .5v2H0v1h10v2L16 3Z"
-            />
-        </svg>
-    );
-}
-
-function CheckIcon(props) {
-    return (
-        <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-            <path
-                fill="currentColor"
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z"
-            />
-        </svg>
     );
 }
 

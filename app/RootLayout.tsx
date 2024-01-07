@@ -66,15 +66,14 @@ function NavBar({
                 </Link>
                 <div className="flex items-center gap-x-8">
                     <Button
-                        href="/experiences"
-                        invert={invert}
+                        href="/showcase"
+                        invert={false}
                         className={clsx(
                             'group -m-2.5 rounded-full p-2.5 transition',
                             'hidden sm:block'
                         )}
                     >
-                        Experiences created by{' '}
-                        <span className="text-spursPink">VIVA Web Design</span>
+                        Showcase
                     </Button>
                     <button
                         ref={toggleRef}
@@ -136,13 +135,13 @@ function Navigation() {
                 <NavigationItem href="/services">
                     Creative web design
                 </NavigationItem>
-                <NavigationItem href="/experiences">
+                <NavigationItem href="/services">
                     Marketing campains
                 </NavigationItem>
             </NavigationRow>
             <NavigationRow>
                 <NavigationItem href="/contact">Contact us</NavigationItem>
-                <NavigationItem href="#">Hablamos español</NavigationItem>
+                <NavigationItem href="showcase">Showcase</NavigationItem>
             </NavigationRow>
         </nav>
     );
@@ -233,12 +232,11 @@ function RootLayoutInner({ children }) {
                                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                                     <div>
                                         <h2 className="font-display text-base font-semibold text-white">
-                                            Some examples of our work
+                                            Viva Web Design &mdash;{' '}
+                                            <span className="text-spursPink">
+                                                Hablamos Español
+                                            </span>
                                         </h2>
-                                        <Meetups
-                                            invert
-                                            className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
-                                        />
                                     </div>
                                     <div className="sm:border-l sm:border-transparent sm:pl-16">
                                         <h2 className="font-display text-base font-semibold text-white">

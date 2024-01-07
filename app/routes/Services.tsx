@@ -1,28 +1,23 @@
-import RootPattern from '~/RootPattern';
 import { PageIntro } from '~/components/PageIntro';
-import { ServiceSection } from '~/components/ServiceSection';
-import { ExperienceSection } from '~/components/ExperienceSection';
-import { ContactSection } from '~/components/ContactSection';
-
-export const metadata = {
-    title: 'Services we offer',
-    description:
-        "We are Viva Web Design, and our focus is creating online experiences that work for everyone. It's as simple as that! We assist organizations in setting clear goals and delivering them with confidence",
-};
+import { ServiceSection } from '~/components/CTAService';
+import { ExperienceSection } from '~/components/CTAExperience';
+import { ContactSection } from '~/components/CTAContact';
 
 export default function Services() {
     return (
         <>
-            <RootPattern />
             <PageIntro
-                eyebrow="We sell online experiences"
-                title="Experienes so good you might start to think we're automated!"
+                eyebrow="We create online experiences"
+                title="Designing and building for the modern web"
+                centered={true}
             >
                 <p>
-                    We are Viva Web Design, and our focus is creating online
-                    experiences that work for everyone. It's as simple as that!
-                    We assist organizations in setting clear goals and
-                    delivering them with confidence
+                    We are{' '}
+                    <strong className="text-spursTurq">Viva Web Design</strong>,
+                    and our focus is creating online experiences that work for
+                    everyone. It's as simple as that! We assist organizations in
+                    setting clear goals and{' '}
+                    <strong>delivering them with confidence</strong>
                 </p>
             </PageIntro>
 

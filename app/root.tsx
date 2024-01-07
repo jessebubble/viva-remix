@@ -12,6 +12,7 @@ import { RootLayout } from './RootLayout';
 
 export const links: LinksFunction = () => [
     { rel: 'stylesheet', href: stylesheet },
+    { rel: 'icon', href: '/favicon.ico' },
 ];
 
 export default function App() {
@@ -23,7 +24,10 @@ export default function App() {
                     name="viewport"
                     content="width=device-width,initial-scale=1"
                 />
-                <title>Viva Web Design</title>
+                <title>
+                    We are a design and web development studio in San Antonio,
+                    TX
+                </title>
                 <Meta />
                 <Links />
             </head>
