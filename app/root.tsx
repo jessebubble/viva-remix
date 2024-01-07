@@ -1,3 +1,4 @@
+import type { LinksFunction } from '@remix-run/node';
 import {
     Links,
     LiveReload,
@@ -6,13 +7,11 @@ import {
     Scripts,
     ScrollRestoration,
 } from '@remix-run/react';
-import type { LinksFunction } from '@remix-run/node';
 import stylesheet from '~/tailwind.css';
 import { RootLayout } from './RootLayout';
 
 export const links: LinksFunction = () => [
     { rel: 'stylesheet', href: stylesheet },
-    { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
 ];
 
 export default function App() {

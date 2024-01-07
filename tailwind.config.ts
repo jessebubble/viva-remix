@@ -1,6 +1,5 @@
 import type { Config } from 'tailwindcss';
-
-const defaultTheme = require('tailwindcss/defaultTheme');
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 module.exports = {
     content: ['./app/**/*.{js,jsx,ts,tsx}'],
@@ -31,5 +30,8 @@ module.exports = {
     plugins: [
         require('@headlessui/tailwindcss'),
         require('@tailwindcss/aspect-ratio'),
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
+        require('@tailwindcss/container-queries'),
     ],
 } satisfies Config;

@@ -14,7 +14,17 @@ import Card from '~/components/images/business-card.png';
 import Graphic from '~/components/images/infographic.png';
 import Portraits from '~/components/images/portraits.png';
 
-let images = [Flyer, MenuMex, Menu, Graphic, Brochure, Card, Docs, Store, Portraits];
+let images = [
+    Flyer,
+    MenuMex,
+    Menu,
+    Graphic,
+    Brochure,
+    Card,
+    Docs,
+    Store,
+    Portraits,
+];
 
 export function ExperienceSection() {
     let [index, setIndex] = useState(0);
@@ -66,7 +76,7 @@ export function ExperienceSection() {
                                             animate={{
                                                 opacity: i === index ? 1 : 0.3,
                                             }}
-                                            className="aspect-[3/2] object-cover w-full sm:h-[500px] md:h-[600px]"
+                                            className="aspect-[3/2] w-full object-cover sm:h-[500px] md:h-[600px]"
                                         />
                                     ))}
                                 </motion.div>

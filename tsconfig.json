@@ -6,13 +6,13 @@
         "app/components/Footer.jsx"
     ],
     "compilerOptions": {
-        "lib": ["DOM", "DOM.Iterable", "ES2019"],
+        "lib": ["DOM", "DOM.Iterable", "ES2022"],
         "isolatedModules": true,
         "esModuleInterop": true,
         "jsx": "react-jsx",
-        "moduleResolution": "node",
+        "moduleResolution": "Bundler",
         "resolveJsonModule": true,
-        "target": "ES2019",
+        "target": "ES2022",
         "strict": true,
         "allowJs": true,
         "forceConsistentCasingInFileNames": true,
