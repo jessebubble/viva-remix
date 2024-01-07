@@ -92,7 +92,7 @@ export function ExperienceSection() {
             </div>
             <SectionIntro
                 eyebrow="We sell online experiences"
-                title="Experienes so good you might start to think we're automated"
+                title="Experiences so good you might start to think we're automated"
                 invert={false}
             ></SectionIntro>
             <Container className="mt-16">
