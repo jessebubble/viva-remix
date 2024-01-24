@@ -3,7 +3,7 @@
         "remix.env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        "app/components/Footer.jsx"
+        "app/components/Footer.jsx",
     ],
     "compilerOptions": {
         "lib": ["DOM", "DOM.Iterable", "ES2022"],
@@ -18,10 +18,10 @@
         "forceConsistentCasingInFileNames": true,
         "baseUrl": ".",
         "paths": {
-            "~/*": ["./app/*"]
+            "~/*": ["./app/*"],
         },
 
         // Remix takes care of building everything in `remix build`.
-        "noEmit": true
-    }
+        "noEmit": true,
+    },
 }

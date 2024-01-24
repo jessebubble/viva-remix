@@ -2,7 +2,6 @@ import type { MetaFunction } from '@remix-run/node';
 import { PageIntro } from '~/components/PageIntro';
 import { ExperienceSection } from '~/components/CTAExperience';
 import { AboutSection } from '~/components/CTAAbout';
-import { ServiceSection } from '~/components/CTAService';
 import { ContactSection } from '~/components/CTAContact';
 import { CreativeSection } from '~/components/CTACreative';
 
@@ -28,12 +27,11 @@ export default function Index() {
                 centered={true}
             >
                 <p className="text-balance">
-                    We are{' '}
-                    <strong className="text-spursTurq">Viva Web Design</strong>,
-                    and our focus is creating online experiences that work for
-                    everyone. It's as simple as that! We assist organizations in
-                    setting clear goals and delivering them with confidence.{' '}
-                    <strong className='text-spursOrange'>Hablamos Español</strong>
+                    Our focus is creating online experiences that work for
+                    everyone. <strong>It's as simple as that!</strong> We assist
+                    organizations in setting clear goals and delivering them
+                    with confidence.{' '}
+                    <strong className="text-spursPink">Hablamos Español</strong>
                 </p>
             </PageIntro>
 
@@ -41,7 +39,6 @@ export default function Index() {
             <CreativeSection />
             <AboutSection />
             <ContactSection />
-            <ServiceSection />
         </>
     );
 }

@@ -51,8 +51,8 @@ const navigation = [
                 href: '/showcase',
             },
             {
-                title: 'Online Experiences',
-                href: '/showcase',
+                title: 'Non-Profit SPAs',
+                href: '/non-profit',
             },
             {
                 title: (

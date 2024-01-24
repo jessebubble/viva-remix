@@ -1,16 +1,8 @@
 import { Link, useFetcher } from '@remix-run/react';
-import {
-    createContext,
-    useContext,
-    useEffect,
-    useId,
-    useRef,
-    useState,
-} from 'react';
+import { createContext, useEffect, useId, useRef, useState } from 'react';
 import clsx from 'clsx';
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion';
 import { Container } from '~/components/Container';
-import { Meetups } from '~/components/Meetups';
 import { Footer } from '~/components/Footer';
 import { Button } from '~/components/Button';
 import { SocialMedia } from '~/components/SocialMedia';
@@ -18,7 +10,7 @@ import { VivaLogo } from '~/components/Logo';
 
 const RootLayoutContext = createContext({});
 
-function XIcon(props) {
+function XIcon(props: object) {
     return (
         <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
             <path d="m5.636 4.223 14.142 14.142-1.414 1.414L4.222 5.637z" />
@@ -27,7 +19,7 @@ function XIcon(props) {
     );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: object) {
     return (
         <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
             <path d="M2 6h20v2H2zM2 16h20v2H2z" />
@@ -43,37 +35,29 @@ function NavBar({
     onToggle,
     toggleRef,
 }) {
-    let { logoHovered, setLogoHovered } = useContext(RootLayoutContext);
-
     return (
         <Container className="">
             <div className="flex items-center justify-between">
-                <Link
-                    to="/"
-                    aria-label="Home"
-                    onMouseEnter={() => setLogoHovered(true)}
-                    onMouseLeave={() => setLogoHovered(false)}
-                >
+                <Link to="/" aria-label="Home">
                     <VivaLogo
                         className={clsx(
-                            'h-8 w-auto md:h-10 lg:h-12',
+                            'w-20',
                             invert
                                 ? 'fill-white group-hover:fill-neutral-200'
-                                : 'group-hover:fll-neutral-700 fill-neutral-950',
-                            logoHovered ? 'animate-pulse' : ''
+                                : 'group-hover:fll-neutral-700 fill-neutral-950'
                         )}
                     />
                 </Link>
                 <div className="flex items-center gap-x-8">
                     <Button
-                        href="/showcase"
+                        href="/non-profit"
                         invert={false}
                         className={clsx(
                             'group -m-2.5 rounded-full p-2.5 transition',
                             'hidden sm:block'
                         )}
                     >
-                        Showcase
+                        Non-Profit Web Design
                     </Button>
                     <button
                         ref={toggleRef}
@@ -104,7 +88,7 @@ function NavBar({
     );
 }
 
-function NavigationRow({ children }) {
+function NavigationRow({ children }: { children: React.ReactNode }) {
     return (
         <div className="even:mt-px sm:bg-neutral-950">
             <Container className="">
@@ -116,7 +100,13 @@ function NavigationRow({ children }) {
     );
 }
 
-function NavigationItem({ href, children }) {
+function NavigationItem({
+    href,
+    children,
+}: {
+    href: string;
+    children: React.ReactNode;
+}) {
     return (
         <Link
             to={href}
@@ -140,14 +130,16 @@ function Navigation() {
                 </NavigationItem>
             </NavigationRow>
             <NavigationRow>
-                <NavigationItem href="/contact">Contact us</NavigationItem>
-                <NavigationItem href="showcase">Showcase</NavigationItem>
+                <NavigationItem href="/non-profit">
+                    Non-Profit SPAs
+                </NavigationItem>
+                <NavigationItem href="contact">Contact us</NavigationItem>
             </NavigationRow>
         </nav>
     );
 }
 
-function RootLayoutInner({ children }) {
+function RootLayoutInner({ children }: { children: React.ReactNode }) {
     let panelId = useId();
     let [expanded, setExpanded] = useState(false);
     let openRef = useRef();
@@ -156,8 +148,11 @@ function RootLayoutInner({ children }) {
     let shouldReduceMotion = useReducedMotion();
 
     useEffect(() => {
-        function onClick(event) {
-            if (event.target.closest('a')?.href === window.location.href) {
+        function onClick(event: React.MouseEvent) {
+            if (
+                event.target instanceof Element &&
+                event.target.closest('a')?.href === window.location.href
+            ) {
                 setExpanded(false);
             }
         }
@@ -177,7 +172,7 @@ function RootLayoutInner({ children }) {
                 <div
                     className="absolute left-0 right-0 top-2 z-40 pt-14"
                     aria-hidden={expanded ? 'true' : undefined}
-                    inert={expanded ? '' : undefined}
+                    // inert={expanded ? '' : undefined}
                 >
                     <NavBar
                         panelId={panelId}
@@ -186,11 +181,10 @@ function RootLayoutInner({ children }) {
                         expanded={expanded}
                         onToggle={() => {
                             setExpanded((expanded) => !expanded);
-                            window.setTimeout(
-                                () =>
-                                    closeRef.current?.focus({
-                                        preventScroll: true,
-                                    })
+                            window.setTimeout(() =>
+                                closeRef.current?.focus({
+                                    preventScroll: true,
+                                })
                             );
                         }}
                     />
@@ -202,7 +196,7 @@ function RootLayoutInner({ children }) {
                     style={{ height: expanded ? 'auto' : '0.5rem' }}
                     className="relative z-50 overflow-hidden bg-neutral-950 pt-2"
                     aria-hidden={expanded ? undefined : 'true'}
-                    inert={expanded ? undefined : ''}
+                    // inert={expanded ? undefined : ''}
                 >
                     <motion.div layout className="bg-neutral-800">
                         <div
@@ -217,11 +211,10 @@ function RootLayoutInner({ children }) {
                                 expanded={expanded}
                                 onToggle={() => {
                                     setExpanded((expanded) => !expanded);
-                                    window.setTimeout(
-                                        () =>
-                                            openRef.current?.focus({
-                                                preventScroll: true,
-                                            })
+                                    window.setTimeout(() =>
+                                        openRef.current?.focus({
+                                            preventScroll: true,
+                                        })
                                     );
                                 }}
                             />
@@ -269,7 +262,7 @@ function RootLayoutInner({ children }) {
     );
 }
 
-export function RootLayout({ children }) {
+export function RootLayout({ children }: { children: React.ReactNode }) {
     let pathname = useFetcher();
     let [logoHovered, setLogoHovered] = useState(false);
 

@@ -1,6 +1,5 @@
 import { PageIntro } from '~/components/PageIntro';
 import { ShowcaseSection } from '~/components/CTAShowcase';
-import { ServiceSection } from '~/components/CTAService';
 import { ContactSection } from '~/components/CTAContact';
 
 export default function Showcase() {
@@ -19,7 +18,6 @@ export default function Showcase() {
             </PageIntro>
 
             <ShowcaseSection />
-            <ServiceSection />
             <ContactSection />
         </>
     );
