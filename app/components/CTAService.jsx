@@ -326,7 +326,10 @@ function ExperienceScreen({ custom, animated = false }) {
                      playsInline
                      poster="https://res.cloudinary.com/jessebubble/image/upload/v1706921594/glitch_axrupt.png"
                   >
-                     <source src="https://res.cloudinary.com/jessebubble/video/upload/v1706924126/idea_t3fpts.mp4" type="video/mp4" />
+                     <source
+                        src="https://res.cloudinary.com/jessebubble/video/upload/v1706924126/idea_t3fpts.mp4"
+                        type="video/mp4"
+                     />
                   </video>
                </div>
             </div>

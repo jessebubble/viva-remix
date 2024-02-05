@@ -12,19 +12,25 @@ const collections = [
          {
             name: 'Marketing Websites',
             role: 'A website that reflects your brand essence',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe2_nyxvvx.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe2_nyxvvx.png',
+            },
             href: '/services',
          },
          {
             name: 'Non-Profit SPAs',
             role: 'Optimized for your mission and donor engagement',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png',
+            },
             href: '/services',
          },
          {
             name: 'Software Applications',
             role: 'Tailored to your business needs and unique requirements',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe4_dkqp10.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe4_dkqp10.png',
+            },
             href: '/services',
          },
       ],
@@ -35,37 +41,49 @@ const collections = [
          {
             name: 'Vector Graphics',
             role: 'For your website, social media, and print materials',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924009/hands_wcknbq.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/hands_wcknbq.png',
+            },
             href: '/services',
          },
          {
             name: 'Flyers',
             role: 'Flyers for your events, promotions, and more',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924009/brain_kanxyd.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/brain_kanxyd.png',
+            },
             href: '/services',
          },
          {
             name: 'Menus',
             role: 'Menus for your restaurant, food truck, or any other business',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924384/seamonster_xwviix.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924384/seamonster_xwviix.png',
+            },
             href: '/services',
          },
          {
             name: 'Brochures',
             role: 'Brochures for your business, event, or organization',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924383/hello_bececg.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/hello_bececg.png',
+            },
             href: '/services',
          },
          {
             name: 'Business Cards',
             role: 'Professional business cards for your business or organization',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924383/robot_ycihmd.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/robot_ycihmd.png',
+            },
             href: '/services',
          },
          {
             name: 'Infographics',
             role: 'Represent your data in a visually appealing way',
-            image: { src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png" },
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png',
+            },
             href: '/services',
          },
       ],

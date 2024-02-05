@@ -3,12 +3,15 @@
    "sideEffects": false,
    "type": "module",
    "scripts": {
-      "dev": "remix dev --manual",
-      "build": "remix build",
       "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
       "start": "remix-serve ./build/index.js",
       "typecheck": "tsc",
-      "format": "npx prettier . --write"
+      "dev": "remix dev --manual",
+      "build": "remix build",
+      "format": "npx prettier . --write",
+      "migrate": "npx prisma migrate dev --name model_updates",
+      "studio": "npx prisma studio",
+      "deploy": "fly deploy"
    },
    "dependencies": {
       "@headlessui/react": "^1.7.17",
@@ -30,6 +33,7 @@
       "use-debounce": "^10.0.0"
    },
    "devDependencies": {
+      "@flydotio/dockerfile": "^0.5.0",
       "@remix-run/dev": "2.6.0",
       "@tailwindcss/aspect-ratio": "^0.4.2",
       "@tailwindcss/forms": "^0.5.7",

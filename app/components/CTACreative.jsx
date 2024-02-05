@@ -38,7 +38,12 @@ function Section({ title, image, children }) {
 
 function Discover() {
    return (
-      <Section title="Discover" image={{ src: "https://res.cloudinary.com/jessebubble/image/upload/v1706924383/scarf_k4mun8.png" }}>
+      <Section
+         title="Discover"
+         image={{
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/scarf_k4mun8.png',
+         }}
+      >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
                We work closely with our clients to comprehend their{' '}
@@ -83,7 +88,13 @@ function Discover() {
 
 function Build() {
    return (
-      <Section title="Build" image={{ src: "https://res.cloudinary.com/jessebubble/image/upload/v1706921840/dentist_n9lqnh.jpg", shape: 1 }}>
+      <Section
+         title="Build"
+         image={{
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/dentist_n9lqnh.jpg',
+            shape: 1,
+         }}
+      >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
                Based on the discovery phase, we create a comprehensive roadmap
@@ -119,7 +130,13 @@ function Build() {
 
 function Deliver() {
    return (
-      <Section title="Deliver" image={{ src: "https://res.cloudinary.com/jessebubble/image/upload/v1706921840/door_iv8dr9.png", shape: 2 }}>
+      <Section
+         title="Deliver"
+         image={{
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/door_iv8dr9.png',
+            shape: 2,
+         }}
+      >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
                About halfway through the Build phase, we extend the timeline for

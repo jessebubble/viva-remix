@@ -5,7 +5,7 @@ export async function createContact(
    email: string,
    company: string,
    phone: string,
-   message: string,
+   message: string
    // serviceId: number,
 ) {
    return prisma.contactForm.create({

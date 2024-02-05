@@ -3,10 +3,9 @@ export async function validate(
    email: string,
    company: string,
    phone: string,
-   message: string,
+   message: string
    // serviceId: number,
-) {  
-   
+) {
    const errors: {
       name?: string;
       email?: string;
@@ -45,7 +44,6 @@ export async function validate(
    } else if (message.length < 3) {
       errors.message = 'Message must be at least 3 characters';
    }
-   
-   return Object.keys(errors).length ? errors : null;
 
+   return Object.keys(errors).length ? errors : null;
 }
