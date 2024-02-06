@@ -13,7 +13,7 @@ const collections = [
             name: 'Marketing Websites',
             role: 'A website that reflects your brand essence',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe2_nyxvvx.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png',
             },
             href: '/services',
          },
@@ -21,7 +21,7 @@ const collections = [
             name: 'Non-Profit SPAs',
             role: 'Optimized for your mission and donor engagement',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover_wsdbtc.png',
             },
             href: '/services',
          },
@@ -50,7 +50,7 @@ const collections = [
             name: 'Flyers',
             role: 'Flyers for your events, promotions, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/brain_kanxyd.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
             href: '/services',
          },
@@ -58,7 +58,7 @@ const collections = [
             name: 'Menus',
             role: 'Menus for your restaurant, food truck, or any other business',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924384/seamonster_xwviix.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png',
             },
             href: '/services',
          },
@@ -66,7 +66,7 @@ const collections = [
             name: 'Brochures',
             role: 'Brochures for your business, event, or organization',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/hello_bececg.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/sponsor_ejuylh.png',
             },
             href: '/services',
          },
@@ -74,7 +74,7 @@ const collections = [
             name: 'Business Cards',
             role: 'Professional business cards for your business or organization',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/robot_ycihmd.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/portrait_u5jngh.png',
             },
             href: '/services',
          },

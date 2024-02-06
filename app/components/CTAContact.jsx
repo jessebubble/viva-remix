@@ -33,7 +33,7 @@ export function ContactSection() {
                               to="/contact"
                               className="inline-flex rounded-md bg-spursOrange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursOrange/95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
                            >
-                              Lets get started -&gt;
+                              Lets get started &rarr;
                            </Link>
                         </div>
                      </div>

@@ -30,7 +30,6 @@ export default function Index() {
                Our focus is creating online experiences that work for everyone.{' '}
                <strong>It's as simple as that!</strong> We assist organizations
                in setting clear goals and delivering them with confidence.{' '}
-               <strong className="text-spursPink">Hablamos Español</strong>
             </p>
          </PageIntro>
 

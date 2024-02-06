@@ -47,11 +47,15 @@ function ContactForm() {
    const actionResult = useActionData<typeof action>();
 
    return (
-      <FadeIn className="lg:order-last">
+      <FadeIn>
          <Form method="post">
-            <h2 className="font-display text-base font-semibold text-neutral-950">
-               Project inquiries
+            <h2 className="text-3xl font-semibold text-neutral-950 sm:text-4xl">
+               Let's get started
             </h2>
+            <p className="mt-4 text-base/6 text-neutral-600 max-w-xl">
+               Fill out the form below and we will schedule an appointment to discuss your project in more detail. 
+               We look forward to working with you!
+            </p>
             <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
                <LabeledInput
                   label="Name"
@@ -104,7 +108,23 @@ function ContactForm() {
                   }
                />
             </div>
-            <Button type="submit">Let's get started today!</Button>
+            <Button type="submit">
+               {actionResult?.ok ? 
+                  <span className='text-green-400'>
+                     Submitted successfully 🎉
+                  </span>
+                  : 'Submit'
+               }
+            </Button>
+            {actionResult?.ok && (
+               <div className="mt-6">
+                  <Border className="border-neutral-950/10 mt-6" />
+                  <p className="mt-6 text-base/6 text-neutral-600">
+                     Follow us
+                  </p>
+                  <SocialMedia className="mt-6" />
+               </div>
+            )}
          </Form>
       </FadeIn>
    );
@@ -152,8 +172,7 @@ export default function Index() {
             </FadeIn>
 
             <FadeIn className="mt-24 sm:mt-32 lg:mt-40">
-               <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
-                  <ContactDetails />
+               <div className="grid grid-cols-1 gap-x-8 gap-y-24">
                   <ContactForm />
                </div>
             </FadeIn>
@@ -162,66 +181,26 @@ export default function Index() {
    );
 }
 
-function ContactDetails() {
-   return (
-      <FadeIn>
-         <h2 className="font-display text-base font-semibold text-neutral-950">
-            Online Experiences
-         </h2>
-         <p className="mt-6 text-base text-neutral-600">
-            We have helped clients of all sizes produce stunning websites, and
-            we are confident that we can help you produce stunning websites as
-            well
-         </p>
-         <Border className="mt-16 pt-16">
-            <h2 className="font-display text-base font-semibold text-neutral-950">
-               Non-Profit SPAs
-            </h2>
-            <p className="mt-6 text-base text-neutral-600">
-               What's our secret? We keep it simple, focus on the essentials and
-               build only what we need to
-            </p>
-         </Border>
-         <Border className="mt-16 pt-16">
-            <h2 className="font-display text-base font-semibold text-neutral-950">
-               Software Applications
-            </h2>
-            <p className="mt-6 text-base text-neutral-600">
-               Who said business software has to be boring? From authentication,
-               data management, billing, and scalability, we've got you covered
-            </p>
-         </Border>
-
-         <Border className="mt-16 pt-16">
-            <h2 className="font-display text-base font-semibold text-neutral-950">
-               Follow us
-            </h2>
-            <SocialMedia className="mt-6" />
-         </Border>
-      </FadeIn>
-   );
-}
-
 const imageArray = [
    {
       name: 'image1',
-      href: 'https://a-us.storyblok.com/f/1014518/1024x1024/0809148c2c/blended-array-1.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/bunny_shlzik.png',
    },
    {
       name: 'image2',
-      href: 'https://a-us.storyblok.com/f/1014518/896x1344/7863ec52e4/blended-array-2.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/views_m2n19m.png',
    },
    {
       name: 'image3',
-      href: 'https://a-us.storyblok.com/f/1014518/1024x1024/56606e6303/blended-array-3.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover3_gs9wvx.png',
    },
    {
       name: 'image4',
-      href: 'https://a-us.storyblok.com/f/1014518/896x1344/1b43a440fb/blended-array-4.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/saintadobe-heb_lfk6cc.png',
    },
    {
       name: 'image5',
-      href: 'https://a-us.storyblok.com/f/1014518/1344x896/3f23f7a233/blended-array-5.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover2_tybcgn.png',
    },
 ];
 

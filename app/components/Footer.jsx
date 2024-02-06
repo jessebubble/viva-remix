@@ -35,7 +35,7 @@ const navigation = [
          { title: 'Service we offer', href: '/services' },
          { title: 'Contact us', href: '/contact' },
          { title: 'Showcase', href: '/showcase' },
-         { title: 'Hablamos español', href: '#' },
+         { title: 'Employee Portal', href: '/login' },
       ],
    },
    {

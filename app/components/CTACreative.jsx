@@ -41,7 +41,7 @@ function Discover() {
       <Section
          title="Discover"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/scarf_k4mun8.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/teamwork_hlox7m.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">

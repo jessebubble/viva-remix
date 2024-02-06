@@ -50,14 +50,14 @@ function NavBar({
             </Link>
             <div className="flex items-center gap-x-8">
                <Button
-                  href="/non-profit"
+                  href="/espanol"
                   invert={false}
                   className={clsx(
                      'group -m-2.5 rounded-full p-2.5 transition',
-                     'hidden sm:block'
+
                   )}
                >
-                  Non-Profit Web Design
+                  Hablamos Español
                </Button>
                <button
                   ref={toggleRef}
@@ -121,11 +121,11 @@ function Navigation() {
             <NavigationItem href="/services">
                Creative web design
             </NavigationItem>
-            <NavigationItem href="/services">Marketing campains</NavigationItem>
+            <NavigationItem href="/services">Software applications</NavigationItem>
          </NavigationRow>
          <NavigationRow>
             <NavigationItem href="/non-profit">Non-Profit SPAs</NavigationItem>
-            <NavigationItem href="contact">Contact us</NavigationItem>
+            <NavigationItem href="services">Marketing campains</NavigationItem>
          </NavigationRow>
       </nav>
    );
@@ -213,12 +213,14 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                      <Container className="">
                         <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                            <div>
-                              <h2 className="font-display text-base font-semibold text-white">
-                                 Viva Web Design &mdash;{' '}
-                                 <span className="text-spursPink">
-                                    Hablamos Español
-                                 </span>
-                              </h2>
+                              <Link to="/contact">
+                                 <h2 className="font-display text-base font-semibold text-white">
+                                    Contact us &mdash;{' '}
+                                    <span className="text-spursPink">
+                                       Let's start building!
+                                    </span>
+                                 </h2>
+                              </Link>
                            </div>
                            <div className="sm:border-l sm:border-transparent sm:pl-16">
                               <h2 className="font-display text-base font-semibold text-white">
