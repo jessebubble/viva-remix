@@ -3,11 +3,9 @@ import { Form, useActionData } from '@remix-run/react';
 import React, { useId, forwardRef } from 'react';
 import { validate } from './validation';
 import { createContact } from './queries';
-import { Border } from '~/components/Border';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { PageIntro } from '~/components/PageIntro';
-import { SocialMedia } from '~/components/SocialMedia';
 
 export async function action({ request }: ActionFunctionArgs) {
    const formData = await request.formData();
@@ -52,9 +50,10 @@ function ContactForm() {
             <h2 className="text-3xl font-semibold text-neutral-950 sm:text-4xl">
                Let's get started
             </h2>
-            <p className="mt-4 text-base/6 text-neutral-600 max-w-xl">
-               Fill out the form below and we will schedule an appointment to discuss your project in more detail. 
-               We look forward to working with you!
+            <p className="mt-4 max-w-xl text-base/6 text-neutral-600">
+               Fill out the form below and we will schedule an appointment to
+               discuss your project in more detail. We look forward to working
+               with you!
             </p>
             <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
                <LabeledInput
@@ -109,22 +108,14 @@ function ContactForm() {
                />
             </div>
             <Button type="submit">
-               {actionResult?.ok ? 
-                  <span className='text-green-400'>
+               {actionResult?.ok ? (
+                  <span className="text-green-400">
                      Submitted successfully 🎉
                   </span>
-                  : 'Submit'
-               }
+               ) : (
+                  'Submit'
+               )}
             </Button>
-            {actionResult?.ok && (
-               <div className="mt-6">
-                  <Border className="border-neutral-950/10 mt-6" />
-                  <p className="mt-6 text-base/6 text-neutral-600">
-                     Follow us
-                  </p>
-                  <SocialMedia className="mt-6" />
-               </div>
-            )}
          </Form>
       </FadeIn>
    );

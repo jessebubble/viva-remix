@@ -52,10 +52,7 @@ function NavBar({
                <Button
                   href="/espanol"
                   invert={false}
-                  className={clsx(
-                     'group -m-2.5 rounded-full p-2.5 transition',
-
-                  )}
+                  className={clsx('group -m-2.5 rounded-full p-2.5 transition')}
                >
                   Hablamos Español
                </Button>
@@ -121,7 +118,9 @@ function Navigation() {
             <NavigationItem href="/services">
                Creative web design
             </NavigationItem>
-            <NavigationItem href="/services">Software applications</NavigationItem>
+            <NavigationItem href="/services">
+               Software applications
+            </NavigationItem>
          </NavigationRow>
          <NavigationRow>
             <NavigationItem href="/non-profit">Non-Profit SPAs</NavigationItem>

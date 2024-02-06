@@ -7,11 +7,11 @@ import clsx from 'clsx';
 
 const navigation = [
    {
-      title: 'What we do',
+      title: 'What we build',
       links: [
-         { title: 'Marketing campains', href: '/showcase' },
+         { title: 'Software applications', href: '/showcase' },
          {
-            title: 'Creative web design',
+            title: 'Marketing websites',
             href: '/showcase',
          },
          {

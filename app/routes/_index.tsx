@@ -29,7 +29,7 @@ export default function Index() {
             <p className="text-balance">
                Our focus is creating online experiences that work for everyone.{' '}
                <strong>It's as simple as that!</strong> We assist organizations
-               in setting clear goals and delivering them with confidence.{' '}
+               in setting clear goals and delivering them with confidence
             </p>
          </PageIntro>
 
