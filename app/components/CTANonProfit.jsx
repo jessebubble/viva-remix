@@ -1,68 +1,108 @@
 import { SectionIntro } from '~/components/SectionIntro';
 import { Container } from '~/components/Container';
 import { GridList, GridListItem } from '~/components/GridList';
+import { GrayscaleTransitionImage } from './GrayscaleTransitionImage';
+import { GridPattern } from './GridPattern';
+import { FadeIn } from './FadeIn';
 
 export function NonProfitSection() {
    return (
-      <div className="mt-24 rounded-3xl bg-neutral-50 py-24 pt-24 sm:mt-32 sm:py-32 sm:pt-32 lg:mt-40 lg:py-40 lg:pt-40">
+      <div className="relative mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40 lg:pt-40">
+         <div className="absolute inset-x-0 top-0 -z-10 h-[884px] overflow-hidden rounded-t-3xl bg-gradient-to-b from-neutral-50">
+            <GridPattern
+               className="absolute inset-0 h-full w-full fill-neutral-100 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
+               yOffset={-270}
+            />
+         </div>
          <SectionIntro
-            eyebrow="It starts with an idea..."
-            title="We keep it simple and focus on the essentials"
+            eyebrow="Non-Profit Organizations"
+            title="The problem you are solving deserves more than a template"
             invert={false}
          >
             <p>
-               We will assist in breaking down your ideas and refining them
-               through prototypes, research, and thorough planning. Our approach
-               is to start from the simplest and most solid foundations
+               Creating a website today is easier than ever. However, standing
+               out can be a challenge due to the abundance of free templates
+               that make all those websites look the same. Your organization
+               deserves a website as unique as the problem it's addressing
             </p>
          </SectionIntro>
-         <Container className="mt-16">
-            <div className="relative overflow-hidden pt-16">
-               <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                  <img
-                     src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
-                     alt="App screenshot"
-                     className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-                     width={2432}
-                     height={1442}
-                  />
-                  <div className="relative" aria-hidden="true">
-                     <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
+         <FadeIn>
+            <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
+               <Container>
+                  <div className="mx-auto max-w-5xl">
+                     <dl className="-mx-6 grid grid-cols-1 text-sm text-neutral-950 sm:mx-0 sm:grid-cols-3">
+                        <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                           <dt className="font-semibold">Client</dt>
+                           <dd>Phobia</dd>
+                        </div>
+                        <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                           <dt className="font-semibold">Year</dt>
+                           <dd>
+                              <time>{new Date().getFullYear()}</time>
+                           </dd>
+                        </div>
+                        <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                           <dt className="font-semibold">Service</dt>
+                           <dd>Single Page Application</dd>
+                        </div>
+                     </dl>
                   </div>
-               </div>
+               </Container>
             </div>
 
+            <div className="border-y border-neutral-200 bg-neutral-100">
+               <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
+                  <GrayscaleTransitionImage
+                     src="https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_mztbcy.jpg"
+                     alt="App screenshot"
+                     quality={90}
+                     className="w-full"
+                     sizes="(min-width: 1216px) 76rem, 100vw"
+                  />
+               </div>
+            </div>
+         </FadeIn>
+
+         <Container className="">
             <GridList className="mt-24">
-               <GridListItem title="Remove ambiguity" invert={false}>
-                  The first step in establishing a partnership is to have our
-                  designer incorporate your logo into our template.
+               <GridListItem title="Dynamic Data" invert={false}>
+                  An application that can handle dynamic data providesa more
+                  personalized, real-time experience to the user. Leading to
+                  more interactive and engaging applications that can adapt to
+                  the user's needs
                </GridListItem>
-               <GridListItem title="360° view" invert={false}>
-                  We take pride in our ability to always meet deadlines, which
-                  is made easy by the fact that most of the work was completed
-                  years ago
+               <GridListItem title="User Experience" invert={false}>
+                  A good user experience leads to higher user satisfaction. It
+                  makes the experience intuitive and easy to use, reduces user
+                  errors, and makes the overall interaction with your website
+                  enjoyable, which leads to higher user retention and conversion
+                  rates
                </GridListItem>
-               <GridListItem title="Grounded in data" invert={false}>
-                  We prioritize transparency in all of our processes,
-                  acknowledging the reality that our clients rarely read any
-                  content.
+               <GridListItem title="Performance" invert={false}>
+                  A high-performing online experience provides a smooth,
+                  lag-free experience to the user. Leading to higher user
+                  engagement, lower bounce rates, and better user retention.
+                  Google also considers page speed as a ranking factor, so a
+                  faster website leads to better SEO
                </GridListItem>
-               <GridListItem
-                  title="Consistent digital experience"
-                  invert={false}
-               >
-                  Every business has unique needs, and our greatest challenge is
-                  accommodating those needs within our existing framework
+               <GridListItem title="Integration" invert={false}>
+                  A website that easily integrates with other systems can extend
+                  its functionality and make it more versatile. Leading to
+                  better interoperability making your website part of larger
+                  ecosystems
                </GridListItem>
-               <GridListItem title="Strategy development" invert={false}>
-                  We cultivate enduring relationships with our clients,
-                  extending beyond product delivery, which enables us to serve
-                  them for many years and invoice them accordingly
+               <GridListItem title="Web Standards" invert={false}>
+                  Adhering to web standards makes your application more
+                  accessible, interoperable, and maintainable. Leading to better
+                  cross-browser compatibility, easier debugging, making code
+                  easier to understand for other developers
                </GridListItem>
-               <GridListItem title="Solving common problems" invert={false}>
-                  The technological landscape is constantly evolving, and we are
-                  too. We are always searching for new open-source projects to
-                  replicate
+               <GridListItem title="Scalability" invert={false}>
+                  Building a scalable application means that as your user base
+                  grows, your application can handle the increased load,
+                  providing a consistent experience. Leading to cost savings in
+                  the long run as you can efficiently use resources and
+                  accommodate growth without a complete redesign
                </GridListItem>
             </GridList>
          </Container>

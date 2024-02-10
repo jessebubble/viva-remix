@@ -6,7 +6,7 @@ import { Container } from '~/components/Container';
 import { Footer } from '~/components/Footer';
 import { Button } from '~/components/Button';
 import { SocialMedia } from '~/components/SocialMedia';
-import { VivaLogo } from '~/components/Logo';
+import { Logo } from '~/components/Logo';
 
 const RootLayoutContext = createContext({});
 
@@ -39,7 +39,7 @@ function NavBar({
       <Container className="">
          <div className="flex items-center justify-between">
             <Link to="/" aria-label="Home">
-               <VivaLogo
+               <Logo
                   className={clsx(
                      'w-20',
                      invert
@@ -115,16 +115,16 @@ function Navigation() {
    return (
       <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
          <NavigationRow>
-            <NavigationItem href="/services">
-               Creative web design
-            </NavigationItem>
-            <NavigationItem href="/services">
+            <NavigationItem href="/services">Online experiences</NavigationItem>
+            <NavigationItem href="/software-applications">
                Software applications
             </NavigationItem>
          </NavigationRow>
          <NavigationRow>
-            <NavigationItem href="/non-profit">Non-Profit SPAs</NavigationItem>
-            <NavigationItem href="services">Marketing campains</NavigationItem>
+            <NavigationItem href="/non-profit">
+               Non-Profit Websites
+            </NavigationItem>
+            <NavigationItem href="services">Design Studio</NavigationItem>
          </NavigationRow>
       </nav>
    );

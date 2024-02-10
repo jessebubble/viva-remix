@@ -7,36 +7,36 @@ import { GridPattern } from '~/components/GridPattern';
 
 const collections = [
    {
-      title: 'What we build',
+      title: 'Websites that work for everyone',
       examples: [
          {
-            name: 'Marketing Websites',
-            role: 'A website that reflects your brand essence',
+            name: 'Online Experiences',
+            role: 'Focused on web standards and modern user experiences',
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png',
             },
             href: '/services',
          },
          {
-            name: 'Non-Profit SPAs',
-            role: 'Optimized for your mission and donor engagement',
+            name: '501(c)(3) Organizations',
+            role: 'Your non-profit deserves more than that free template you found online',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover_wsdbtc.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_mztbcy.jpg',
             },
-            href: '/services',
+            href: '/non-profit',
          },
          {
             name: 'Software Applications',
-            role: 'Tailored to your business needs and unique requirements',
+            role: 'Data-driven tools for managing payroll, inventory, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe4_dkqp10.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707532025/reporting_a1uqnq.png',
             },
-            href: '/services',
+            href: '/software-applications',
          },
       ],
    },
    {
-      title: 'What we design',
+      title: 'Designs that work for everyone',
       examples: [
          {
             name: 'Vector Graphics',

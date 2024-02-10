@@ -1,22 +1,27 @@
 import { PageIntro } from '~/components/PageIntro';
 import { NonProfitSection } from '~/components/CTANonProfit';
+import { NonProfitShowcase } from '~/components/CTANonProfitShowcase';
+import { ContactSection } from '~/components/CTAContact';
 
 export default function NonProfit() {
    return (
       <>
          <PageIntro
-            eyebrow="Non-Profit Organizations"
-            title="Single Page Applications"
+            eyebrow="Non-Profit Websites"
+            title="Our modern solution for non-profit organizations"
             centered={true}
          >
             <p>
-               We have helped clients of all sizes produce stunning single page
-               applications, and we are confident that we can help you produce
-               stunning SPAs as well
+               While you can choose a free template from build-it-yourself
+               platforms, the problem your{' '}
+               <strong>501(c)(3) organization</strong> is solving deserves more
+               than that - it deserves our modern solution
             </p>
          </PageIntro>
 
          <NonProfitSection />
+         <NonProfitShowcase />
+         <ContactSection />
       </>
    );
 }

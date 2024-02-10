@@ -22,7 +22,7 @@ export default function Index() {
             title="Contact Form Submissions"
             centered={false}
          >
-            <p>Here are the latest project inquiries from the website.</p>
+            <p>Here are the latest project inquiries from the website</p>
          </PageIntro>
 
          <Container className="mt-16">

@@ -1,7 +1,7 @@
 import { Link } from '@remix-run/react';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
-import { VivaLogo } from '~/components/Logo';
+import { Logo } from '~/components/Logo';
 import { socialMediaProfiles } from '~/components/SocialMedia';
 import clsx from 'clsx';
 
@@ -9,14 +9,14 @@ const navigation = [
    {
       title: 'What we build',
       links: [
-         { title: 'Software applications', href: '/showcase' },
+         { title: 'Software applications', href: '/software-applications' },
          {
-            title: 'Marketing websites',
-            href: '/showcase',
+            title: 'Non-profit websites',
+            href: '/non-profit',
          },
          {
-            title: 'Non-Profit SPAs',
-            href: '/non-profit',
+            title: 'Online experiences',
+            href: '/showcase',
          },
          {
             title: (
@@ -81,7 +81,7 @@ export function Footer() {
             </div>
             <div className="mb-20 mt-24 flex items-center justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
                <Link to="/" aria-label="Home">
-                  <VivaLogo
+                  <Logo
                      className={clsx(
                         'h-8 w-auto md:h-10 lg:h-12',
                         'transition hover:animate-pulse'

@@ -6,7 +6,7 @@
       "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
       "start": "remix-serve ./build/index.js",
       "typecheck": "tsc",
-      "dev": "remix dev --manual",
+      "dev": "remix dev",
       "build": "remix build",
       "format": "npx prettier . --write",
       "migrate": "npx prisma migrate dev --name model_updates",
@@ -16,6 +16,7 @@
    "dependencies": {
       "@headlessui/react": "^1.7.17",
       "@headlessui/tailwindcss": "^0.2.0",
+      "@heroicons/react": "^2.1.1",
       "@prisma/client": "^5.9.1",
       "@remix-run/css-bundle": "2.6.0",
       "@remix-run/node": "2.6.0",
@@ -33,6 +34,7 @@
       "use-debounce": "^10.0.0"
    },
    "devDependencies": {
+      "@faker-js/faker": "^8.4.1",
       "@flydotio/dockerfile": "^0.5.0",
       "@remix-run/dev": "2.6.0",
       "@tailwindcss/aspect-ratio": "^0.4.2",

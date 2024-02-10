@@ -21,17 +21,18 @@ export function ContactSection() {
                            It starts with an idea...
                         </h2>
                         <p className="mt-2 text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">
-                           Let's connect and see what we can do for you
+                           Let's meetup and discuss your project goals
                         </p>
-                        <p className="mt-6 text-base leading-7 text-neutral-800">
-                           We have helped clients of all sizes produce stunning
-                           websites, and we are confident that we can help you
-                           produce stunning websites as well.
+                        <p className="mt-6 text-balance text-base leading-7 text-neutral-800">
+                           We've assisted clients of all sizes by creating
+                           custom software applications, mission-centric
+                           marketing content, and interactive online
+                           experiences.
                         </p>
                         <div className="mt-8">
                            <Link
                               to="/contact"
-                              className="inline-flex rounded-md bg-spursOrange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursOrange/95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
+                              className="inline-flex rounded-md bg-spursOrange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursOrange/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
                            >
                               Lets get started &rarr;
                            </Link>

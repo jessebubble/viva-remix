@@ -26,7 +26,7 @@ export default function Index() {
             title="Design and Web development studio"
             centered={true}
          >
-            <p className="text-balance">
+            <p>
                Our focus is creating online experiences that work for everyone.{' '}
                <strong>It's as simple as that!</strong> We assist organizations
                in setting clear goals and delivering them with confidence

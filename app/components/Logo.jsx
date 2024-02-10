@@ -1,4 +1,4 @@
-export function VivaLogo({ ...props }) {
+export function Logo({ ...props }) {
    return (
       <>
          <svg viewBox="0 0 792 612" {...props}>
