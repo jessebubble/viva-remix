@@ -4,7 +4,7 @@ import { GridList, GridListItem } from '~/components/GridList';
 
 export function AboutSection() {
    return (
-      <div className="mt-24 rounded-3xl bg-neutral-50 py-24 pt-24 sm:mt-32 sm:py-32 sm:pt-32 lg:mt-40 lg:py-40 lg:pt-40">
+      <div className="mt-24 pt-24 sm:mt-32 sm:pt-32">
          <SectionIntro
             eyebrow="It's that simple"
             title="Inclusive, performant, user-friendly online experiences"
@@ -18,36 +18,37 @@ export function AboutSection() {
          </SectionIntro>
          <Container className="mt-16">
             <GridList className="">
-               <GridListItem title="Remove ambiguity" invert={false}>
-                  The first step in establishing a partnership is to have our
-                  designer incorporate your logo into our template.
+               <GridListItem title="Dynamic Data" invert={false}>
+                  Applications that handle dynamic data provide more
+                  personalized, real-time experiences to the user. This leads to
+                  higher user engagement and better user retention
                </GridListItem>
-               <GridListItem title="360° view" invert={false}>
-                  We take pride in our ability to always meet deadlines, which
-                  is made easy by the fact that most of the work was completed
-                  years ago
+               <GridListItem title="User Experience" invert={false}>
+                  Making the experience intuitive and easy to use, reduces user
+                  errors, and makes the overall interaction with your website
+                  enjoyable and efficient for the user
                </GridListItem>
-               <GridListItem title="Grounded in data" invert={false}>
-                  We prioritize transparency in all of our processes,
-                  acknowledging the reality that our clients rarely read any
-                  content.
+               <GridListItem title="Performance" invert={false}>
+                  Smooth lag-free experiences lead to higher user
+                  engagement, lower bounce rates, and better user retention.
+                  Google also considers page speed as a ranking factor, so a
+                  faster website leads to better SEO
                </GridListItem>
-               <GridListItem
-                  title="Consistent digital experience"
-                  invert={false}
-               >
-                  Every business has unique needs, and our greatest challenge is
-                  accommodating those needs within our existing framework
+               <GridListItem title="Integration" invert={false}>
+                  A website that easily integrates with other systems can extend
+                  its functionality and make it more versatile. Leading to a more
+                  powerful and feature-rich application that can adapt to your needs
                </GridListItem>
-               <GridListItem title="Strategy development" invert={false}>
-                  We cultivate enduring relationships with our clients,
-                  extending beyond product delivery, which enables us to serve
-                  them for many years and invoice them accordingly
+               <GridListItem title="Web Standards" invert={false}>
+                  Adhering to web standards makes your application more
+                  accessible, more secure, and easier to maintain. Leading to
+                  better SEO, better performance, and a more inclusive experience
                </GridListItem>
-               <GridListItem title="Solving common problems" invert={false}>
-                  The technological landscape is constantly evolving, and we are
-                  too. We are always searching for new open-source projects to
-                  replicate
+               <GridListItem title="Scalability" invert={false}>
+                  Scalable application means that as your user base
+                  grows, your application can handle the increased load,
+                  providing a consistent experience to all users regardless of the
+                  number of users using the application at the same time
                </GridListItem>
             </GridList>
          </Container>

@@ -5,7 +5,7 @@ import { FadeIn } from './FadeIn';
 export function ContactSection() {
    return (
       <>
-         <Container className="mt-24 sm:mt-32">
+         <Container className="mt-24 pt-24 sm:mt-32">
             <FadeIn>
                <div className="relative rounded-3xl bg-transparent">
                   <div className="relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">

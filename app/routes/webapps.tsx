@@ -1,14 +1,12 @@
 import { PageIntro } from '~/components/PageIntro';
 import { SoftwareSection } from '~/components/CTASoftware';
-import { SoftwareFormSection } from '~/components/CTASoftwareForm';
-import { PrimaryFeatures } from '~/components/CTASoftwarePrimary';
 import { ContactSection } from '~/components/CTAContact';
 
 export default function SoftwareApplications() {
    return (
       <>
          <PageIntro
-            eyebrow="Software Applications"
+            eyebrow="Web Applications"
             title="Everything you need to manage your business"
             centered={true}
          >
@@ -20,8 +18,6 @@ export default function SoftwareApplications() {
             </p>
          </PageIntro>
 
-         <SoftwareFormSection />
-         <PrimaryFeatures />
          <SoftwareSection />
          <ContactSection />
       </>

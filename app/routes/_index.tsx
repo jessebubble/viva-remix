@@ -1,9 +1,9 @@
 import type { MetaFunction } from '@remix-run/node';
 import { PageIntro } from '~/components/PageIntro';
-import { ExperienceSection } from '~/components/CTAExperience';
-import { AboutSection } from '~/components/CTAAbout';
 import { ContactSection } from '~/components/CTAContact';
 import { CreativeSection } from '~/components/CTACreative';
+import { SecretSection } from '~/components/CTASecret';
+import { DesignSection } from '~/components/CTADesign';
 
 export const meta: MetaFunction = () => {
    return [
@@ -23,7 +23,7 @@ export default function Index() {
       <>
          <PageIntro
             eyebrow="Viva Web Design"
-            title="Design and Web development studio"
+            title="Web Development and Design Studio"
             centered={true}
          >
             <p>
@@ -33,9 +33,9 @@ export default function Index() {
             </p>
          </PageIntro>
 
-         <ExperienceSection />
+         <SecretSection />
+         <DesignSection />
          <CreativeSection />
-         <AboutSection />
          <ContactSection />
       </>
    );

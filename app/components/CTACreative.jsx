@@ -2,9 +2,33 @@ import { Container } from '~/components/Container';
 import { BlockQuote } from '~/components/BlockQuote';
 import { FadeIn } from '~/components/FadeIn';
 import { List, ListItem } from '~/components/List';
-import { SectionIntro } from '~/components/SectionIntro';
-import { StylizedImage } from '~/components/StylizedImage';
 import { TagList, TagListItem } from '~/components/TagList';
+import { GrayscaleTransitionImage } from '~/components/GrayscaleTransitionImage';
+import { SectionIntro } from '~/components/SectionIntro';
+
+export function CreativeSection() {
+   return (
+      <div className="mt-24 pt-24">
+         <SectionIntro
+            eyebrow="What's our secret?"
+            title="We only build what we need to"
+            invert={false}
+         >
+            <p>
+               Creating a website today is easier than ever. However, standing
+               out can be a challenge due to the abundance of free templates
+               that make all those websites look the same. 
+               Our creative process: <strong>Discover, Build, Deliver</strong>
+            </p>
+         </SectionIntro>
+         <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">
+            <Discover />
+            <Build />
+            <Deliver />
+         </div>
+      </div>
+   );
+}
 
 function Section({ title, image, children }) {
    return (
@@ -12,10 +36,10 @@ function Section({ title, image, children }) {
          <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
             <div className="flex justify-center">
                <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-                  <StylizedImage
+                  <GrayscaleTransitionImage
                      {...image}
                      sizes="(min-width: 1024px) 41rem, 31rem"
-                     className="justify-center lg:justify-end lg:group-even/section:justify-start"
+                     className="justify-center lg:justify-end lg:group-even/section:justify-start rounded-3xl"
                   />
                </FadeIn>
             </div>
@@ -91,8 +115,7 @@ function Build() {
       <Section
          title="Build"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/dentist_n9lqnh.jpg',
-            shape: 1,
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707633713/build_hfca3k.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -133,8 +156,7 @@ function Deliver() {
       <Section
          title="Deliver"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/door_iv8dr9.png',
-            shape: 2,
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -178,10 +200,6 @@ function Deliver() {
                Our projects always have 100% test coverage, which would be
                impressive if our tests weren't so full of holes
             </ListItem>
-            <ListItem title="Infrastructure">
-               To ensure reliability, we only use the best Digital Ocean
-               droplets that $4 a month can buy
-            </ListItem>
             <ListItem title="Support">
                Since we possess the API keys for all the essential services your
                business utilizes, you can rely on us for ongoing support and
@@ -189,37 +207,5 @@ function Deliver() {
             </ListItem>
          </List>
       </Section>
-   );
-}
-
-export function CreativeSection() {
-   return (
-      <div className="mt-24 pt-24 sm:mt-32 sm:pt-32">
-         <SectionIntro
-            eyebrow="What's our secret?"
-            title="We only build what we need to"
-         >
-            <p>
-               At Viva Web Design, we take the time to understand the business
-               goals and user needs before finding creative solutions to address
-               them. Our creative process:{' '}
-               <strong className="font-semibold text-neutral-950">
-                  Discover
-               </strong>
-               ,{' '}
-               <strong className="font-semibold text-neutral-950">Build</strong>
-               ,{' '}
-               <strong className="font-semibold text-neutral-950">
-                  Deliver
-               </strong>
-            </p>
-         </SectionIntro>
-
-         <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">
-            <Discover />
-            <Build />
-            <Deliver />
-         </div>
-      </div>
    );
 }

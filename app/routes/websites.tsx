@@ -1,14 +1,14 @@
 import { PageIntro } from '~/components/PageIntro';
 import { ServiceSection } from '~/components/CTAService';
-import { ExperienceSection } from '~/components/CTAExperience';
 import { ContactSection } from '~/components/CTAContact';
+import { AboutSection } from '~/components/CTAAbout';
 
 export default function Services() {
    return (
       <>
          <PageIntro
-            eyebrow="We create online experiences"
-            title="Designing and building for the modern web"
+            eyebrow="Online Experiences"
+            title="Building for the modern web"
             centered={true}
          >
             <p>
@@ -21,7 +21,7 @@ export default function Services() {
          </PageIntro>
 
          <ServiceSection />
-         <ExperienceSection />
+         <AboutSection />
          <ContactSection />
       </>
    );

@@ -7,90 +7,61 @@ import { GridPattern } from '~/components/GridPattern';
 
 const collections = [
    {
-      title: 'Websites that work for everyone',
-      examples: [
-         {
-            name: 'Online Experiences',
-            role: 'Focused on web standards and modern user experiences',
-            image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png',
-            },
-            href: '/services',
-         },
-         {
-            name: '501(c)(3) Organizations',
-            role: 'Your non-profit deserves more than that free template you found online',
-            image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_mztbcy.jpg',
-            },
-            href: '/non-profit',
-         },
-         {
-            name: 'Software Applications',
-            role: 'Data-driven tools for managing payroll, inventory, and more',
-            image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707532025/reporting_a1uqnq.png',
-            },
-            href: '/software-applications',
-         },
-      ],
-   },
-   {
-      title: 'Designs that work for everyone',
+      title: 'Creative Services',
       examples: [
          {
             name: 'Vector Graphics',
-            role: 'For your website, social media, and print materials',
-            image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/hands_wcknbq.png',
-            },
-            href: '/services',
-         },
-         {
-            name: 'Flyers',
-            role: 'Flyers for your events, promotions, and more',
+            role: 'Ready for print, web, and more',
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/services',
+            href: '/design',
+         },
+         {
+            name: 'Flyers',
+            role: 'For events, promotions, and more',
+            image: {
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+            },
+            href: '/design',
          },
          {
             name: 'Menus',
-            role: 'Menus for your restaurant, food truck, or any other business',
+            role: 'For restaurants, cafes, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/services',
+            href: '/design',
          },
          {
             name: 'Brochures',
-            role: 'Brochures for your business, event, or organization',
+            role: 'For businesses, events, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/sponsor_ejuylh.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/services',
+            href: '/design',
          },
          {
-            name: 'Business Cards',
-            role: 'Professional business cards for your business or organization',
+            name: 'Info Graphics',
+            role: 'Visualize data, processes, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/portrait_u5jngh.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/services',
+            href: '/design',
          },
          {
-            name: 'Infographics',
-            role: 'Represent your data in a visually appealing way',
+            name: '+ More',
+            role: 'Business cards, stickers, posters, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/services',
+            href: '/design',
          },
       ],
    },
 ];
 
-export function ExperienceSection() {
+export function DesignSection() {
    return (
       <div className="relative mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40 lg:pt-40">
          <div className="absolute inset-x-0 top-0 -z-10 h-[884px] overflow-hidden rounded-t-3xl bg-gradient-to-b from-neutral-50">
@@ -100,10 +71,15 @@ export function ExperienceSection() {
             />
          </div>
          <SectionIntro
-            eyebrow="We sell online experiences"
-            title="Experiences so good you might start to think we're automated"
+            eyebrow="Design Studio"
+            title="Dive deep into the infinite possibilities" 
             invert={false}
-         ></SectionIntro>
+         >
+            <p>
+               <strong>Powered by Adobe Creative Cloud</strong> we offer a wide range of design services to help you create
+               stunning visuals for your business
+            </p>
+         </SectionIntro>
          <Container className="mt-16">
             <div className="space-y-24">
                {collections.map((group) => (

@@ -19,26 +19,43 @@ import {
    CityLogo,
 } from '~/components/StockLogos';
 
+export function ServiceSection() {
+   return (
+      <>
+         <div className="relative mt-24 pt-24 sm:mt-32 ">
+            <Container className="mt-16 md:hidden">
+               <FadeIn>
+                  <FeaturesMobile />
+               </FadeIn>
+            </Container>
+            <Container className="hidden md:mt-20 md:block">
+               <FeaturesDesktop />
+            </Container>
+         </div>
+      </>
+   );
+}
+
 const MotionAppScreenHeader = motion(AppScreen.Header);
 const MotionAppScreenBody = motion(AppScreen.Body);
 
 const features = [
    {
-      name: 'Create Online experiences',
+      name: 'Web Development',
       description:
          'We take pride in our ability to always meet deadlines, which is made easy by the fact that most of the work was completed years ago',
       icon: DeviceTouchIcon,
       screen: ExperienceScreen,
    },
    {
-      name: 'Creative web design',
+      name: 'Design Studio',
       description:
          'We prioritize transparency in all of our processes, acknowledging the reality that our clients rarely read any content',
       icon: DeviceUserIcon,
       screen: CreativeScreen,
    },
    {
-      name: 'Marketing campains',
+      name: 'Web Applications',
       description:
          'The first step in establishing a partnership is to have our designer incorporate your logo into our template and then invoice you for the work',
       icon: DeviceNotificationIcon,
@@ -525,23 +542,6 @@ function FeaturesMobile() {
                   <span className="absolute -inset-x-1.5 -inset-y-3" />
                </button>
             ))}
-         </div>
-      </>
-   );
-}
-
-export function ServiceSection() {
-   return (
-      <>
-         <div className="relative mt-24 sm:mt-32 lg:mt-40">
-            <Container className="mt-16 md:hidden">
-               <FadeIn>
-                  <FeaturesMobile />
-               </FadeIn>
-            </Container>
-            <Container className="hidden md:mt-20 md:block">
-               <FeaturesDesktop />
-            </Container>
          </div>
       </>
    );

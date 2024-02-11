@@ -6,14 +6,13 @@ export default function Showcase() {
    return (
       <>
          <PageIntro
-            eyebrow="It starts with an idea..."
-            title="Let's connect and see what we can do for you"
+            eyebrow="Viva Web Design"
+            title="SHOWCASE"
             centered={true}
          >
             <p>
-               We have helped clients of all sizes produce stunning websites,
-               and we are confident that we can help you produce stunning
-               websites as well.
+               We appreciate the opportunity to showcase our work.
+               Let's connect and discuss how we can help you with your next project
             </p>
          </PageIntro>
 

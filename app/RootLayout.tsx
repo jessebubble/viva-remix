@@ -115,16 +115,16 @@ function Navigation() {
    return (
       <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
          <NavigationRow>
-            <NavigationItem href="/services">Online experiences</NavigationItem>
-            <NavigationItem href="/software-applications">
-               Software applications
+            <NavigationItem href="/websites">Web Development</NavigationItem>
+            <NavigationItem href="/webapps">
+               Web Applications
             </NavigationItem>
          </NavigationRow>
          <NavigationRow>
-            <NavigationItem href="/non-profit">
-               Non-Profit Websites
+            <NavigationItem href="/design">
+               Design Studio
             </NavigationItem>
-            <NavigationItem href="services">Design Studio</NavigationItem>
+            <NavigationItem href="contact">Contact us</NavigationItem>
          </NavigationRow>
       </nav>
    );
@@ -212,12 +212,9 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                      <Container className="">
                         <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                            <div>
-                              <Link to="/contact">
+                              <Link to="/login">
                                  <h2 className="font-display text-base font-semibold text-white">
-                                    Contact us &mdash;{' '}
-                                    <span className="text-spursPink">
-                                       Let's start building!
-                                    </span>
+                                    Employee Portal &rarr;
                                  </h2>
                               </Link>
                            </div>

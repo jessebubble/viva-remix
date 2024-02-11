@@ -9,14 +9,14 @@ const navigation = [
    {
       title: 'What we build',
       links: [
-         { title: 'Software applications', href: '/software-applications' },
+         { title: 'Web Applications', href: '/webapps' },
          {
-            title: 'Non-profit websites',
-            href: '/non-profit',
+            title: 'Marketing Websites',
+            href: '/websites',
          },
          {
-            title: 'Online experiences',
-            href: '/showcase',
+            title: 'Vector Graphics',
+            href: '/design',
          },
          {
             title: (
@@ -24,7 +24,7 @@ const navigation = [
                   See all <span aria-hidden="true">&rarr;</span>
                </>
             ),
-            href: '/services',
+            href: '/showcase',
          },
       ],
    },
@@ -32,7 +32,6 @@ const navigation = [
       title: 'Site Navigation',
       links: [
          { title: 'Home Page', href: '/' },
-         { title: 'Service we offer', href: '/services' },
          { title: 'Contact us', href: '/contact' },
          { title: 'Showcase', href: '/showcase' },
          { title: 'Employee Portal', href: '/login' },
