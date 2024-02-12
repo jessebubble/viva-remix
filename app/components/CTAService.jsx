@@ -22,7 +22,7 @@ import {
 export function ServiceSection() {
    return (
       <>
-         <div className="relative mt-24 pt-24 sm:mt-32 ">
+         <div className="relative mt-24 pt-24 sm:pt-32">
             <Container className="mt-16 md:hidden">
                <FadeIn>
                   <FeaturesMobile />

@@ -29,26 +29,28 @@ export function AboutSection() {
                   enjoyable and efficient for the user
                </GridListItem>
                <GridListItem title="Performance" invert={false}>
-                  Smooth lag-free experiences lead to higher user
-                  engagement, lower bounce rates, and better user retention.
-                  Google also considers page speed as a ranking factor, so a
-                  faster website leads to better SEO
+                  Smooth lag-free experiences lead to higher user engagement,
+                  lower bounce rates, and better user retention. Google also
+                  considers page speed as a ranking factor, so a faster website
+                  leads to better SEO
                </GridListItem>
                <GridListItem title="Integration" invert={false}>
                   A website that easily integrates with other systems can extend
-                  its functionality and make it more versatile. Leading to a more
-                  powerful and feature-rich application that can adapt to your needs
+                  its functionality and make it more versatile. Leading to a
+                  more powerful and feature-rich application that can adapt to
+                  your needs
                </GridListItem>
                <GridListItem title="Web Standards" invert={false}>
                   Adhering to web standards makes your application more
                   accessible, more secure, and easier to maintain. Leading to
-                  better SEO, better performance, and a more inclusive experience
+                  better SEO, better performance, and a more inclusive
+                  experience
                </GridListItem>
                <GridListItem title="Scalability" invert={false}>
-                  Scalable application means that as your user base
-                  grows, your application can handle the increased load,
-                  providing a consistent experience to all users regardless of the
-                  number of users using the application at the same time
+                  Scalable application means that as your user base grows, your
+                  application can handle the increased load, providing a
+                  consistent experience to all users regardless of the number of
+                  users using the application at the same time
                </GridListItem>
             </GridList>
          </Container>

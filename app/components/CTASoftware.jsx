@@ -2,40 +2,38 @@ import { useEffect, useState } from 'react';
 import { Tab } from '@headlessui/react';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
-import { GridPattern } from '~/components/GridPattern';
 import clsx from 'clsx';
 import { SectionIntro } from './SectionIntro';
 import { GrayscaleTransitionImage } from '~/components/GrayscaleTransitionImage';
 
 const features = [
    {
-      title: 'Payroll',
+      title: 'Access Control',
       description:
-         "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-      image: "https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_2_vk2vvi.jpg",
+         "Once authenticated, use our software to control who can access what data, and when they can access it. It's like a bouncer for your data.",
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707532025/reporting_a1uqnq.png',
    },
    {
-      title: 'Claim expenses',
+      title: 'Data Driven',
       description:
-         "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-      image: "https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_1_az5hit.jpg",
+         "Our software is designed to help you make decisions based on data, not just your gut. It's like having a data scientist in your pocket.",
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/payroll_rjtd9b.png',
    },
    {
-      title: 'VAT handling',
+      title: 'Manage Inventory',
       description:
-         "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-      image: "https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_mztbcy.jpg",
+         "Our software can help you keep track of your inventory, so you'll always know what you have and what you need to order.",
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/inventory_f4xsye.png',
    },
    {
-      title: 'Reporting',
+      title: 'Marketing Automation',
       description:
-         'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-      image: "https://res.cloudinary.com/jessebubble/image/upload/v1707532025/reporting_a1uqnq.png",
+         'Our software can help you automate your marketing efforts, so you can focus on other things, like growing your business.',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/contacts_mbnrae.png',
    },
 ];
 
-export function SoftwareSection
-() {
+export function SoftwareSection() {
    let [tabOrientation, setTabOrientation] = useState('horizontal');
 
    useEffect(() => {
@@ -54,16 +52,10 @@ export function SoftwareSection
    }, []);
 
    return (
-      <div className="relative mt-24 overflow-hidden pt-24 sm:mt-32 sm:pt-32 lg:mt-40 lg:pt-40">
-         <div className="absolute inset-x-0 top-0 -z-10 h-[884px] overflow-hidden rounded-t-3xl bg-gradient-to-b from-neutral-50">
-            <GridPattern
-               className="absolute inset-0 h-full w-full fill-neutral-100 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,neutral-950_40%,transparent_50%)]"
-               yOffset={-270}
-            />
-         </div>
+      <div className="mt-24 pt-24 sm:mt-32 sm:pt-32">
          <SectionIntro
-            eyebrow="Data Management"
-            title="Applications designed for customization"
+            eyebrow="Web Applications"
+            title="Data-driven software solutions for your business"
          >
             <p className="text-balance">
                We've assisted clients of all sizes in creating business

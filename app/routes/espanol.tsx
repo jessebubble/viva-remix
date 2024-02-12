@@ -33,7 +33,7 @@ function ContactEspanol() {
                         <div className="mt-8">
                            <Link
                               to="/contact"
-                              className="inline-flex rounded-md bg-spursOrange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursOrange/95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
+                              className="inline-flex rounded-md bg-spursPink px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursPink/95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
                            >
                               Empecemos &rarr;
                            </Link>

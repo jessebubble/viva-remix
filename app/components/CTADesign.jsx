@@ -15,7 +15,7 @@ const collections = [
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/design',
+            href: '/showcase',
          },
          {
             name: 'Flyers',
@@ -23,7 +23,7 @@ const collections = [
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/design',
+            href: '/showcase',
          },
          {
             name: 'Menus',
@@ -31,15 +31,7 @@ const collections = [
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/design',
-         },
-         {
-            name: 'Brochures',
-            role: 'For businesses, events, and more',
-            image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
-            },
-            href: '/design',
+            href: '/showcase',
          },
          {
             name: 'Info Graphics',
@@ -47,15 +39,15 @@ const collections = [
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/design',
+            href: '/showcase',
          },
          {
             name: '+ More',
-            role: 'Business cards, stickers, posters, and more',
+            role: 'Brochures, Business cards, stickers, posters, and more',
             image: {
                src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
             },
-            href: '/design',
+            href: '/showcase',
          },
       ],
    },
@@ -72,12 +64,13 @@ export function DesignSection() {
          </div>
          <SectionIntro
             eyebrow="Design Studio"
-            title="Dive deep into the infinite possibilities" 
+            title="Dive deep into the infinite possibilities"
             invert={false}
          >
             <p>
-               <strong>Powered by Adobe Creative Cloud</strong> we offer a wide range of design services to help you create
-               stunning visuals for your business
+               <strong>Powered by Adobe Creative Cloud</strong> we offer a wide
+               range of design services to help you create stunning visuals for
+               your business
             </p>
          </SectionIntro>
          <Container className="mt-16">

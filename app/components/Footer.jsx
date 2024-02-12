@@ -9,14 +9,14 @@ const navigation = [
    {
       title: 'What we build',
       links: [
-         { title: 'Web Applications', href: '/webapps' },
+         { title: 'Web Applications', href: '/showcase' },
          {
-            title: 'Marketing Websites',
-            href: '/websites',
+            title: 'Non-profit Websites',
+            href: '/showcase',
          },
          {
             title: 'Vector Graphics',
-            href: '/design',
+            href: '/showcase',
          },
          {
             title: (

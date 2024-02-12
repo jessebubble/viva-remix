@@ -7,15 +7,18 @@ import { useRef, useEffect } from 'react';
 export function SecretSection() {
    return (
       <div className="mt-24 pt-24 sm:mt-32 sm:pt-32">
-         <SectionIntro 
+         <SectionIntro
             eyebrow="Online Experiences"
             title="Experiences so good you might start to think we're automated"
-            >
+         >
             <p>
-               We've assisted clients of all sizes by creating custom web applications, mission-centric marketing content, and interactive online experiences. 
-               What's our secret? <strong><ViewTransitions /></strong>
+               We've assisted clients of all sizes by creating custom web
+               applications, mission-centric marketing content, and interactive
+               online experiences.
+               <strong className="block">
+                  What's our secret? <ViewTransitions />
+               </strong>
             </p>
-
          </SectionIntro>
          <FadeIn>
             <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
@@ -92,7 +95,6 @@ function ViewTransitions() {
          <span ref={swapperRef} className="text-spursPink">
             Authentication
          </span>{' '}
-
          <style>
             {`      
       span:nth-of-type(2) {

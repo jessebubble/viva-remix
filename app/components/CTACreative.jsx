@@ -17,8 +17,8 @@ export function CreativeSection() {
             <p>
                Creating a website today is easier than ever. However, standing
                out can be a challenge due to the abundance of free templates
-               that make all those websites look the same. 
-               Our creative process: <strong>Discover, Build, Deliver</strong>
+               that make all those websites look the same. Our creative process:{' '}
+               <strong>Discover, Build, Deliver</strong>
             </p>
          </SectionIntro>
          <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32">
@@ -39,7 +39,7 @@ function Section({ title, image, children }) {
                   <GrayscaleTransitionImage
                      {...image}
                      sizes="(min-width: 1024px) 41rem, 31rem"
-                     className="justify-center lg:justify-end lg:group-even/section:justify-start rounded-3xl"
+                     className="justify-center rounded-3xl lg:justify-end lg:group-even/section:justify-start"
                   />
                </FadeIn>
             </div>
@@ -65,7 +65,7 @@ function Discover() {
       <Section
          title="Discover"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/teamwork_hlox7m.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/scarf_k4mun8.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -115,7 +115,7 @@ function Build() {
       <Section
          title="Build"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707633713/build_hfca3k.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/glitch_axrupt.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">

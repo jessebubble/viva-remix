@@ -175,7 +175,7 @@ export default function Index() {
 const imageArray = [
    {
       name: 'image1',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/bunny_shlzik.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/saintadobe-heb_lfk6cc.png',
    },
    {
       name: 'image2',
@@ -183,15 +183,15 @@ const imageArray = [
    },
    {
       name: 'image3',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover3_gs9wvx.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707761502/eye_tb5sez.png',
    },
    {
       name: 'image4',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/saintadobe-heb_lfk6cc.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707762797/abyss_qthhik.png',
    },
    {
       name: 'image5',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover2_tybcgn.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png',
    },
 ];
 

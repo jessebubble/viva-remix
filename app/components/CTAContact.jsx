@@ -7,11 +7,11 @@ export function ContactSection() {
       <>
          <Container className="mt-24 pt-24 sm:mt-32">
             <FadeIn>
-               <div className="relative rounded-3xl bg-transparent">
+               <div className="relative bg-transparent">
                   <div className="relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
                      <img
                         className="h-full w-full object-contain"
-                        alt="devSA github logo"
+                        alt="in-person meeting with a client"
                         src="https://res.cloudinary.com/jessebubble/image/upload/v1706924165/viva_gb6qgs.png"
                      />
                   </div>
@@ -32,7 +32,7 @@ export function ContactSection() {
                         <div className="mt-8">
                            <Link
                               to="/contact"
-                              className="inline-flex rounded-md bg-spursOrange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursOrange/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
+                              className="inline-flex rounded-md bg-spursPink px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-spursPink/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
                            >
                               Lets get started &rarr;
                            </Link>

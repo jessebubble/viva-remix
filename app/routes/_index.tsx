@@ -2,8 +2,10 @@ import type { MetaFunction } from '@remix-run/node';
 import { PageIntro } from '~/components/PageIntro';
 import { ContactSection } from '~/components/CTAContact';
 import { CreativeSection } from '~/components/CTACreative';
-import { SecretSection } from '~/components/CTASecret';
+import { SecretSection } from '~/components/CTAWeb';
 import { DesignSection } from '~/components/CTADesign';
+import { SoftwareSection } from '~/components/CTASoftware';
+import { AboutSection } from '~/components/CTAAbout';
 
 export const meta: MetaFunction = () => {
    return [
@@ -35,7 +37,9 @@ export default function Index() {
 
          <SecretSection />
          <DesignSection />
+         <SoftwareSection />
          <CreativeSection />
+         <AboutSection />
          <ContactSection />
       </>
    );
