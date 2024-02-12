@@ -11,25 +11,25 @@ const features = [
       title: 'Access Control',
       description:
          "Once authenticated, use our software to control who can access what data, and when they can access it. It's like a bouncer for your data.",
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707532025/reporting_a1uqnq.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707532025/app-screenshots/reporting_a1uqnq.png',
    },
    {
       title: 'Data Driven',
       description:
          "Our software is designed to help you make decisions based on data, not just your gut. It's like having a data scientist in your pocket.",
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/payroll_rjtd9b.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/app-screenshots/payroll_rjtd9b.png',
    },
    {
       title: 'Manage Inventory',
       description:
          "Our software can help you keep track of your inventory, so you'll always know what you have and what you need to order.",
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/inventory_f4xsye.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/app-screenshots/inventory_f4xsye.png',
    },
    {
       title: 'Marketing Automation',
       description:
          'Our software can help you automate your marketing efforts, so you can focus on other things, like growing your business.',
-      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/contacts_mbnrae.png',
+      image: 'https://res.cloudinary.com/jessebubble/image/upload/v1707760276/app-screenshots/contacts_mbnrae.png',
    },
 ];
 

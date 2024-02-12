@@ -65,7 +65,7 @@ function Discover() {
       <Section
          title="Discover"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/scarf_k4mun8.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/midjourney/scarf_k4mun8.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -115,7 +115,7 @@ function Build() {
       <Section
          title="Build"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/glitch_axrupt.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/glitch_axrupt.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">
@@ -156,7 +156,7 @@ function Deliver() {
       <Section
          title="Deliver"
          image={{
-            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png',
+            src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/dogrock2_oangss.png',
          }}
       >
          <div className="space-y-6 text-base text-neutral-600">

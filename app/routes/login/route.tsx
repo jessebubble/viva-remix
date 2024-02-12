@@ -124,7 +124,7 @@ export default function Login() {
                      <img
                         className="h-full w-full object-contain"
                         alt="Illustration of a team working together on a project"
-                        src="https://res.cloudinary.com/jessebubble/image/upload/v1707188268/dogrock_sgotus.png"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/v1707188268/midjourney/dogrock_sgotus.png"
                      />
                   </div>
                   <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">

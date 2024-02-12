@@ -1,6 +1,10 @@
 import crypto from 'crypto';
-
 import { prisma } from '~/db/prisma';
+
+/* // Generate a 32-byte secret
+let secret = crypto.randomBytes(32).toString('hex');
+
+console.log(secret); */
 
 export async function accountExists(email: string) {
    let account = await prisma.account.findUnique({

@@ -48,7 +48,7 @@ export default function Jobs() {
                      <img
                         className="h-full w-full object-contain"
                         alt="In-person meetup"
-                        src="https://res.cloudinary.com/jessebubble/image/upload/v1707197890/discover_wsdbtc.png"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/v1707197890/midjourney/discover_wsdbtc.png"
                      />
                   </div>
                   <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">

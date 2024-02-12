@@ -117,7 +117,7 @@ export default function Signup() {
                      <img
                         className="h-full w-full object-contain"
                         alt="Illustration of a team working together on a project"
-                        src="https://res.cloudinary.com/jessebubble/image/upload/v1707188269/dogrock2_oangss.png"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/midjourney/v1707188269/dogrock2_oangss.png"
                      />
                   </div>
                   <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">

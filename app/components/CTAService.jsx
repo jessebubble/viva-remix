@@ -198,14 +198,14 @@ function CreativeScreen({ custom, animated = false }) {
             <div className="px-4 py-6">
                <div className="space-y-6">
                   <img
-                     src="https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe3_gzvm9v.png"
+                     src="https://res.cloudinary.com/jessebubble/image/upload/v1706924009/midjourney/saint-adobe3_gzvm9v.png"
                      alt="Saint Adobe"
                      className="mx-auto w-48 rounded-2xl"
                   />
                </div>
                <div className="mt-6 space-y-6">
                   <img
-                     src="https://res.cloudinary.com/jessebubble/image/upload/v1706921594/glitch_axrupt.png"
+                     src="https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/glitch_axrupt.png"
                      alt="Midjourney glitch graphic"
                      className="mx-auto w-48 rounded-2xl"
                   />
@@ -341,7 +341,7 @@ function ExperienceScreen({ custom, animated = false }) {
                      muted
                      loop
                      playsInline
-                     poster="https://res.cloudinary.com/jessebubble/image/upload/v1706921594/glitch_axrupt.png"
+                     poster="https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/glitch_axrupt.png"
                   >
                      <source
                         src="https://res.cloudinary.com/jessebubble/video/upload/v1706924126/idea_t3fpts.mp4"

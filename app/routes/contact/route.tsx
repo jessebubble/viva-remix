@@ -175,23 +175,23 @@ export default function Index() {
 const imageArray = [
    {
       name: 'image1',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/saintadobe-heb_lfk6cc.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/saintadobe-heb_lfk6cc.png',
    },
    {
       name: 'image2',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/views_m2n19m.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/views_m2n19m.png',
    },
    {
       name: 'image3',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707761502/eye_tb5sez.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707761502/midjourney/eye_tb5sez.png',
    },
    {
       name: 'image4',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707762797/abyss_qthhik.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1707762797/midjourney/abyss_qthhik.png',
    },
    {
       name: 'image5',
-      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png',
+      href: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/midjourney/saint-adobe_ibzq0m.png',
    },
 ];
 

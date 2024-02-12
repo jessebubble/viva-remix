@@ -13,7 +13,7 @@ function ContactEspanol() {
                      <img
                         className="h-full w-full object-contain"
                         alt="devSA github logo"
-                        src="https://res.cloudinary.com/jessebubble/image/upload/v1706924165/viva_gb6qgs.png"
+                        src="https://res.cloudinary.com/jessebubble/image/upload/v1706924165/devSA/viva_gb6qgs.png"
                      />
                   </div>
                   <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">

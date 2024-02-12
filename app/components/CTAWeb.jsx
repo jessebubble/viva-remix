@@ -47,7 +47,7 @@ export function SecretSection() {
             <div className="border-y border-neutral-200 bg-neutral-100">
                <div className="-my-px mx-auto max-w-[76rem] bg-neutral-200">
                   <GrayscaleTransitionImage
-                     src="https://res.cloudinary.com/jessebubble/image/upload/v1707537773/hero_mztbcy.jpg"
+                     src="https://res.cloudinary.com/jessebubble/image/upload/v1707537773/app-screenshots/hero_mztbcy.jpg"
                      alt="App screenshot"
                      quality={90}
                      className="w-full"

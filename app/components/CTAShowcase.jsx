@@ -57,7 +57,7 @@ const collections = [
             name: 'The Runner',
             role: 'A website that reflects your brand essence',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/saint-adobe2_nyxvvx.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/midjourney/saint-adobe2_nyxvvx.png',
             },
             href: '#',
          },
@@ -65,7 +65,7 @@ const collections = [
             name: 'The Glitch',
             role: 'Optimized for sales and customer satisfaction',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/bunny_shlzik.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/bunny_shlzik.png',
             },
             href: '#',
          },
@@ -73,7 +73,7 @@ const collections = [
             name: 'The Monster Mash',
             role: 'Tailored to your business needs and unique requirements',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/sponsor_ejuylh.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/sponsor_ejuylh.png',
             },
             href: '#',
          },
@@ -81,7 +81,7 @@ const collections = [
             name: 'The Salesman',
             role: 'For your website, social media, and print materials',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/cat_vtjbik.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921594/midjourney/cat_vtjbik.png',
             },
             href: '#',
          },
@@ -89,7 +89,7 @@ const collections = [
             name: 'Dental Office',
             role: 'Flyers for your events, promotions, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/dentist_n9lqnh.jpg',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/midjourney/dentist_n9lqnh.jpg',
             },
             href: '#',
          },
@@ -97,7 +97,7 @@ const collections = [
             name: 'The Politician',
             role: 'Menus for your restaurant, food truck, or any other business',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/saint-adobe_ibzq0m.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924008/midjourney/saint-adobe_ibzq0m.png',
             },
             href: '#',
          },
@@ -105,7 +105,7 @@ const collections = [
             name: 'Travel Agency',
             role: 'Brochures for your business, event, or organization',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/hello_bececg.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/midjourney/hello_bececg.png',
             },
             href: '#',
          },
@@ -113,7 +113,7 @@ const collections = [
             name: 'Generative AI',
             role: 'Professional business cards for your business or organization',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/robot_ycihmd.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924383/midjourney/robot_ycihmd.png',
             },
             href: '#',
          },
@@ -121,7 +121,7 @@ const collections = [
             name: 'Fight Forever',
             role: 'Represent your data in a visually appealing way',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/door_iv8dr9.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1706921840/midjourney/door_iv8dr9.png',
             },
             href: '#',
          },

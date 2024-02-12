@@ -13,7 +13,7 @@ const collections = [
             name: 'Vector Graphics',
             role: 'Ready for print, web, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/flyer_w7xj6k.png',
             },
             href: '/showcase',
          },
@@ -21,7 +21,7 @@ const collections = [
             name: 'Flyers',
             role: 'For events, promotions, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/flyer_w7xj6k.png',
             },
             href: '/showcase',
          },
@@ -29,7 +29,7 @@ const collections = [
             name: 'Menus',
             role: 'For restaurants, cafes, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/flyer_w7xj6k.png',
             },
             href: '/showcase',
          },
@@ -37,7 +37,7 @@ const collections = [
             name: 'Info Graphics',
             role: 'Visualize data, processes, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/flyer_w7xj6k.png',
             },
             href: '/showcase',
          },
@@ -45,7 +45,7 @@ const collections = [
             name: '+ More',
             role: 'Brochures, Business cards, stickers, posters, and more',
             image: {
-               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/flyer_w7xj6k.png',
+               src: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/flyer_w7xj6k.png',
             },
             href: '/showcase',
          },
